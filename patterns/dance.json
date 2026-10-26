@@ -1742,42 +1742,42 @@
           "suction": 2
         },
         {
-          "ms": 500,
+          "ms": 850,
           "vibrate": 12,
           "suction": 10
         },
         {
-          "ms": 450,
+          "ms": 750,
           "vibrate": 14,
           "suction": 12
         },
         {
-          "ms": 400,
+          "ms": 650,
           "vibrate": 16,
           "suction": 14
         },
         {
-          "ms": 350,
+          "ms": 600,
           "vibrate": 17,
           "suction": 15
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 18,
           "suction": 16
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 19,
           "suction": 17
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 20,
           "suction": 18
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 20,
           "suction": 18
         },
@@ -1884,16 +1884,7 @@
           "vibrate": 0
         },
         {
-          "ms": 600,
-          "vibrate": 12,
-          "oscillate": 10
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
-        },
-        {
-          "ms": 600,
+          "ms": 1000,
           "vibrate": 12,
           "oscillate": 10
         },
@@ -1902,16 +1893,7 @@
           "vibrate": 0
         },
         {
-          "ms": 600,
-          "vibrate": 12,
-          "oscillate": 10
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
-        },
-        {
-          "ms": 600,
+          "ms": 1000,
           "vibrate": 12,
           "oscillate": 10
         },
@@ -1920,94 +1902,112 @@
           "vibrate": 0
         },
         {
-          "ms": 400,
-          "vibrate": 10,
-          "oscillate": 9
-        },
-        {
-          "ms": 400,
-          "vibrate": 0
-        },
-        {
-          "ms": 400,
-          "vibrate": 11,
-          "oscillate": 9
-        },
-        {
-          "ms": 400,
-          "vibrate": 0
-        },
-        {
-          "ms": 400,
+          "ms": 1000,
           "vibrate": 12,
           "oscillate": 10
         },
         {
-          "ms": 400,
+          "ms": 1000,
           "vibrate": 0
         },
         {
-          "ms": 400,
-          "vibrate": 13,
-          "oscillate": 11
-        },
-        {
-          "ms": 400,
-          "vibrate": 0
-        },
-        {
-          "ms": 300,
-          "vibrate": 10,
-          "oscillate": 9
-        },
-        {
-          "ms": 300,
-          "vibrate": 0
-        },
-        {
-          "ms": 300,
-          "vibrate": 11,
-          "oscillate": 9
-        },
-        {
-          "ms": 300,
-          "vibrate": 0
-        },
-        {
-          "ms": 300,
+          "ms": 1000,
           "vibrate": 12,
           "oscillate": 10
         },
         {
-          "ms": 300,
+          "ms": 1000,
           "vibrate": 0
         },
         {
-          "ms": 300,
+          "ms": 700,
+          "vibrate": 10,
+          "oscillate": 9
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 11,
+          "oscillate": 9
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
           "vibrate": 13,
           "oscillate": 11
         },
         {
-          "ms": 300,
+          "ms": 700,
           "vibrate": 0
         },
         {
-          "ms": 300,
+          "ms": 500,
+          "vibrate": 10,
+          "oscillate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 11,
+          "oscillate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 13,
+          "oscillate": 11
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
           "vibrate": 14,
           "oscillate": 12
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 15,
           "oscillate": 13
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 16,
           "oscillate": 14
         },
         {
-          "ms": 300,
+          "ms": 500,
           "vibrate": 17,
           "oscillate": 14
         },

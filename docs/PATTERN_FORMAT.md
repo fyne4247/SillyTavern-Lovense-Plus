@@ -47,7 +47,7 @@ mode only the enabled moods are sent to the picker model, and only their
 | `id` | `<mood>.<snake_case_name>`. Unique across **all** files. |
 | `name` | Human-readable, unique across all files. |
 | `description` | One short sentence (≤ 120 chars) describing the feel. The API picker reads this. |
-| `energy` | Integer 1–5. 1 = barely there, 3 = medium, 5 = maximum. Should roughly match the average intensity of the steps. |
+| `energy` | Integer 1–5. 1 = barely there, 3 = medium, 5 = maximum. Should roughly match the average `vibrate` (`round(average / 4)`, clamped). Moods that are mostly quiet with brief intense bursts (denial, spikes) are rated by the peak hit instead, so a long silence does not drag them down to 1. |
 | `tags` | 1–6 lowercase tags from: `slow`, `fast`, `light`, `heavy`, `build`, `drop`, `steady`, `random`, `pulse`, `wave`, `burst`, `silence`, `long`, `short`, `motion`, `squeeze`, `dual`. |
 | `steps` | 6–60 steps (200 for `long` patterns). Played in order, then loop from the start (if looping is on). |
 

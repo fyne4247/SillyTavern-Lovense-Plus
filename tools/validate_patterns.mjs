@@ -3,7 +3,7 @@
 // Usage: node tools/validate_patterns.mjs [mood ...]
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DIR = join(ROOT, 'patterns');
@@ -18,6 +18,16 @@ const TAGS = new Set(['slow', 'fast', 'light', 'heavy', 'build', 'drop', 'steady
 // Dual-motor toys are often worn as a pair. Whatever one motor gets, the other
 // must get within this long, or the wearer is left lopsided.
 const MOTOR_ECHO_MS = 5000;
+
+// A level this low is silence for rating purposes. Bursts under this are not
+// "intense", so a quiet mood of soft touches (tease, aftercare) stays on the mean.
+const QUIET_AT = 2;
+const BURST_FLOOR = 8;
+// Spike-style moods are mostly quiet, the loud part is brief, and the hits
+// themselves are strong. Denial and spikes qualify; a flat or gentle mood does not.
+const SPIKE_QUIET_FRACTION = 0.55;
+const SPIKE_BURST_FRACTION = 0.35;
+const SPIKE_MIN_AVG_PEAK = 10;
 
 /**
  * Longest time a motor is left owed a touch. When one motor runs alone, the
@@ -51,6 +61,83 @@ function longestUnansweredMotor(steps) {
     return worst;
 }
 
+/** Louder of the two motors. An omitted vibrate2 copies vibrate at play time. */
+function felt(step) {
+    return Math.max(step.vibrate ?? 0, step.vibrate2 ?? 0);
+}
+
+/**
+ * Time-weighted mean of `vibrate`, plus the peak a wearer actually gets.
+ * @param {Array<{ms: number, vibrate: number, vibrate2?: number}>} steps
+ */
+export function patternIntensity(steps) {
+    let sum = 0;
+    let weighted = 0;
+    let peak = 0;
+    for (const s of steps) {
+        if (!s || typeof s !== 'object') continue;
+        const ms = Number.isInteger(s.ms) ? s.ms : 0;
+        const v = Number.isInteger(s.vibrate) ? s.vibrate : 0;
+        sum += ms;
+        weighted += v * ms;
+        peak = Math.max(peak, felt(s));
+    }
+    return { sum, avg: sum ? weighted / sum : 0, peak };
+}
+
+/**
+ * True when a mood is mostly quiet with brief intense bursts.
+ * Those patterns read as the hit, not as the silence around it, so energy
+ * follows the peak. Stretched denial/spikes would otherwise all land on 1.
+ * @param {Array<{steps?: object[]}>} patterns
+ */
+export function moodRatesByPeak(patterns) {
+    let quiet = 0;
+    let burst = 0;
+    let sum = 0;
+    let peakSum = 0;
+    let n = 0;
+    for (const p of patterns) {
+        if (!Array.isArray(p.steps) || p.steps.length === 0) continue;
+        const { sum: total, peak } = patternIntensity(p.steps);
+        if (total <= 0) continue;
+        const burstAt = Math.max(BURST_FLOOR, peak * 0.7);
+        let quietMs = 0;
+        let burstMs = 0;
+        for (const s of p.steps) {
+            if (!s || typeof s !== 'object') continue;
+            const ms = Number.isInteger(s.ms) ? s.ms : 0;
+            const level = felt(s);
+            if (level <= QUIET_AT) quietMs += ms;
+            if (level >= burstAt) burstMs += ms;
+        }
+        quiet += quietMs;
+        burst += burstMs;
+        sum += total;
+        peakSum += peak;
+        n++;
+    }
+    if (!n || sum <= 0) return false;
+    return quiet / sum >= SPIKE_QUIET_FRACTION
+        && burst / sum <= SPIKE_BURST_FRACTION
+        && peakSum / n >= SPIKE_MIN_AVG_PEAK;
+}
+
+/** Energy 1–5 from a 0–20 level. Same buckets the mean rule has always used. */
+function energyFromLevel(level) {
+    return Math.min(5, Math.max(1, Math.round(level / 4) || 1));
+}
+
+/**
+ * @param {Array<{ms: number, vibrate: number, vibrate2?: number}>} steps
+ * @param {boolean} byPeak Rate a spike-style pattern by its peak instead of its mean
+ */
+export function suggestEnergy(steps, byPeak) {
+    const { avg, peak } = patternIntensity(steps);
+    return energyFromLevel(byPeak ? peak : avg);
+}
+
+function main() {
 const only = new Set(process.argv.slice(2));
 const errors = [];
 const warnings = [];
@@ -91,6 +178,7 @@ for (const file of files) {
     else for (const k of data.keywords) if (typeof k !== 'string' || k !== k.toLowerCase() || !k.trim()) err(`bad keyword ${JSON.stringify(k)}`);
     if (!Array.isArray(data.patterns)) { err('"patterns" must be an array'); continue; }
     if (data.patterns.length < 12 || data.patterns.length > 48) err(`has ${data.patterns.length} patterns, need 12-48`);
+    const byPeak = moodRatesByPeak(data.patterns);
 
     for (const [i, p] of data.patterns.entries()) {
         const at = `pattern[${i}] ${p.id ?? ''}`;
@@ -125,9 +213,10 @@ for (const file of files) {
         if (sum < 8000 || sum > maxTotal) err(`${at}: total length ${sum}ms, need 8000-${maxTotal}`);
         if (bad) continue;
 
-        const avg = p.steps.reduce((a, s) => a + s.vibrate * s.ms, 0) / sum;
-        const expected = Math.min(5, Math.max(1, Math.round(avg / 4) || 1));
-        if (Math.abs(expected - p.energy) > 1) warn(`${at}: energy ${p.energy} but average vibrate ${avg.toFixed(1)} suggests ~${expected}`);
+        const { avg, peak } = patternIntensity(p.steps);
+        const expected = suggestEnergy(p.steps, byPeak);
+        const basis = byPeak ? `peak ${peak}` : `average vibrate ${avg.toFixed(1)}`;
+        if (Math.abs(expected - p.energy) > 1) warn(`${at}: energy ${p.energy} but ${basis} suggests ~${expected}`);
 
         if (p.steps.some((st) => 'vibrate2' in st && st.vibrate2 !== st.vibrate)) {
             const wait = longestUnansweredMotor(p.steps);
@@ -143,3 +232,6 @@ for (const w of warnings) console.log(`warn  ${w}`);
 for (const e of errors) console.log(`ERROR ${e}`);
 console.log(errors.length ? `FAILED: ${errors.length} error(s)` : `OK: ${files.length} file(s), ${total} pattern(s), ${warnings.length} warning(s)`);
 process.exit(errors.length ? 1 : 0);
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

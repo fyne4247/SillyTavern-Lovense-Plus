@@ -39,7 +39,7 @@
       "id": "spikes.ambush_single",
       "name": "Ambush Single",
       "description": "Ten seconds of dead silence, then one brutal spike.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "silence",
         "burst",
@@ -77,7 +77,7 @@
       "id": "spikes.ambush_double",
       "name": "Ambush Double",
       "description": "Long silence, then two rapid spikes with a breath between.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "silence",
         "burst",
@@ -123,7 +123,7 @@
       "id": "spikes.ambush_triple",
       "name": "Ambush Triple",
       "description": "Silence broken by three quick jolts in succession.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "silence",
         "burst",
@@ -173,7 +173,7 @@
       "id": "spikes.heartbeat_jolt",
       "name": "Heartbeat Jolt",
       "description": "Steady slow pulse, then one massive unexpected spike.",
-      "energy": 2,
+      "energy": 5,
       "tags": [
         "pulse",
         "burst",
@@ -227,7 +227,7 @@
       "id": "spikes.stutter_spike",
       "name": "Stutter Spike",
       "description": "Rapid fire stuttering spikes, on and off and on.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "fast",
         "burst",
@@ -281,7 +281,7 @@
       "id": "spikes.echo_chamber",
       "name": "Spike Echo",
       "description": "One big spike, then fading echoes.",
-      "energy": 2,
+      "energy": 5,
       "tags": [
         "burst",
         "drop",
@@ -331,7 +331,7 @@
       "id": "spikes.random_jolts",
       "name": "Random Jolts",
       "description": "Unpredictable timing between sharp spikes.",
-      "energy": 2,
+      "energy": 5,
       "tags": [
         "random",
         "burst",
@@ -385,7 +385,7 @@
       "id": "spikes.false_start",
       "name": "Spike False Start",
       "description": "A small buzz fizzles out, then hits hard. Long silences and uneven jabs.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "build",
         "burst",
@@ -479,7 +479,7 @@
       "id": "spikes.pump_surge",
       "name": "Pump Surge",
       "description": "Silence, then sudden constriction with vibration spike.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "squeeze",
         "burst",
@@ -528,7 +528,7 @@
       "id": "spikes.thrust_lunge",
       "name": "Thrust Lunge",
       "description": "Long stillness broken by sudden hard thrust lunges at irregular moments.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "motion",
         "burst",
@@ -612,7 +612,7 @@
       "id": "spikes.rotate_snap",
       "name": "Rotate Snap",
       "description": "Dead stops, then sudden rotation spin-ups with a jolt. Uneven timing.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "motion",
         "burst",
@@ -711,7 +711,7 @@
       "id": "spikes.suction_pulse",
       "name": "Spike Suction",
       "description": "Long quiet, then pulling suction spikes arriving at uneven intervals.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "squeeze",
         "burst",
@@ -795,7 +795,7 @@
       "id": "spikes.dual_strike",
       "name": "Dual Strike",
       "description": "Both motors strike together out of long silence, with a crossed double tap and a doubled hit.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "dual",
         "burst",
@@ -884,7 +884,7 @@
       "id": "spikes.fingering_flick",
       "name": "Fingering Flick",
       "description": "Quick fingering flicks with a jolt, scattered through long quiet.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "motion",
         "burst",
@@ -978,7 +978,7 @@
       "id": "spikes.oscillate_shock",
       "name": "Oscillate Shock",
       "description": "Sudden oscillation shocks out of stillness, at unpredictable moments.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "motion",
         "burst",
@@ -1067,7 +1067,7 @@
       "id": "spikes.silence_crack",
       "name": "Silence Crack",
       "description": "Pure silence shattered by one lightning-fast spike.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "silence",
         "burst",
@@ -1109,7 +1109,7 @@
       "id": "spikes.sneak_attack",
       "name": "Sneak Attack",
       "description": "Faint, easy-to-miss flutters lull you, then an explosive spike lands out of nowhere.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "build",
         "burst",
@@ -1227,7 +1227,7 @@
       "id": "spikes.chain_reaction",
       "name": "Chain Reaction",
       "description": "One spike triggers another, then another.",
-      "energy": 4,
+      "energy": 5,
       "tags": [
         "burst",
         "fast",
@@ -1281,7 +1281,7 @@
       "id": "spikes.pump_and_release",
       "name": "Pump and Release",
       "description": "Silence, then a sudden pump squeeze with a spike, and a slow release.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "squeeze",
         "burst",
@@ -1365,7 +1365,7 @@
       "id": "spikes.thrust_stab",
       "name": "Thrust Stab",
       "description": "Sharp single thrust stabs, spaced unpredictably, then a double.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "motion",
         "burst",
@@ -1449,7 +1449,7 @@
       "id": "spikes.vibrate2_zap",
       "name": "Dual Motor Zap",
       "description": "Spikes bounce between the two motors, each one answered by the other.",
-      "energy": 2,
+      "energy": 5,
       "tags": [
         "dual",
         "burst",
@@ -1533,7 +1533,7 @@
       "id": "spikes.rotating_spike",
       "name": "Rotating Spike",
       "description": "Rotation ramps fast, the vibration spikes, then everything stops. Irregular gaps.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "motion",
         "burst",
@@ -1627,7 +1627,7 @@
       "id": "spikes.suction_shockwave",
       "name": "Suction Shockwave",
       "description": "Suction pulls while the vibration spikes, rolling out of long silences.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "squeeze",
         "burst",

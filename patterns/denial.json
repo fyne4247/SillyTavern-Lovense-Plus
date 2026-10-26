@@ -57,7 +57,7 @@
       "id": "denial.abrupt_cutoff",
       "name": "Abrupt Cutoff",
       "description": "Strong builds that end in sudden, total silence, one cut early and one at the very top.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "build",
         "drop",
@@ -147,7 +147,7 @@
       "id": "denial.cruel_pause",
       "name": "Cruel Pause",
       "description": "Reaches a high level then drops to nothing for an extended silence.",
-      "energy": 3,
+      "energy": 5,
       "tags": [
         "build",
         "drop",
@@ -185,7 +185,7 @@
       "id": "denial.withheld_peak",
       "name": "Withheld Peak",
       "description": "Climbs to the brink repeatedly but never delivers the final push.",
-      "energy": 3,
+      "energy": 5,
       "tags": [
         "build",
         "drop",
@@ -229,7 +229,7 @@
       "id": "denial.empty_threat",
       "name": "Empty Threat",
       "description": "Hints of intensity that never arrive, with long empty stretches in between.",
-      "energy": 1,
+      "energy": 2,
       "tags": [
         "light",
         "silence",
@@ -335,7 +335,7 @@
       "id": "denial.squeeze_and_release",
       "name": "Squeeze and Release",
       "description": "Pump constricts tightly then suddenly lets go, leaving nothing.",
-      "energy": 2,
+      "energy": 3,
       "tags": [
         "squeeze",
         "motion",
@@ -380,7 +380,7 @@
       "id": "denial.cold_turkey",
       "name": "Cold Turkey",
       "description": "Full-power surges cut dead, again and again, with long cold silences between.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "heavy",
         "drop",
@@ -489,7 +489,7 @@
       "id": "denial.false_start",
       "name": "False Start",
       "description": "Starts strong, then sputters out. Each attempt dies sooner or later, with long empty waits.",
-      "energy": 1,
+      "energy": 4,
       "tags": [
         "build",
         "drop",
@@ -599,7 +599,7 @@
       "id": "denial.longing_gap",
       "name": "Longing Gap",
       "description": "A single brief touch followed by a long, cruel silence.",
-      "energy": 1,
+      "energy": 2,
       "tags": [
         "light",
         "silence",
@@ -779,7 +779,7 @@
       "id": "denial.power_stop",
       "name": "Power Stop",
       "description": "Dominant thrusting that halts mid-stride, over and over, leaving long stillness.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "heavy",
         "motion",
@@ -878,7 +878,7 @@
       "id": "denial.hollow_echo",
       "name": "Hollow Echo",
       "description": "A pattern that fades in and out, each peak lower than the last.",
-      "energy": 2,
+      "energy": 3,
       "tags": [
         "wave",
         "drop",
@@ -916,7 +916,7 @@
       "id": "denial.suction_denial",
       "name": "Suction Denial",
       "description": "Strong suction builds then is cruelly withdrawn.",
-      "energy": 3,
+      "energy": 4,
       "tags": [
         "build",
         "drop",
@@ -960,7 +960,7 @@
       "id": "denial.rotating_abandon",
       "name": "Rotating Abandon",
       "description": "Rotation spins up, stops dead, and leaves empty motion and long silences.",
-      "energy": 1,
+      "energy": 4,
       "tags": [
         "motion",
         "build",
@@ -1079,7 +1079,7 @@
       "id": "denial.fingering_withdraw",
       "name": "Fingering Withdraw",
       "description": "Fingering teases, builds, then withdraws completely. Long, uneven absences.",
-      "energy": 1,
+      "energy": 3,
       "tags": [
         "motion",
         "light",
@@ -1227,7 +1227,7 @@
       "id": "denial.dual_denial",
       "name": "Dual Denial",
       "description": "Both motors climb together, then are cut at once. Long gaps, a cruel flutter, a final surge.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "dual",
         "build",
@@ -1331,7 +1331,7 @@
       "id": "denial.stuttered_false_hope",
       "name": "Stuttered False Hope",
       "description": "Short bursts suggest progress but each dies away.",
-      "energy": 2,
+      "energy": 4,
       "tags": [
         "burst",
         "drop",
@@ -1375,7 +1375,7 @@
       "id": "denial.vanishing_pressure",
       "name": "Vanishing Pressure",
       "description": "Pump pressure gradually increases then disappears.",
-      "energy": 2,
+      "energy": 3,
       "tags": [
         "squeeze",
         "build",
@@ -1456,7 +1456,7 @@
       "id": "denial.almost_there",
       "name": "Almost There",
       "description": "Three climbs toward the brink, each cut at a different point. The last nearly arrives.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "build",
         "drop",
@@ -1579,7 +1579,7 @@
       "id": "denial.echo_chamber",
       "name": "Echo Chamber",
       "description": "Each pulse weaker than the last, the gaps stretching until nothing returns.",
-      "energy": 1,
+      "energy": 5,
       "tags": [
         "pulse",
         "drop",
