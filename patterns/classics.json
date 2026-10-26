@@ -1,0 +1,1677 @@
+{
+  "mood": "classics",
+  "label": "Classics",
+  "description": "Hand-tuned favourites from the original FreeReign set: teases, edges, milking, mouth rhythms, air-pump squeezes.",
+  "keywords": [
+    "milking",
+    "milk",
+    "jumpscare",
+    "overload",
+    "afterglow",
+    "racing heart",
+    "heartbeat",
+    "whisper",
+    "flutter",
+    "grip",
+    "clamp",
+    "squeeze",
+    "mouth",
+    "bobbing",
+    "warm up",
+    "warming up",
+    "fast finish",
+    "finish you off",
+    "spikes"
+  ],
+  "patterns": [
+    {
+      "id": "classics.warm_up",
+      "name": "Classic Warm Up",
+      "description": "Gentle escalator with a matching squeeze climb.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 12000,
+          "vibrate": 6,
+          "pump": 2
+        },
+        {
+          "ms": 14000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 12000,
+          "vibrate": 6,
+          "pump": 2
+        },
+        {
+          "ms": 14000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 11,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "classics.tease",
+      "name": "Classic Tease",
+      "description": "Staccato vibe and squeeze pulses.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "pump": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 1300,
+          "vibrate": 2,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.waves",
+      "name": "Classic Waves",
+      "description": "Rise and fall on both channels.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "classics.racing_heart",
+      "name": "Classic Racing Heart",
+      "description": "Double-tap vibe with clamp on the beat.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.edge",
+      "name": "Classic Edge",
+      "description": "Build then whisper. Squeeze holds the peak.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "classics.milking",
+      "name": "Classic Milking",
+      "description": "Sustained high vibe with max clamps.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "classics.overload",
+      "name": "Classic Overload",
+      "description": "Brutal vibe, full squeeze, brief recovery.",
+      "energy": 5,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "classics.climax",
+      "name": "Classic Climax",
+      "description": "Climb, then pin the vibe and squeeze at the top.",
+      "energy": 5,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 25000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 20,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "classics.afterglow",
+      "name": "Classic Afterglow",
+      "description": "Gentle wind-down. Soft squeeze remains.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 12000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 12000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 12000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 12000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.jumpscare",
+      "name": "Classic Jumpscare",
+      "description": "Short rests only, then WHAM on both channels.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.fast_finish",
+      "name": "Classic Fast Finish",
+      "description": "Quick push to the top: 40%, 60%, 80%, then 100% held.",
+      "energy": 5,
+      "tags": [
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 8
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 6000,
+          "vibrate": 16
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18
+        },
+        {
+          "ms": 30000,
+          "vibrate": 20
+        },
+        {
+          "ms": 20000,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "classics.whisper_tease",
+      "name": "Classic Whisper Tease",
+      "description": "Barely-there vibe, soft squeezes.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.gemini_spikes",
+      "name": "Classic Silent Spikes",
+      "description": "Long silences, then short spikes. Made for dual-motor toys.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 15000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14
+        },
+        {
+          "ms": 17000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 14000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16
+        },
+        {
+          "ms": 16000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.tarian_hum_spikes",
+      "name": "Classic Hum And Spikes",
+      "description": "Steady low hum with spikes, swells and brief silences.",
+      "energy": 2,
+      "tags": [
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 10000,
+          "vibrate": 7
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 9000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2500,
+          "vibrate": 15
+        },
+        {
+          "ms": 7000,
+          "vibrate": 9
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 13
+        },
+        {
+          "ms": 10000,
+          "vibrate": 7
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth",
+      "name": "Classic Mouth",
+      "description": "Slow rhythmic suck: low vibe and light squeeze, with pauses between.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "silence",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.gemini_long_spikes",
+      "name": "Classic Long Spikes",
+      "description": "Longer spikes (4-6s) with shorter silences between.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 14
+        },
+        {
+          "ms": 6000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4500,
+          "vibrate": 12
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 16
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 13
+        }
+      ]
+    },
+    {
+      "id": "classics.gemini_relentless",
+      "name": "Classic Relentless Spikes",
+      "description": "Long spikes with tiny silences. Barely lets up.",
+      "energy": 3,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 0
+        },
+        {
+          "ms": 7000,
+          "vibrate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0
+        },
+        {
+          "ms": 7000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.gush_longpulses",
+      "name": "Classic Long Pulses",
+      "description": "Long pulses with short gaps: 8 seconds on, 2 off. Gentle on strong toys.",
+      "energy": 1,
+      "tags": [
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.max_squeeze_tease",
+      "name": "Classic Squeeze Tease",
+      "description": "Low vibe floor with pulsing contractions. Grip does the talking.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 3,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.max_milk",
+      "name": "Classic Squeeze Milk",
+      "description": "Alternating squeeze and release over a warm vibe. Milking rhythm.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 8,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.max_grip_hold",
+      "name": "Classic Grip Hold",
+      "description": "Sustained contraction with climbing vibe. Does not let go.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 4,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 6,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 5,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "classics.max_flutter",
+      "name": "Classic Flutter",
+      "description": "Fast squeeze flutters over a quiet vibe floor.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "light",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 600,
+          "vibrate": 3,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "pump": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "pump": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "pump": 3
+        },
+        {
+          "ms": 900,
+          "vibrate": 3,
+          "pump": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 3,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "pump": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "pump": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "pump": 3
+        },
+        {
+          "ms": 900,
+          "vibrate": 3,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.max_edge_clamp",
+      "name": "Classic Edge Clamp",
+      "description": "Vibe climbs, full clamp at the peak, then the vibe drops but the squeeze stays.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 4,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 3,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.max_afterglow",
+      "name": "Classic Squeeze Afterglow",
+      "description": "Wind-down. Soft vibe, fading squeeze, never empty.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth_deeper",
+      "name": "Classic Mouth Deeper",
+      "description": "Mouth-style, deeper: a stronger pull and longer holds.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "silence",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth_close",
+      "name": "Classic Mouth Close",
+      "description": "Mouth-style rhythmic suck with short breath-like gaps.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4500,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4500,
+          "vibrate": 7,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth_hard",
+      "name": "Classic Mouth Hard",
+      "description": "Mouth-style, hard: proper suction with a moderate squeeze.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4500,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth_max",
+      "name": "Classic Mouth Max",
+      "description": "Mouth-style at full range: strong vibe and deep squeezes.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4500,
+          "vibrate": 18,
+          "pump": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 5500,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4500,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth_relentless",
+      "name": "Classic Mouth Relentless",
+      "description": "Mouth-style, relentless: strong pulls with barely half a second between.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 18,
+          "pump": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17,
+          "pump": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "classics.mouth_nonstop",
+      "name": "Classic Mouth Nonstop",
+      "description": "Mouth-style, nonstop: continuous suction with no gaps.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 17,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19,
+          "pump": 3
+        }
+      ]
+    }
+  ]
+}

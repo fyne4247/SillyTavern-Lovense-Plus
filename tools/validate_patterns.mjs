@@ -54,7 +54,7 @@ for (const file of files) {
     if (!Array.isArray(data.keywords) || data.keywords.length < 15 || data.keywords.length > 60) err('"keywords" must have 15-60 entries');
     else for (const k of data.keywords) if (typeof k !== 'string' || k !== k.toLowerCase() || !k.trim()) err(`bad keyword ${JSON.stringify(k)}`);
     if (!Array.isArray(data.patterns)) { err('"patterns" must be an array'); continue; }
-    if (data.patterns.length < 12 || data.patterns.length > 24) err(`has ${data.patterns.length} patterns, need 12-24`);
+    if (data.patterns.length < 12 || data.patterns.length > 48) err(`has ${data.patterns.length} patterns, need 12-48`);
 
     for (const [i, p] of data.patterns.entries()) {
         const at = `pattern[${i}] ${p.id ?? ''}`;
@@ -68,7 +68,11 @@ for (const file of files) {
         if (!isInt(p.energy) || p.energy < 1 || p.energy > 5) err(`${at}: energy must be integer 1-5`);
         if (!Array.isArray(p.tags) || p.tags.length < 1 || p.tags.length > 6) err(`${at}: tags must have 1-6 entries`);
         else for (const t of p.tags) if (!TAGS.has(t)) err(`${at}: unknown tag "${t}"`);
-        if (!Array.isArray(p.steps) || p.steps.length < 6 || p.steps.length > 60) { err(`${at}: needs 6-60 steps`); continue; }
+        // Patterns tagged "long" (marathons) may run up to 30 minutes with up to 200 steps.
+        const long = Array.isArray(p.tags) && p.tags.includes('long');
+        const maxSteps = long ? 200 : 60;
+        const maxTotal = long ? 1860000 : 180000;
+        if (!Array.isArray(p.steps) || p.steps.length < 6 || p.steps.length > maxSteps) { err(`${at}: needs 6-${maxSteps} steps`); continue; }
 
         let sum = 0;
         let bad = false;
@@ -82,7 +86,7 @@ for (const file of files) {
             }
             sum += s.ms || 0;
         }
-        if (sum < 8000 || sum > 180000) err(`${at}: total length ${sum}ms, need 8000-180000`);
+        if (sum < 8000 || sum > maxTotal) err(`${at}: total length ${sum}ms, need 8000-${maxTotal}`);
         if (bad) continue;
 
         const avg = p.steps.reduce((a, s) => a + s.vibrate * s.ms, 0) / sum;

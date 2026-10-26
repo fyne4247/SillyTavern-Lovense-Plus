@@ -38,7 +38,7 @@ mode only the enabled moods are sent to the picker model, and only their
 | `label` | Display name for the settings UI. |
 | `description` | One or two sentences describing when this mood fits the scene. The API picker reads this. |
 | `keywords` | 15–60 lowercase words or short phrases that suggest this mood when they appear in a message. Used by the script picker. Avoid generic words that would fit every mood ("moan", "yes"). |
-| `patterns` | 12–24 patterns. |
+| `patterns` | 12–48 patterns (aim for 20–24 in a new mood). |
 
 ### Pattern fields
 
@@ -49,7 +49,7 @@ mode only the enabled moods are sent to the picker model, and only their
 | `description` | One short sentence (≤ 120 chars) describing the feel. The API picker reads this. |
 | `energy` | Integer 1–5. 1 = barely there, 3 = medium, 5 = maximum. Should roughly match the average intensity of the steps. |
 | `tags` | 1–6 lowercase tags from: `slow`, `fast`, `light`, `heavy`, `build`, `drop`, `steady`, `random`, `pulse`, `wave`, `burst`, `silence`, `long`, `short`, `motion`, `squeeze`, `dual`. |
-| `steps` | 6–60 steps. Played in order, then loop from the start (if looping is on). |
+| `steps` | 6–60 steps (200 for `long` patterns). Played in order, then loop from the start (if looping is on). |
 
 ### Step fields
 
@@ -80,7 +80,8 @@ it off. So:
 ### Total length
 
 The sum of `ms` across a pattern's steps must be between 8 000 and 180 000
-(8 seconds to 3 minutes). Most patterns should be 15–90 seconds.
+(8 seconds to 3 minutes). Most patterns should be 15–90 seconds. Patterns
+tagged `long` (whole-session marathons) may run up to 30 minutes.
 
 ## Writing good patterns
 

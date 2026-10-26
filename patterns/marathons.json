@@ -1,0 +1,5030 @@
+{
+  "mood": "marathons",
+  "label": "Marathons",
+  "description": "Whole-session arcs from 5 to 30 minutes: slow builds, crucibles and long holds. For long scenes that settle in.",
+  "keywords": [
+    "marathon",
+    "crucible",
+    "all night",
+    "for hours",
+    "hours",
+    "endurance",
+    "long session",
+    "take your time",
+    "long hold",
+    "the whole night",
+    "until morning",
+    "keep going",
+    "session",
+    "ordeal",
+    "trial",
+    "stamina"
+  ],
+  "patterns": [
+    {
+      "id": "marathons.marathon_jumpscare",
+      "name": "Marathon Jumpscare",
+      "description": "25 minutes of dead silence broken by random jumpscares.",
+      "energy": 1,
+      "tags": [
+        "long",
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 23754,
+          "vibrate": 0
+        },
+        {
+          "ms": 41000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 29000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 52000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 20
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 27000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14
+        },
+        {
+          "ms": 28000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        },
+        {
+          "ms": 49000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 18000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 16000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 46000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 18000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 33000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        },
+        {
+          "ms": 17000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 17
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 17
+        },
+        {
+          "ms": 59000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20
+        },
+        {
+          "ms": 37000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 17000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18
+        },
+        {
+          "ms": 15000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 54000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 7000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 42000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3246,
+          "vibrate": 15
+        },
+        {
+          "ms": 30000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "marathons.marathon_mixed",
+      "name": "Marathon Mixed",
+      "description": "30 minutes of everything: silence, hums, soft spikes and brutal jumpscares.",
+      "energy": 1,
+      "tags": [
+        "long",
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 7871,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19
+        },
+        {
+          "ms": 13000,
+          "vibrate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11
+        },
+        {
+          "ms": 60000,
+          "vibrate": 1
+        },
+        {
+          "ms": 12000,
+          "vibrate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 10000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7
+        },
+        {
+          "ms": 26000,
+          "vibrate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 31000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 16000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7
+        },
+        {
+          "ms": 60000,
+          "vibrate": 2
+        },
+        {
+          "ms": 27000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 17
+        },
+        {
+          "ms": 12000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 60000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5
+        },
+        {
+          "ms": 25000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 52000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7
+        },
+        {
+          "ms": 22000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19
+        },
+        {
+          "ms": 26000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15
+        },
+        {
+          "ms": 48000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 60000,
+          "vibrate": 2
+        },
+        {
+          "ms": 17000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9
+        },
+        {
+          "ms": 54000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 9
+        },
+        {
+          "ms": 60000,
+          "vibrate": 1
+        },
+        {
+          "ms": 17000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17
+        },
+        {
+          "ms": 60000,
+          "vibrate": 2
+        },
+        {
+          "ms": 23000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 13
+        },
+        {
+          "ms": 60000,
+          "vibrate": 1
+        },
+        {
+          "ms": 20000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 5
+        },
+        {
+          "ms": 18000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11
+        },
+        {
+          "ms": 32000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 51000,
+          "vibrate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 47000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 33000,
+          "vibrate": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 17000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17
+        },
+        {
+          "ms": 60000,
+          "vibrate": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 17
+        },
+        {
+          "ms": 34000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19
+        },
+        {
+          "ms": 9000,
+          "vibrate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 20000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 34000,
+          "vibrate": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 38000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19
+        },
+        {
+          "ms": 36000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19
+        },
+        {
+          "ms": 28000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19
+        },
+        {
+          "ms": 46000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9
+        },
+        {
+          "ms": 11129,
+          "vibrate": 3
+        },
+        {
+          "ms": 30000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "marathons.marathon_tease",
+      "name": "Marathon Tease",
+      "description": "20 minutes of gentle hum with occasional teasing spikes.",
+      "energy": 1,
+      "tags": [
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 21853,
+          "vibrate": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13
+        },
+        {
+          "ms": 48000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 52000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 32000,
+          "vibrate": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10
+        },
+        {
+          "ms": 43000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13
+        },
+        {
+          "ms": 53000,
+          "vibrate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6
+        },
+        {
+          "ms": 16000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 13
+        },
+        {
+          "ms": 12000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11
+        },
+        {
+          "ms": 31000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 9
+        },
+        {
+          "ms": 48000,
+          "vibrate": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 8
+        },
+        {
+          "ms": 58000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8
+        },
+        {
+          "ms": 35000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 8
+        },
+        {
+          "ms": 53000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 29000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 54000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12
+        },
+        {
+          "ms": 23000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 49000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 7
+        },
+        {
+          "ms": 47000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 8
+        },
+        {
+          "ms": 54000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 22000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11
+        },
+        {
+          "ms": 37000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 27000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 9
+        },
+        {
+          "ms": 31000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10
+        },
+        {
+          "ms": 49000,
+          "vibrate": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13
+        },
+        {
+          "ms": 52000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9
+        },
+        {
+          "ms": 16000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12
+        },
+        {
+          "ms": 32000,
+          "vibrate": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 13
+        },
+        {
+          "ms": 30147,
+          "vibrate": 3
+        },
+        {
+          "ms": 30000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "marathons.marathon_build",
+      "name": "Marathon Build",
+      "description": "15 minutes of sustained hum building through escalating spikes.",
+      "energy": 1,
+      "tags": [
+        "long",
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8594,
+          "vibrate": 7
+        },
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 13000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 22000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        },
+        {
+          "ms": 26000,
+          "vibrate": 5
+        },
+        {
+          "ms": 7000,
+          "vibrate": 14
+        },
+        {
+          "ms": 5000,
+          "vibrate": 5
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 16000,
+          "vibrate": 5
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 21000,
+          "vibrate": 5
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12
+        },
+        {
+          "ms": 11000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        },
+        {
+          "ms": 19000,
+          "vibrate": 0
+        },
+        {
+          "ms": 7000,
+          "vibrate": 10
+        },
+        {
+          "ms": 11000,
+          "vibrate": 7
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18
+        },
+        {
+          "ms": 26000,
+          "vibrate": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 12
+        },
+        {
+          "ms": 18000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 21000,
+          "vibrate": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 16
+        },
+        {
+          "ms": 18000,
+          "vibrate": 0
+        },
+        {
+          "ms": 7000,
+          "vibrate": 16
+        },
+        {
+          "ms": 24000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 25000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 16000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 20
+        },
+        {
+          "ms": 15000,
+          "vibrate": 7
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 11000,
+          "vibrate": 7
+        },
+        {
+          "ms": 4000,
+          "vibrate": 10
+        },
+        {
+          "ms": 28000,
+          "vibrate": 7
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18
+        },
+        {
+          "ms": 27000,
+          "vibrate": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 14
+        },
+        {
+          "ms": 18000,
+          "vibrate": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 18
+        },
+        {
+          "ms": 20000,
+          "vibrate": 7
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12
+        },
+        {
+          "ms": 19000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 20
+        },
+        {
+          "ms": 24000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10
+        },
+        {
+          "ms": 11000,
+          "vibrate": 7
+        },
+        {
+          "ms": 5000,
+          "vibrate": 8
+        },
+        {
+          "ms": 21000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 16
+        },
+        {
+          "ms": 24000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14
+        },
+        {
+          "ms": 20000,
+          "vibrate": 5
+        },
+        {
+          "ms": 6000,
+          "vibrate": 8
+        },
+        {
+          "ms": 12000,
+          "vibrate": 5
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 10000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 16
+        },
+        {
+          "ms": 13000,
+          "vibrate": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 20000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10
+        },
+        {
+          "ms": 17000,
+          "vibrate": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 14
+        },
+        {
+          "ms": 7000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 23000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2406,
+          "vibrate": 5
+        },
+        {
+          "ms": 30000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "marathons.franken_one",
+      "name": "Franken One",
+      "description": "A 20-minute mashup: warm-up, tease, racing heart, milking, overload, climax, afterglow.",
+      "energy": 1,
+      "tags": [
+        "long",
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 30000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 4
+        },
+        {
+          "ms": 12000,
+          "vibrate": 6
+        },
+        {
+          "ms": 14000,
+          "vibrate": 8
+        },
+        {
+          "ms": 16000,
+          "vibrate": 11
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 30000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 19
+        },
+        {
+          "ms": 300,
+          "vibrate": 6
+        },
+        {
+          "ms": 300,
+          "vibrate": 19
+        },
+        {
+          "ms": 450,
+          "vibrate": 6
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10
+        },
+        {
+          "ms": 6000,
+          "vibrate": 13
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 60000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 7
+        },
+        {
+          "ms": 12000,
+          "vibrate": 5
+        },
+        {
+          "ms": 12000,
+          "vibrate": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "marathons.shower_crucible",
+      "name": "Shower Crucible",
+      "description": "30 minutes with a floor of 10 throughout, three phases, and a 6-minute climb to full.",
+      "energy": 4,
+      "tags": [
+        "long",
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 20000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 24000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 20000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 24000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 19000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 18000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 19000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 17000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 23000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 17000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 18000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 22000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 20000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 23000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 17000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 23000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 18000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 25000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 18000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 18000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 24000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 19000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 24000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 25000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 21000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 17000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 24000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 21000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 23000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 24000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 25000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 16000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 21000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 21000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 19000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 25000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 30000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 30000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 30000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 30000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 30000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 30000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 60000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 60000,
+          "vibrate": 20,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "marathons.shower_hard",
+      "name": "Shower Hard",
+      "description": "15-minute hard push: high floor, spikes to full, last three minutes pinned.",
+      "energy": 4,
+      "tags": [
+        "long",
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 14000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 16000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 14000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 14000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 12000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 18000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 19000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 16000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 19000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 19000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 17000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 12000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 12000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 18000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 14000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 13000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 16000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 14000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 9000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 14000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 13000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 36000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 36000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 36000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 36000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 36000,
+          "vibrate": 20,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "marathons.ear_floor",
+      "name": "Ear Floor",
+      "description": "9 minutes of steady low floor with occasional soft spikes. No dead air.",
+      "energy": 2,
+      "tags": [
+        "long",
+        "squeeze",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 38000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 42000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 38000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 45000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 45000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 45000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 20000,
+          "vibrate": 6,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "marathons.ear_fuck",
+      "name": "Ear Fuck",
+      "description": "11 minutes: steady floor with edging spikes. No dead air.",
+      "energy": 2,
+      "tags": [
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 50000,
+          "vibrate": 7
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15
+        },
+        {
+          "ms": 40000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 15
+        },
+        {
+          "ms": 40000,
+          "vibrate": 7
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15
+        },
+        {
+          "ms": 40000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 12
+        },
+        {
+          "ms": 45000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 13
+        },
+        {
+          "ms": 50000,
+          "vibrate": 7
+        },
+        {
+          "ms": 5000,
+          "vibrate": 12
+        },
+        {
+          "ms": 40000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 13
+        },
+        {
+          "ms": 45000,
+          "vibrate": 7
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14
+        },
+        {
+          "ms": 50000,
+          "vibrate": 7
+        },
+        {
+          "ms": 7000,
+          "vibrate": 13
+        },
+        {
+          "ms": 45000,
+          "vibrate": 8
+        },
+        {
+          "ms": 7000,
+          "vibrate": 12
+        },
+        {
+          "ms": 45000,
+          "vibrate": 7
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14
+        },
+        {
+          "ms": 50000,
+          "vibrate": 7
+        },
+        {
+          "ms": 6000,
+          "vibrate": 14
+        },
+        {
+          "ms": 50000,
+          "vibrate": 7
+        },
+        {
+          "ms": 5000,
+          "vibrate": 14
+        },
+        {
+          "ms": 25000,
+          "vibrate": 7
+        }
+      ]
+    },
+    {
+      "id": "marathons.ear_max",
+      "name": "Ear Max",
+      "description": "11 minutes: high floor, full ceiling. Hard and present, no dead air.",
+      "energy": 3,
+      "tags": [
+        "long",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 35000,
+          "vibrate": 11
+        },
+        {
+          "ms": 10000,
+          "vibrate": 18
+        },
+        {
+          "ms": 40000,
+          "vibrate": 11
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 35000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 9
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 9
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18
+        },
+        {
+          "ms": 40000,
+          "vibrate": 9
+        },
+        {
+          "ms": 10000,
+          "vibrate": 18
+        },
+        {
+          "ms": 40000,
+          "vibrate": 9
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18
+        },
+        {
+          "ms": 45000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 45000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 45000,
+          "vibrate": 11
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 45000,
+          "vibrate": 11
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 40000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 45000,
+          "vibrate": 9
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 25000,
+          "vibrate": 10
+        }
+      ]
+    },
+    {
+      "id": "marathons.ear_more",
+      "name": "Ear More",
+      "description": "16 minutes: high floor, full ceiling, relentless.",
+      "energy": 3,
+      "tags": [
+        "long",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 35000,
+          "vibrate": 9
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 40000,
+          "vibrate": 9
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 35000,
+          "vibrate": 11
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 10
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 30000,
+          "vibrate": 11
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 30000,
+          "vibrate": 10
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19
+        },
+        {
+          "ms": 40000,
+          "vibrate": 11
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 40000,
+          "vibrate": 11
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18
+        },
+        {
+          "ms": 30000,
+          "vibrate": 10
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 30000,
+          "vibrate": 10
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 40000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 10
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19
+        },
+        {
+          "ms": 30000,
+          "vibrate": 9
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 9
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 30000,
+          "vibrate": 10
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 9
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 30000,
+          "vibrate": 10
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18
+        },
+        {
+          "ms": 30000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 40000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 35000,
+          "vibrate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19
+        },
+        {
+          "ms": 40000,
+          "vibrate": 9
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 25000,
+          "vibrate": 10
+        }
+      ]
+    },
+    {
+      "id": "marathons.the_marathon",
+      "name": "The Marathon",
+      "description": "20-minute build, sustain and finish arc with the air pump along for the ride.",
+      "energy": 3,
+      "tags": [
+        "long",
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 15000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 20000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 30000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 20000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 15000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 25000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 30000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 20000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 20000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 15000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 12000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 12000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 12000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 20000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 12000,
+          "vibrate": 16,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 15000,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 30000,
+          "vibrate": 3,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "marathons.the_crucible",
+      "name": "The Crucible",
+      "description": "25 minutes of everything woven randomly: silence, hums, soft spikes, jumpscares.",
+      "energy": 1,
+      "tags": [
+        "long",
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 51075,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 60000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 60000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 17000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 60000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 30000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 59000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 60000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 26000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 25000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 6000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 22000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 57000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 39000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 34000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 37000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 60000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 30000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 55000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 25000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 15000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 47000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 26000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7,
+          "pump": 2
+        },
+        {
+          "ms": 18000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 60000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 22000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11,
+          "pump": 2
+        },
+        {
+          "ms": 42925,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "marathons.the_long_hold",
+      "name": "The Long Hold",
+      "description": "30 minutes, no dead air: a humming floor with a light squeeze and spikes.",
+      "energy": 3,
+      "tags": [
+        "long",
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 42771,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 10552,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 24240,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 9908,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 27304,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 11310,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 40704,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 7171,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 42634,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 8277,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 31467,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 15523,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 19451,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 9023,
+          "vibrate": 13,
+          "pump": 2
+        },
+        {
+          "ms": 24849,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 12428,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 24447,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 9764,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 22694,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 9960,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 41807,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 12801,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 38735,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 14830,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 24957,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 9244,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 37307,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 7543,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 35667,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 7492,
+          "vibrate": 17,
+          "pump": 3
+        },
+        {
+          "ms": 36225,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 14368,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 26465,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 15723,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 33694,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 15551,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 36553,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 9890,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 34762,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 15122,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 39129,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 8101,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 18308,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 13656,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 22202,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 12574,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 18511,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 12420,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 20805,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 12681,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 20632,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 15802,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 41516,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 14182,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 15460,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 9958,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 27581,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 13004,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 39300,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 12367,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 42664,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 15709,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 38255,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 9032,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 28562,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 11217,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 30664,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 9149,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 27835,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 15939,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 18840,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 8065,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 38705,
+          "vibrate": 11,
+          "pump": 1
+        },
+        {
+          "ms": 7587,
+          "vibrate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 31413,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 14806,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 33278,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 12511,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 19975,
+          "vibrate": 11,
+          "pump": 1
+        },
+        {
+          "ms": 8370,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 33987,
+          "vibrate": 11,
+          "pump": 1
+        },
+        {
+          "ms": 6414,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 17163,
+          "vibrate": 11,
+          "pump": 1
+        },
+        {
+          "ms": 13345,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 39364,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 5749,
+          "vibrate": 20,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "marathons.gentle_waves",
+      "name": "Gentle Waves",
+      "description": "10 minutes of smooth waves between 8 and 15. Never empty, never too much.",
+      "energy": 3,
+      "tags": [
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 16000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 8000,
+          "vibrate": 14
+        }
+      ]
+    },
+    {
+      "id": "marathons.cruel_edge",
+      "name": "Loop: Cruel Edge",
+      "description": "Builds you up then denies.",
+      "energy": 3,
+      "tags": [
+        "long",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 15000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 20000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 13
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 20000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    }
+  ]
+}

@@ -40,3 +40,9 @@ test/
 
 # Node modules
 node_modules/
+
+# Leftovers from the FreeReign controller (runtime state and backups)
+state.json
+listener.out
+listener.err
+*.bak

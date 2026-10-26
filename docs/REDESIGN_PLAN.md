@@ -123,15 +123,15 @@ picker is off.
 ## Order of work
 
 1. Pattern format + validator ✅
-2. Pattern library (parallel agents, one mood each) ← in progress
-3. Transport layer (Lovense Remote first, since it's a refactor; then Intiface)
-4. Player
-5. Scheduler + script picker
-6. API picker
-7. Settings UI
-8. Legacy Mode split-out
-9. FreeReign conversion to `classics`, cleanup, READMEs
-10. Review pass, then PR (or fork)
+2. Pattern library (parallel agents, one mood each) ✅
+3. Transport layer: Lovense Remote and Intiface ✅
+4. Player ✅
+5. Scheduler + script picker ✅
+6. API picker ✅ (not yet tried against a real model)
+7. Settings UI ✅
+8. Legacy Mode split-out ✅
+9. FreeReign conversion to `classics` / `loops` / `marathons`, READMEs ✅
+10. Test with real toys and a real picker model, then PR (or fork)
 
 ## Mood assignments
 
@@ -153,3 +153,6 @@ picker is off.
 | `oral` | Mouth-like: bobbing rhythms, suction, licks, swirls. |
 | `dance` | Musical, syncopated: waltz 3/4, swing, drum fills, breakbeats. |
 | `overstim` | Keeps going after the peak. Sensitive, too much, can't escape. |
+| `classics` | Converted FreeReign patterns (hand-tuned favourites). |
+| `loops` | Converted FreeReign shell loops. |
+| `marathons` | Converted FreeReign 5–30 minute sessions (tagged `long`). |

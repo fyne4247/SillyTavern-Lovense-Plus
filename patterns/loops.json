@@ -1,0 +1,1704 @@
+{
+  "mood": "loops",
+  "label": "Loops",
+  "description": "Long repeating cycles from the original shell scripts: denial hell, cruel edging, chaos, relentless, pulse rhythms.",
+  "keywords": [
+    "denial hell",
+    "cruel",
+    "merciless",
+    "relentless",
+    "chaotic",
+    "rapid fire",
+    "rapid",
+    "facefuck",
+    "face fuck",
+    "throat",
+    "aggressive",
+    "pulse rhythm",
+    "cycle",
+    "over and over",
+    "again and again",
+    "endless"
+  ],
+  "patterns": [
+    {
+      "id": "loops.aggressive",
+      "name": "Loop: Aggressive",
+      "description": "Mostly high intensity with brutal spikes.",
+      "energy": 3,
+      "tags": [
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.aggressive_pulsed",
+      "name": "Loop: Aggressive Pulsed",
+      "description": "Mostly moderate with rare brutal spikes; pulsed version for strong toys.",
+      "energy": 2,
+      "tags": [
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.chaotic",
+      "name": "Loop: Chaotic",
+      "description": "You never know what's coming.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 20000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.chaotic_pulsed",
+      "name": "Loop: Chaotic Pulsed",
+      "description": "Chaotic and unpredictable; pulsed version for strong toys.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.cruel_edge_pulsed",
+      "name": "Loop: Cruel Edge Pulsed",
+      "description": "Builds with pulses then denies; pulsed version for strong toys.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 9
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.denial_hell",
+      "name": "Loop: Denial Hell",
+      "description": "Keeps you right on edge but never gives you the peak.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 10000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.denial_hell_pulsed",
+      "name": "Loop: Denial Hell Pulsed",
+      "description": "Builds but never peaks, mostly under 12; pulsed version for strong toys.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 9
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.edge",
+      "name": "Loop: Edge",
+      "description": "Strong vibe with rhythmic air-pump squeezes and intermittent spikes.",
+      "energy": 5,
+      "tags": [
+        "squeeze",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 20,
+          "pump": 2
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "loops.facefuck",
+      "name": "Loop: Facefuck",
+      "description": "Erratic, aggressive, like being used.",
+      "energy": 3,
+      "tags": [
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.facefuck_pulsed",
+      "name": "Loop: Facefuck Pulsed",
+      "description": "Erratic pulses, mostly under 12; pulsed version for strong toys.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 13
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 12000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.pulse_rhythm",
+      "name": "Loop: Pulse Rhythm",
+      "description": "Steady beat that builds and drops.",
+      "energy": 2,
+      "tags": [
+        "heavy",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 13
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.pulse_rhythm_pulsed",
+      "name": "Loop: Pulse Rhythm Pulsed",
+      "description": "Steady beat, mostly under 12; pulsed version for strong toys.",
+      "energy": 2,
+      "tags": [
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 10000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.rapid_fire",
+      "name": "Loop: Rapid Fire",
+      "description": "Short intense spikes with minimal recovery.",
+      "energy": 3,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.rapid_fire_pulsed",
+      "name": "Loop: Rapid Fire Pulsed",
+      "description": "Short pulses, mostly under 12; pulsed version for strong toys.",
+      "energy": 2,
+      "tags": [
+        "silence",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.relentless",
+      "name": "Loop: Relentless",
+      "description": "No gaps, 14-20 constant variation.",
+      "energy": 5,
+      "tags": [
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 20
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 5000,
+          "vibrate": 17
+        },
+        {
+          "ms": 8000,
+          "vibrate": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18
+        },
+        {
+          "ms": 5000,
+          "vibrate": 19
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 7000,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "loops.slow_tease",
+      "name": "Loop: Slow Tease",
+      "description": "Long stretches of low with occasional teasing spikes.",
+      "energy": 1,
+      "tags": [
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 25000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 30000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 20000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 35000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.slow_tease_pulsed",
+      "name": "Loop: Slow Tease Pulsed",
+      "description": "Long low pulses with rare teases; pulsed version for strong toys.",
+      "energy": 1,
+      "tags": [
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 20000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 25000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 30000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "loops.touch",
+      "name": "Loop: Touch",
+      "description": "Varied intensity with proper gaps.",
+      "energy": 2,
+      "tags": [
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 10000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 15000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    }
+  ]
+}
