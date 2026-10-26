@@ -1,32 +1,28 @@
-# Gooners Unite
+# SillyTavern Lovense Plus
 
-Gooners around the world, I've got you covered.
+Let your SillyTavern chats drive your toys: Lovense through Lovense Remote, or almost any brand through Intiface Central.
 
-![Lovense Control](https://i.imgur.com/Zyuiqts.jpeg)
+A fork of Marinara's [SillyTavern-Lovense](https://github.com/SpicyMarinara/SillyTavern-Lovense), reworked so the roleplay model never has to think about toys. The original readme is kept as [README_Legacy.md](README_Legacy.md).
 
-This extension lets your SillyTavern chats drive your Lovense devices (and, through Intiface, most other brands too), creating an immersive and interactive experience.
+Support the original author. These are Marinara's links:
 
-You're welcome.
+***Get 55% OFF your Lovense order via Marinara's referral link: https://www.lovense.com/a/SpicyMarinara***
 
-**Oh, and if you're planning on getting a Lovense device just so your AI waifu/husbandu can do the deed with you, consider using my referral link, thanks! By purchasing the toys through it, you support me directly, as I'm now Lovense's official affiliate. Yepee!**
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da)](https://discord.com/invite/KdAkTg94ME)
+[![Support Marinara](https://img.shields.io/badge/Ko--fi-Support%20Creator-ff5e5b)](https://ko-fi.com/marinara_spaghetti)
 
-***Get 55% OFF your Lovense order via my referral link: https://www.lovense.com/a/SpicyMarinara***
+## 🆕 What's different from the original
 
-[![My Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da)](https://discord.com/invite/KdAkTg94ME)
-[![Support Me](https://img.shields.io/badge/Ko--fi-Support%20Creator-ff5e5b)](https://ko-fi.com/marinara_spaghetti)
+In the original, the roleplay model had to write toy commands into its replies. That made it think about the toys *and* the scene at once, and it often burned through its output tokens before writing anything good.
 
-## 🆕 What's new in 2.0
-
-In 1.x the roleplay model had to write toy commands into its replies. That made it think about the toys *and* the scene at once, and it often burned through its output tokens before writing anything good.
-
-2.0 flips it around: **the roleplay model just roleplays.** Once a message has settled, a separate picker reads it and chooses a pattern from a library of 400+ patterns. Your toys react to the story without the chat model spending a single token on them.
+This fork flips it around: **the roleplay model just roleplays.** Once a message has settled, a separate picker reads it and chooses a pattern from a library of 400+ patterns. Your toys react to the story without the chat model spending a single token on them.
 
 - **Two ways to connect**: Lovense Remote (as before) or **Intiface Central**, which talks to toys over Bluetooth directly and supports most brands.
 - **Two pickers**: free, instant keyword matching, or a separate cheap model through a SillyTavern Connection Profile.
 - **Adapts to your toys automatically**: patterns use whatever each connected toy can do (vibrate, second motor, rotate, air pump, thrust, suction, fingering, oscillate).
 - **Swipe-proof**: a configurable delay means only the message you keep sets the toys.
 - **19 moods you can switch on and off**, from tease and edging to aftercare and 30-minute marathons.
-- **Legacy Mode** keeps the 1.x behaviour for anyone who prefers it.
+- **Legacy Mode** keeps the original behaviour for anyone who prefers it.
 
 ## 📥 Installation
 
@@ -34,7 +30,7 @@ In 1.x the roleplay model had to write toy commands into its replies. That made 
 
 In SillyTavern:
 1. Go to **Extensions** → **Install Extension**
-2. Paste the repository URL: `https://github.com/SpicyMarinara/SillyTavern-Lovense`
+2. Paste the repository URL: `https://github.com/fyne4247/SillyTavern-Lovense-Plus`
 3. Click **Install for all users/Install just for me**
 
 ### 2. Pick how to connect
@@ -71,15 +67,15 @@ enableServerPlugins: true
 
 **Windows (PowerShell or Command Prompt):**
 ```batch
-copy data\default-user\extensions\SillyTavern-Lovense\server\lovense.mjs plugins\
+copy data\default-user\extensions\SillyTavern-Lovense-Plus\server\lovense.mjs plugins\
 ```
 
 **Mac/Linux:**
 ```bash
-cp data/default-user/extensions/SillyTavern-Lovense/server/lovense.mjs plugins/
+cp data/default-user/extensions/SillyTavern-Lovense-Plus/server/lovense.mjs plugins/
 ```
 
-(If you installed "for all users", the extension lives in `public/scripts/extensions/third-party/SillyTavern-Lovense/` instead.)
+(If you installed "for all users", the extension lives in `public/scripts/extensions/third-party/SillyTavern-Lovense-Plus/` instead.)
 
 **Step 3: Restart SillyTavern completely.** You should see this in the server console:
 ```
@@ -102,7 +98,7 @@ Pick a mode under **How patterns are chosen**:
 
 - **Script** (default): matches the words in each message against every mood's keywords, and reads how intense the message is from its punctuation and pacing. Free and instant.
 - **API**: a separate model reads each finished message and picks a mood and an intensity. Choose a **Connection Profile** (set one up in SillyTavern's Connection Manager first). A fast, cheap model is perfect; it only sees the message and a short mood list, never your chat history or character card. Optionally let it choose the exact pattern with a second small call. If its answer is unusable, Script mode steps in.
-- **Legacy Mode**: the 1.x behaviour, where the chat model writes commands into its replies. See [Legacy Mode](#legacy-mode) below.
+- **Legacy Mode**: the original behaviour, where the chat model writes commands into its replies. See [Legacy Mode](#legacy-mode) below.
 
 ### Timing
 
@@ -211,8 +207,8 @@ This extension is provided as-is for use with SillyTavern. Please ensure you com
 
 ## 🙏 Credits
 
-- Main Developer is Marinara
-- 2.0 picker, Intiface support and pattern library by [fyne4247](https://github.com/fyne4247)
+- Original extension by Marinara ([SillyTavern-Lovense](https://github.com/SpicyMarinara/SillyTavern-Lovense))
+- Picker, Intiface support and pattern library by [fyne4247](https://github.com/fyne4247)
 - Solace Pro support by [mccrypt1](https://github.com/mccrypt1)
 - Built for [SillyTavern](https://github.com/SillyTavern/SillyTavern)
 - Uses [Lovense Standard Solutions API](https://github.com/lovense/Standard_solutions) and [Buttplug / Intiface](https://buttplug.io)
@@ -221,4 +217,3 @@ This extension is provided as-is for use with SillyTavern. Please ensure you com
 
 **Disclaimer**: This is a community-made extension for adult users only. By downloading it, you agree to be 18 or older. Use responsibly and at your own discretion. The developers are not responsible for any misuse or issues arising from the use of this extension.
 
-Happy gooning!
