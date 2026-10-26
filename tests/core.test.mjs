@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { resolveStep } from '../src/channels.js';
 import { Player } from '../src/player.js';
 import { Scheduler } from '../src/scheduler.js';
-import { PatternLibrary, pickFromMood } from '../src/patterns.js';
+import { PatternLibrary, pickFromMood, patternLength } from '../src/patterns.js';
 import { scoreMoods, estimateEnergy, pickPattern, cleanText } from '../src/picker/script.js';
 import { ApiPicker, parseMoodReply, parseJsonReply } from '../src/picker/api.js';
 import { buildAction, toyChannels, LovenseRemoteTransport } from '../src/transports/lovense_remote.js';
@@ -155,6 +155,16 @@ test('pattern library loads index and mood files and respects enabled map', asyn
     assert.equal(lib.size, 5);
     assert.equal(lib.get('intense.b').mood, 'intense');
     assert.deepEqual(lib.enabledMoods({ intense: false }).map((m) => m.mood), ['tease']);
+});
+
+test('length limit trims patterns and drops moods with none left', async () => {
+    const lib = new PatternLibrary();
+    lib.add(structuredClone(MOODS[0]));
+    lib.add({ ...structuredClone(MOODS[1]), patterns: [{ id: 'intense.long', energy: 5, steps: [{ ms: 90000, vibrate: 20 }] }] });
+    assert.equal(patternLength(lib.get('intense.long')), 90000);
+    assert.deepEqual(lib.enabledMoods({}, 0).map((m) => m.mood), ['tease', 'intense']);
+    assert.deepEqual(lib.enabledMoods({}, 30000).map((m) => m.mood), ['tease']);
+    assert.equal(lib.moods.get('intense').patterns.length, 1, 'library itself is not modified');
 });
 
 test('pickFromMood prefers matching energy and avoids recent', () => {

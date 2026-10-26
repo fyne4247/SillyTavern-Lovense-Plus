@@ -109,6 +109,7 @@ Pick a mode under **How patterns are chosen**:
 - **Delay after a message**: how long to wait once a message settles before picking. Swiping, editing or regenerating restarts the countdown, so heavy swipers don't get whiplash.
 - **React to**: character messages, your own messages, or both.
 - **Loop**: keep repeating the pattern until the next pick, or play it once and stop.
+- **Max Pattern Length**: 15 seconds up to 3 minutes, or no limit. Patterns longer than this are never picked automatically, so you can keep the 30-minute marathons out of quick scenes.
 - **Idle mood**: optionally switch to a calm mood if the chat goes quiet for a while.
 
 ### Moods
@@ -117,7 +118,7 @@ Patterns live in mood files, and each mood can be switched on or off. Switched-o
 
 `tease` · `slow_build` · `edging` · `denial` · `rhythm` · `waves` · `chaos` · `intense` · `climax` · `aftercare` · `ambient` · `spikes` · `rough` · `oral` · `dance` · `overstim` · `classics` · `loops` · `marathons`
 
-Use **Try a pattern** to feel any pattern by hand, and **Now Playing** to see what's running and why it was picked.
+Use **Try a pattern** to feel any pattern by hand (each one shows its length and energy), and **Now Playing** to see what's running and why it was picked.
 
 ### Toys with more than one function
 

@@ -40,14 +40,27 @@ export class PatternLibrary {
         return this.byId.get(id) || null;
     }
 
-    /** Mood files that are switched on in settings (missing entries count as on). */
-    enabledMoods(enabledMap = {}) {
-        return [...this.moods.values()].filter((m) => enabledMap[m.mood] !== false);
+    /**
+     * Mood files that are switched on in settings (missing entries count as on).
+     * With maxMs, each mood only keeps patterns whose single pass fits, and
+     * moods left with none are dropped.
+     */
+    enabledMoods(enabledMap = {}, maxMs = 0) {
+        const on = [...this.moods.values()].filter((m) => enabledMap[m.mood] !== false);
+        if (!maxMs) return on;
+        return on
+            .map((m) => ({ ...m, patterns: m.patterns.filter((p) => patternLength(p) <= maxMs) }))
+            .filter((m) => m.patterns.length > 0);
     }
 
     get size() {
         return this.byId.size;
     }
+}
+
+/** Length of one pass through a pattern, in milliseconds. */
+export function patternLength(pattern) {
+    return pattern.steps.reduce((total, step) => total + step.ms, 0);
 }
 
 /**

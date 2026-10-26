@@ -12,7 +12,7 @@ import {
 } from '../../../extensions.js';
 import { LovenseRemoteTransport } from './src/transports/lovense_remote.js';
 import { IntifaceTransport } from './src/transports/intiface.js';
-import { PatternLibrary, pickFromMood } from './src/patterns.js';
+import { PatternLibrary, pickFromMood, patternLength } from './src/patterns.js';
 import { Player } from './src/player.js';
 import { Scheduler } from './src/scheduler.js';
 import { pickPattern } from './src/picker/script.js';
@@ -38,6 +38,7 @@ const defaultSettings = {
     trigger_char: true,
     trigger_user: false,
     loop: true,
+    max_length_sec: 0,
     idle_enabled: false,
     idle_minutes: 5,
     idle_mood: 'ambient',
@@ -99,6 +100,22 @@ function transport() {
 
 function isLegacy() {
     return settings().mode === 'legacy';
+}
+
+/** Max Pattern Length in ms, or 0 for no limit. */
+function maxLengthMs() {
+    return Math.max(0, Number(settings().max_length_sec) || 0) * 1000;
+}
+
+/** Milliseconds as m:ss. */
+function formatLength(ms) {
+    const total = Math.round(ms / 1000);
+    return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
+}
+
+/** Enabled moods, trimmed to patterns that fit the length limit. */
+function pickableMoods() {
+    return library.enabledMoods(settings().moods, maxLengthMs());
 }
 
 /**
@@ -231,7 +248,7 @@ async function onSchedulerFire(messageId) {
 
 async function pickAndPlay(text) {
     const token = ++pickToken;
-    const moods = library.enabledMoods(settings().moods);
+    const moods = pickableMoods();
     if (!moods.length) return;
 
     let choice = null;
@@ -279,7 +296,7 @@ function resetIdleTimer() {
     if (!settings().enabled || !settings().idle_enabled || isLegacy()) return;
     const minutes = Math.max(1, Number(settings().idle_minutes) || defaultSettings.idle_minutes);
     idleTimer = setTimeout(() => {
-        const mood = library.moods.get(settings().idle_mood);
+        const mood = library.enabledMoods({}, maxLengthMs()).find((m) => m.mood === settings().idle_mood);
         if (!mood || !transport().listDevices().length) return;
         lastPickReason = `idle: ${mood.mood}`;
         const pattern = pickFromMood(mood, 1, recent);
@@ -392,6 +409,7 @@ function loadSettings() {
     $('#lovense_trigger_char').prop('checked', s.trigger_char);
     $('#lovense_trigger_user').prop('checked', s.trigger_user);
     $('#lovense_loop').prop('checked', s.loop);
+    $('#lovense_max_length').val(String(s.max_length_sec));
     $('#lovense_idle_enabled').prop('checked', s.idle_enabled);
     $('#lovense_idle_minutes').val(s.idle_minutes);
     $('#lovense_api_max_tokens').val(s.api_max_tokens);
@@ -427,6 +445,7 @@ function renderModeFields() {
 function renderMoods() {
     const s = settings();
     const list = $('#lovense_mood_list').empty();
+    const fitting = new Map(library.enabledMoods({}, maxLengthMs()).map((m) => [m.mood, m.patterns.length]));
     for (const mood of library.moods.values()) {
         const id = `lovense_mood_${mood.mood}`;
         const label = $('<label class="checkbox_label"></label>').attr('for', id).attr('title', mood.description);
@@ -435,10 +454,13 @@ function renderMoods() {
             s.moods[mood.mood] = $(this).prop('checked');
             saveSettingsDebounced();
         });
-        label.append(box, $('<span></span>').text(mood.label), $('<small></small>').text(mood.patterns.length));
+        const total = mood.patterns.length;
+        const fits = fitting.get(mood.mood) ?? 0;
+        label.append(box, $('<span></span>').text(mood.label), $('<small></small>').text(fits === total ? total : `${fits}/${total}`));
         list.append(label);
     }
-    $('#lovense_pattern_count').text(`${library.size} patterns`);
+    const fitTotal = [...fitting.values()].reduce((a, n) => a + n, 0);
+    $('#lovense_pattern_count').text(fitTotal === library.size ? `${library.size} patterns` : `${fitTotal} of ${library.size} patterns fit the length limit`);
 
     $('.lovense_mood_select').each(function () {
         const select = $(this).empty();
@@ -456,7 +478,7 @@ function renderTryPatterns() {
     const mood = library.moods.get($('#lovense_try_mood').val());
     const select = $('#lovense_try_pattern').empty();
     for (const p of mood?.patterns || []) {
-        select.append($('<option></option>').val(p.id).text(`${p.name} (${p.energy})`));
+        select.append($('<option></option>').val(p.id).text(`${p.name} · ${formatLength(patternLength(p))} · energy ${p.energy}`));
     }
     renderTryDescription();
 }
@@ -518,6 +540,7 @@ function setupUI() {
     bindSetting('#lovense_trigger_char', 'trigger_char', { type: 'checkbox' });
     bindSetting('#lovense_trigger_user', 'trigger_user', { type: 'checkbox' });
     bindSetting('#lovense_loop', 'loop', { type: 'checkbox', after: (loop) => player.setLoop(loop) });
+    bindSetting('#lovense_max_length', 'max_length_sec', { type: 'select', after: renderMoods });
     bindSetting('#lovense_idle_enabled', 'idle_enabled', {
         type: 'checkbox',
         after: (on) => {
