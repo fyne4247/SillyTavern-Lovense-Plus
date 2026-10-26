@@ -1,0 +1,1172 @@
+{
+  "mood": "spikes",
+  "label": "Spikes",
+  "description": "Mostly silence, broken by sudden short bursts. Ambushes, jolts, unexpected shocks that jolt you out of stillness.",
+  "keywords": [
+    "spike",
+    "spikes",
+    "ambush",
+    "jolt",
+    "jolts",
+    "shock",
+    "surprise",
+    "sudden",
+    "burst",
+    "bursts",
+    "flash",
+    "strike",
+    "stab",
+    "sharp",
+    "quick",
+    "short",
+    "abrupt",
+    "unexpected",
+    "silence",
+    "wait",
+    "then",
+    "pounce",
+    "attack",
+    "hit",
+    "sting",
+    "zap",
+    "pop",
+    "crack",
+    "snap",
+    "out of nowhere"
+  ],
+  "patterns": [
+    {
+      "id": "spikes.ambush_single",
+      "name": "Ambush Single",
+      "description": "Ten seconds of dead silence, then one brutal spike.",
+      "energy": 4,
+      "tags": [
+        "silence",
+        "burst",
+        "slow",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 300,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.ambush_double",
+      "name": "Ambush Double",
+      "description": "Long silence, then two rapid spikes with a breath between.",
+      "energy": 4,
+      "tags": [
+        "silence",
+        "burst",
+        "short",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.ambush_triple",
+      "name": "Ambush Triple",
+      "description": "Silence broken by three quick jolts in succession.",
+      "energy": 4,
+      "tags": [
+        "silence",
+        "burst",
+        "short",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.heartbeat_jolt",
+      "name": "Heartbeat Jolt",
+      "description": "Steady slow pulse, then one massive unexpected spike.",
+      "energy": 2,
+      "tags": [
+        "pulse",
+        "burst",
+        "steady",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.stutter_spike",
+      "name": "Stutter Spike",
+      "description": "Rapid fire stuttering spikes, on and off and on.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "burst",
+        "short",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.echo_chamber",
+      "name": "Spike Echo",
+      "description": "One big spike, then fading echoes.",
+      "energy": 2,
+      "tags": [
+        "burst",
+        "drop",
+        "long",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.random_jolts",
+      "name": "Random Jolts",
+      "description": "Unpredictable timing between sharp spikes.",
+      "energy": 2,
+      "tags": [
+        "random",
+        "burst",
+        "short",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.false_start",
+      "name": "Spike False Start",
+      "description": "Teases with a small buzz, cuts out, then hits hard.",
+      "energy": 2,
+      "tags": [
+        "build",
+        "burst",
+        "drop",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.pump_surge",
+      "name": "Pump Surge",
+      "description": "Silence, then sudden constriction with vibration spike.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "burst",
+        "motion",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.thrust_lunge",
+      "name": "Thrust Lunge",
+      "description": "Silence, then a sudden hard thrust with vibration.",
+      "energy": 5,
+      "tags": [
+        "motion",
+        "burst",
+        "heavy",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.rotate_snap",
+      "name": "Rotate Snap",
+      "description": "Dead stop, then instant rotation spin-up with spike.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "burst",
+        "fast",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2300,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "rotate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "rotate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.suction_pulse",
+      "name": "Spike Suction",
+      "description": "Silence, then a pulling suction spike.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "burst",
+        "motion",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 2300,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "suction": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "suction": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "suction": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "suction": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.dual_strike",
+      "name": "Dual Strike",
+      "description": "Both motors hit hard together after long silence.",
+      "energy": 5,
+      "tags": [
+        "dual",
+        "burst",
+        "heavy",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 2300,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "vibrate2": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 16,
+          "vibrate2": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "vibrate2": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.fingering_flick",
+      "name": "Fingering Flick",
+      "description": "Silence, then quick fingering motion with vibration.",
+      "energy": 3,
+      "tags": [
+        "motion",
+        "burst",
+        "short",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 2300,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "fingering": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "fingering": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 8,
+          "fingering": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "fingering": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.oscillate_shock",
+      "name": "Oscillate Shock",
+      "description": "Sudden oscillation burst out of stillness.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "burst",
+        "heavy",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 2400,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 16,
+          "oscillate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 17,
+          "oscillate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "oscillate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "oscillate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.silence_crack",
+      "name": "Silence Crack",
+      "description": "Pure silence shattered by one lightning-fast spike.",
+      "energy": 4,
+      "tags": [
+        "silence",
+        "burst",
+        "short",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.sneak_attack",
+      "name": "Sneak Attack",
+      "description": "Very subtle build, then explosive spike.",
+      "energy": 2,
+      "tags": [
+        "build",
+        "burst",
+        "slow",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.chain_reaction",
+      "name": "Chain Reaction",
+      "description": "One spike triggers another, then another.",
+      "energy": 4,
+      "tags": [
+        "burst",
+        "fast",
+        "short",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 19
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.pump_and_release",
+      "name": "Pump and Release",
+      "description": "Silence, sudden pump squeeze with spike, then release.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "burst",
+        "motion",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.thrust_stab",
+      "name": "Thrust Stab",
+      "description": "Silence, then a single sharp thrust with vibration.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "burst",
+        "heavy",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.vibrate2_zap",
+      "name": "Dual Motor Zap",
+      "description": "Second motor spikes while first stays silent.",
+      "energy": 2,
+      "tags": [
+        "dual",
+        "burst",
+        "short",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "vibrate2": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "vibrate2": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "vibrate2": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.rotating_spike",
+      "name": "Rotating Spike",
+      "description": "Rotation ramps up fast, vibration spikes, then stops.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "burst",
+        "build",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2400,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "rotate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "rotate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 15,
+          "rotate": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "spikes.suction_shockwave",
+      "name": "Suction Shockwave",
+      "description": "Silence, then suction pulls while vibration spikes.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "burst",
+        "motion",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 2400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "suction": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "suction": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 16,
+          "suction": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "suction": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    }
+  ]
+}

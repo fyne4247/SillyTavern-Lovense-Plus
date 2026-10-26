@@ -1,0 +1,1610 @@
+{
+  "mood": "dance",
+  "label": "Dance",
+  "description": "Musical, syncopated: waltz 3/4, swing, drum fills, breakbeats.",
+  "keywords": [
+    "dance",
+    "dancing",
+    "waltz",
+    "swing",
+    "rhythm",
+    "beat",
+    "syncopated",
+    "groove",
+    "shimmy",
+    "twirl",
+    "sway",
+    "tempo",
+    "melody",
+    "harmony",
+    "drum",
+    "fill",
+    "breakbeat",
+    "shuffle",
+    "triplet",
+    "downbeat",
+    "upbeat",
+    "metronome",
+    "bounce",
+    "step",
+    "spin",
+    "movement",
+    "flow",
+    "musical",
+    "timing",
+    "accent",
+    "measure"
+  ],
+  "patterns": [
+    {
+      "id": "dance.waltz_classic",
+      "name": "Waltz Classic",
+      "description": "Elegant 3/4 waltz with strong downbeat and gentle lifts.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "steady",
+        "wave",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 6
+        }
+      ]
+    },
+    {
+      "id": "dance.waltz_slow",
+      "name": "Slow Waltz",
+      "description": "Stately waltz with long, flowing movements and soft accents.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "steady",
+        "wave",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "thrust": 4
+        },
+        {
+          "ms": 750,
+          "vibrate": 4,
+          "thrust": 2
+        },
+        {
+          "ms": 750,
+          "vibrate": 6,
+          "thrust": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 750,
+          "vibrate": 5,
+          "thrust": 3
+        },
+        {
+          "ms": 750,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "thrust": 4
+        },
+        {
+          "ms": 750,
+          "vibrate": 4,
+          "thrust": 2
+        },
+        {
+          "ms": 750,
+          "vibrate": 6,
+          "thrust": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "thrust": 5
+        }
+      ]
+    },
+    {
+      "id": "dance.waltz_viennese",
+      "name": "Viennese Waltz",
+      "description": "Fast waltz with rapid, whirling rotation.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "motion",
+        "steady",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "rotate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "rotate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "rotate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "rotate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 9,
+          "rotate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "rotate": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "rotate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "rotate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "rotate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "rotate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 9,
+          "rotate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "rotate": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "rotate": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.swing_shuffle",
+      "name": "Swing Shuffle",
+      "description": "Classic swing shuffle with triplets and off-beat emphasis.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "pulse",
+        "build",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "vibrate2": 6
+        }
+      ]
+    },
+    {
+      "id": "dance.swing_lindy",
+      "name": "Lindy Swing",
+      "description": "Energetic swing with strong beats and playful syncopation.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "burst",
+        "pulse",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "oscillate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "oscillate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "oscillate": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "oscillate": 9
+        }
+      ]
+    },
+    {
+      "id": "dance.swing_slow",
+      "name": "Slow Swing",
+      "description": "Lazy swing with wide, sweeping movements.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "steady",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 7,
+          "rotate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 7,
+          "rotate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "rotate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 7,
+          "rotate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 7,
+          "rotate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "rotate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "rotate": 5
+        }
+      ]
+    },
+    {
+      "id": "dance.breakbeat_basic",
+      "name": "Breakbeat Basic",
+      "description": "Classic breakbeat rhythm with syncopated kicks and snares.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "pulse",
+        "burst",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "thrust": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 5
+        }
+      ]
+    },
+    {
+      "id": "dance.breakbeat_amen",
+      "name": "Amen Break",
+      "description": "The iconic Amen break rhythm, fast and funky.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "pulse",
+        "build",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "pump": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "pump": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "pump": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "pump": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "pump": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "dance.breakbeat_halftime",
+      "name": "Halftime Break",
+      "description": "Breakbeat at half speed with heavy, syncopated hits.",
+      "energy": 4,
+      "tags": [
+        "slow",
+        "heavy",
+        "pulse",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "thrust": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "thrust": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "thrust": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18,
+          "thrust": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 14,
+          "thrust": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.drum_fill_roll",
+      "name": "Drum Roll",
+      "description": "Rapid drum fill rolling up to a peak.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "build",
+        "burst",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "suction": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "suction": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "suction": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "suction": 16
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "suction": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "suction": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "suction": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "suction": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.drum_fill_tom",
+      "name": "Tom Fill",
+      "description": "Tom-tom style fill with rotating accents.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "build",
+        "motion",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "rotate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "rotate": 2
+        },
+        {
+          "ms": 1400,
+          "vibrate": 18,
+          "rotate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 14,
+          "rotate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "rotate": 8
+        }
+      ]
+    },
+    {
+      "id": "dance.drum_fill_snare",
+      "name": "Snare Roll",
+      "description": "Snare drum style rapid oscillation with vibration.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "pulse",
+        "burst",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 1400,
+          "vibrate": 16,
+          "oscillate": 14
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "oscillate": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "oscillate": 6
+        }
+      ]
+    },
+    {
+      "id": "dance.tango_passionate",
+      "name": "Passionate Tango",
+      "description": "Sharp, staccato movements with dramatic pauses.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "build",
+        "drop",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1400,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 1400,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1400,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 1400,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "dance.tango_staccato",
+      "name": "Staccato Tango",
+      "description": "Quick, sharp bursts with sudden stops.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "burst",
+        "drop",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "thrust": 4
+        }
+      ]
+    },
+    {
+      "id": "dance.cha_cha",
+      "name": "Cha-Cha",
+      "description": "Lively cha-cha rhythm with syncopated steps.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "pulse",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "vibrate2": 12
+        }
+      ]
+    },
+    {
+      "id": "dance.samba",
+      "name": "Samba",
+      "description": "Bouncy samba rhythm with rapid oscillation.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "pulse",
+        "wave",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "oscillate": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "oscillate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "oscillate": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "oscillate": 12
+        },
+        {
+          "ms": 1400,
+          "vibrate": 16,
+          "oscillate": 14
+        },
+        {
+          "ms": 1400,
+          "vibrate": 10,
+          "oscillate": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "oscillate": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.rumba",
+      "name": "Rumba",
+      "description": "Slow, sensual rumba with deep, rolling movements.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "wave",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1400,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 1400,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 6
+        },
+        {
+          "ms": 1400,
+          "vibrate": 14,
+          "rotate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 1400,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 1600,
+          "vibrate": 16,
+          "rotate": 14
+        },
+        {
+          "ms": 1600,
+          "vibrate": 12,
+          "rotate": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.foxtrot",
+      "name": "Foxtrot",
+      "description": "Smooth, flowing foxtrot with gentle thrusts.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "steady",
+        "wave",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1400,
+          "vibrate": 8,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "thrust": 3
+        },
+        {
+          "ms": 1400,
+          "vibrate": 10,
+          "thrust": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "thrust": 3
+        },
+        {
+          "ms": 1400,
+          "vibrate": 12,
+          "thrust": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "thrust": 5
+        },
+        {
+          "ms": 1400,
+          "vibrate": 10,
+          "thrust": 7
+        },
+        {
+          "ms": 1400,
+          "vibrate": 12,
+          "thrust": 9
+        },
+        {
+          "ms": 1400,
+          "vibrate": 10,
+          "thrust": 7
+        }
+      ]
+    },
+    {
+      "id": "dance.jive",
+      "name": "Jive",
+      "description": "Upbeat jive with rapid, bouncy energy.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "pulse",
+        "burst",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "vibrate2": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "vibrate2": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.mambo",
+      "name": "Mambo",
+      "description": "Hot, syncopated mambo with sharp accents.",
+      "energy": 5,
+      "tags": [
+        "fast",
+        "heavy",
+        "burst",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "pump": 2,
+          "thrust": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 0,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "pump": 2,
+          "thrust": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "pump": 1,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "pump": 2,
+          "thrust": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 0,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "pump": 2,
+          "thrust": 12
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "pump": 3,
+          "thrust": 15
+        },
+        {
+          "ms": 1400,
+          "vibrate": 14,
+          "pump": 2,
+          "thrust": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.paso_doble",
+      "name": "Paso Doble",
+      "description": "Dramatic paso doble with strong, proud beats.",
+      "energy": 4,
+      "tags": [
+        "slow",
+        "heavy",
+        "build",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 1400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "suction": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1400,
+          "vibrate": 15,
+          "suction": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "suction": 15
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "suction": 18
+        },
+        {
+          "ms": 1400,
+          "vibrate": 10,
+          "suction": 8
+        },
+        {
+          "ms": 1400,
+          "vibrate": 15,
+          "suction": 12
+        }
+      ]
+    },
+    {
+      "id": "dance.quickstep",
+      "name": "Quickstep",
+      "description": "Fast, light quickstep with rapid footwork.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "light",
+        "pulse",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "fingering": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "fingering": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "fingering": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "fingering": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "fingering": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "fingering": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "fingering": 10
+        },
+        {
+          "ms": 1400,
+          "vibrate": 14,
+          "fingering": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "fingering": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "fingering": 8
+        }
+      ]
+    },
+    {
+      "id": "dance.disco_fever",
+      "name": "Disco Fever",
+      "description": "Funky disco beat with rotating lights vibe.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "pulse",
+        "wave",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "rotate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "rotate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "rotate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 1400,
+          "vibrate": 18,
+          "rotate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "rotate": 10
+        }
+      ]
+    },
+    {
+      "id": "dance.ballet_arabesque",
+      "name": "Arabesque",
+      "description": "Graceful ballet arabesque with slow, controlled movements.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "steady",
+        "wave",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1600,
+          "vibrate": 6,
+          "rotate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 1600,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 1200,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 1600,
+          "vibrate": 10,
+          "rotate": 7
+        },
+        {
+          "ms": 1200,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 1600,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 1600,
+          "vibrate": 10,
+          "rotate": 7
+        }
+      ]
+    }
+  ]
+}

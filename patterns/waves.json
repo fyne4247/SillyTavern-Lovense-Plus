@@ -1,0 +1,1124 @@
+{
+  "mood": "waves",
+  "label": "Waves",
+  "description": "Smooth swells and ebbs like the ocean or breathing. Gentle rocking motions, sine-like rhythms that rise and fall with natural flow.",
+  "keywords": [
+    "wave",
+    "waves",
+    "ocean",
+    "tide",
+    "tidal",
+    "ebb",
+    "flow",
+    "swell",
+    "swelling",
+    "breathing",
+    "rocking",
+    "sway",
+    "swaying",
+    "rolling",
+    "pulsing",
+    "pulsate",
+    "rhythm",
+    "rhythmic",
+    "cycle",
+    "cycling",
+    "crest",
+    "peak",
+    "valley",
+    "valleys",
+    "sine",
+    "sine wave",
+    "undulate",
+    "undulating",
+    "surge",
+    "recede",
+    "lapping",
+    "gently",
+    "slowly",
+    "smooth",
+    "steady",
+    "hypnotic",
+    "meditative",
+    "calm",
+    "flowing",
+    "back and forth",
+    "to and fro",
+    "like water",
+    "liquid",
+    "moving",
+    "motion",
+    "peaks and valleys"
+  ],
+  "patterns": [
+    {
+      "id": "waves.ocean_swell",
+      "name": "Ocean Swell",
+      "description": "Deep slow waves like a gentle sea, rising and falling with measured grace.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "wave",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4
+        }
+      ]
+    },
+    {
+      "id": "waves.breathing_tide",
+      "name": "Breathing Tide",
+      "description": "Inhale and exhale, the vibration breathes with you in perfect rhythm.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.rolling_hills",
+      "name": "Rolling Hills",
+      "description": "Endless rolling hills of pleasure, never quite the same height twice.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "wave",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9
+        },
+        {
+          "ms": 2500,
+          "vibrate": 13
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2500,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        }
+      ]
+    },
+    {
+      "id": "waves.lapping_shore",
+      "name": "Lapping Shore",
+      "description": "Small quick waves lapping at the shore, persistent and gentle.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "wave",
+        "short",
+        "light",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.sine_wave",
+      "name": "Sine Wave",
+      "description": "Pure mathematical sine wave, smooth and perfectly symmetrical.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "steady",
+        "motion",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1500,
+          "vibrate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.crest_and_trough",
+      "name": "Crest and Trough",
+      "description": "Dramatic peaks and deep valleys, the full range of the wave.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "build",
+        "drop",
+        "heavy",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.tidal_pull",
+      "name": "Tidal Pull",
+      "description": "Long slow build like the moon pulling the tide, then gradual release.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "build",
+        "drop",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.rocking_boat",
+      "name": "Rocking Boat",
+      "description": "Gentle side to side motion like a boat on calm water.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "motion",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "oscillate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6,
+          "oscillate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "oscillate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "oscillate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "oscillate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.undertow",
+      "name": "Undertow",
+      "description": "Pulling waves with suction, drawing you under then releasing.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "squeeze",
+        "motion",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "suction": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9,
+          "suction": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "suction": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "suction": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "suction": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "suction": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.rippling_water",
+      "name": "Rippling Water",
+      "description": "Small rapid ripples spreading outward in concentric circles.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "wave",
+        "light",
+        "pulse",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "vibrate2": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 6,
+          "vibrate2": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "vibrate2": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "vibrate2": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "vibrate2": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 6,
+          "vibrate2": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.surge_and_recede",
+      "name": "Surge and Recede",
+      "description": "Powerful surge forward, then slow retreat like waves on the beach.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "motion",
+        "build",
+        "drop",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "thrust": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "thrust": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "thrust": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.moonlit_waves",
+      "name": "Moonlit Waves",
+      "description": "Silvery waves under moonlight, cool and shimmering.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "light",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 7,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "rotate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3,
+          "rotate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.breaking_wave",
+      "name": "Breaking Wave",
+      "description": "The moment a wave crashes, intense and brief before settling.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "burst",
+        "build",
+        "drop",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.dual_tide",
+      "name": "Dual Tide",
+      "description": "Two motors moving in complementary wave patterns, mirroring each other.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "dual",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1500,
+          "vibrate": 9,
+          "vibrate2": 13
+        },
+        {
+          "ms": 2000,
+          "vibrate": 13,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1500,
+          "vibrate": 9,
+          "vibrate2": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.ebbing_flow",
+      "name": "Ebbing Flow",
+      "description": "Gradual ebb that never quite reaches zero before flowing back.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6
+        }
+      ]
+    },
+    {
+      "id": "waves.tidal_basin",
+      "name": "Tidal Basin",
+      "description": "Circular waves in a contained space, echoing and reflecting.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "pulse",
+        "steady",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "pump": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.gentle_sway",
+      "name": "Gentle Sway",
+      "description": "Slow gentle swaying, barely there but unmistakably present.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "wave",
+        "light",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3,
+          "rotate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.storm_swell",
+      "name": "Storm Swell",
+      "description": "Darker waves with more power, building with storm intensity.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "heavy",
+        "build",
+        "motion",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11,
+          "thrust": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "thrust": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11,
+          "thrust": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "thrust": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "thrust": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "waves.lunar_tide",
+      "name": "Lunar Tide",
+      "description": "The slow inevitable pull of lunar gravity, building over time.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "build",
+        "wave",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 4
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 7,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 4
+        },
+        {
+          "ms": 6000,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "waves.wavelet",
+      "name": "Wavelet",
+      "description": "Small fast wavelets, tiny oscillations that come in quick succession.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "wave",
+        "light",
+        "pulse",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 600,
+          "vibrate": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        }
+      ]
+    },
+    {
+      "id": "waves.standing_wave",
+      "name": "Standing Wave",
+      "description": "A wave that appears to stand still, alternating between two states.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "steady",
+        "dual",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "vibrate2": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "vibrate2": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "vibrate2": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "vibrate2": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "vibrate2": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "vibrate2": 2
+        }
+      ]
+    },
+    {
+      "id": "waves.drift_current",
+      "name": "Drift Current",
+      "description": "A slow drift in one direction, like floating on a gentle current.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "long",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    }
+  ]
+}

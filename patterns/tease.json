@@ -1,0 +1,1271 @@
+{
+  "mood": "tease",
+  "label": "Tease",
+  "description": "Light, playful, barely-there touches. Flirting, anticipation, the scene is just warming up.",
+  "keywords": [
+    "tease",
+    "teasing",
+    "gentle",
+    "barely",
+    "brush",
+    "trace",
+    " flick",
+    "flutter",
+    "whisper",
+    "hint",
+    "glimpse",
+    "suggest",
+    "flirt",
+    "flirting",
+    "playful",
+    "toy",
+    "toying",
+    "hover",
+    "graze",
+    "dab",
+    "peck",
+    "tap",
+    "nudge",
+    "breeze",
+    "feather",
+    "lightly",
+    "subtle",
+    "delicate",
+    "slight",
+    "faint",
+    "tip",
+    "edge",
+    "bare",
+    "almost",
+    "warming",
+    "anticipate",
+    "hinting",
+    "coy",
+    "shy",
+    "dance",
+    "trail",
+    "ghost",
+    "shadow",
+    "flicker",
+    "glance",
+    "sly"
+  ],
+  "patterns": [
+    {
+      "id": "tease.feather_drift",
+      "name": "Feather Drift",
+      "description": "Faint wandering flutters that never settle.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "silence",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "vibrate2": 2
+        }
+      ]
+    },
+    {
+      "id": "tease.whisper_touch",
+      "name": "Whisper Touch",
+      "description": "Soft pulses like breath on skin, barely there.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "pulse",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.shy_approach",
+      "name": "Shy Approach",
+      "description": "Creeping closer with tiny steps, then retreating.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "build",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 1
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.flirtatious_flick",
+      "name": "Flirtatious Flick",
+      "description": "Quick playful taps with long pauses between.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "light",
+        "burst",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 6
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 7
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.dancing_fingers",
+      "name": "Dancing Fingers",
+      "description": "Light fingertips tracing unpredictable paths.",
+      "energy": 2,
+      "tags": [
+        "random",
+        "light",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "fingering": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "fingering": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "fingering": 1
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "fingering": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "fingering": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "fingering": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.breeze_and_pause",
+      "name": "Breeze and Pause",
+      "description": "Gentle wafts of sensation with deliberate stillness.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "wave",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.suction_hint",
+      "name": "Suction Hint",
+      "description": "The lightest pull, like a kiss that barely lands.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "suction": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1,
+          "suction": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1800,
+          "vibrate": 3,
+          "suction": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 2200,
+          "vibrate": 1,
+          "suction": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.teasing_swirl",
+      "name": "Teasing Swirl",
+      "description": "Playful rotation that circles but never quite arrives.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "motion",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "rotate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0,
+          "rotate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "rotate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1300,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.almost_there",
+      "name": "Almost Touching",
+      "description": "Building to the edge of sensation, then backing off.",
+      "energy": 2,
+      "tags": [
+        "build",
+        "drop",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.ghost_traces",
+      "name": "Ghost Traces",
+      "description": "Barely-there touches that vanish like mist.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "silence",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.playful_pump",
+      "name": "Playful Pump",
+      "description": "Gentle pressure that squeezes and releases with mischief.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "squeeze",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "tease.oscillating_flirt",
+      "name": "Oscillating Flirt",
+      "description": "Gentle back-and-forth motion, teasing with motion.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "oscillate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1,
+          "oscillate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "oscillate": 5
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "oscillate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1,
+          "oscillate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "oscillate": 2
+        }
+      ]
+    },
+    {
+      "id": "tease.tip_toe",
+      "name": "Tip Toe",
+      "description": "Lightly stepping up and down, never too much.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "light",
+        "build",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.thrusting_tease",
+      "name": "Thrusting Tease",
+      "description": "The lightest nudge of motion, barely moving.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "light",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "thrust": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1,
+          "thrust": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "thrust": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "thrust": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.dual_whispers",
+      "name": "Dual Whispers",
+      "description": "Two channels murmuring softly, out of sync.",
+      "energy": 2,
+      "tags": [
+        "dual",
+        "light",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1300,
+          "vibrate": 2,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.peeking_pulses",
+      "name": "Peeking Pulses",
+      "description": "Tiny bursts that peek above silence then hide.",
+      "energy": 1,
+      "tags": [
+        "pulse",
+        "light",
+        "burst",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 3
+        },
+        {
+          "ms": 1800,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 4
+        },
+        {
+          "ms": 2200,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 3
+        }
+      ]
+    },
+    {
+      "id": "tease.soft_rotation",
+      "name": "Soft Rotation",
+      "description": "Gentle spinning sensation, slow and subtle.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "motion",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 1
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "rotate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.lingering_trace",
+      "name": "Lingering Trace",
+      "description": "A slow stroke that drags on just long enough.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "long",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.mischievous_nudge",
+      "name": "Mischievous Nudge",
+      "description": "Sudden little pushes when you least expect them.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "burst",
+        "light",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 8,
+          "thrust": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 7,
+          "thrust": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "thrust": 4
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.dappled_light",
+      "name": "Dappled Light",
+      "description": "Patchy, scattered sensations like sunlight through leaves.",
+      "energy": 2,
+      "tags": [
+        "random",
+        "light",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 4
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.coy_retreats",
+      "name": "Coy Retreats",
+      "description": "Advance with caution, then quickly pull back.",
+      "energy": 2,
+      "tags": [
+        "build",
+        "drop",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 2
+        },
+        {
+          "ms": 700,
+          "vibrate": 4
+        },
+        {
+          "ms": 600,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "tease.soft_squeeze",
+      "name": "Light Squeeze",
+      "description": "Gentle constriction that hugs without pressing.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "light",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "tease.glancing_blows",
+      "name": "Glancing Blows",
+      "description": "Brief touches that slide past before landing.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "light",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "tease.wandering_hands",
+      "name": "Wandering Hands",
+      "description": "Unpredictable light exploration, never staying long.",
+      "energy": 2,
+      "tags": [
+        "random",
+        "light",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 3,
+          "rotate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "oscillate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1,
+          "fingering": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "suction": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+  "mood": "ambient",
+  "label": "Ambient",
+  "description": "Very low background hum and drift. For idle moments, cuddling, or quiet conversation when subtle presence is enough.",
+  "keywords": [
+    "ambient",
+    "background",
+    "hum",
+    "drift",
+    "idle",
+    "cuddle",
+    "cuddling",
+    "talking",
+    "quiet",
+    "gentle",
+    "subtle",
+    "barely",
+    "low",
+    "calm",
+    "relax",
+    "soothing",
+    "murmur",
+    "whisper",
+    "breathe",
+    "hush",
+    "lull",
+    "faint",
+    "drowsy",
+    "languid",
+    "easy",
+    "serene",
+    "peaceful",
+    "hover",
+    "float",
+    "glide",
+    "sway",
+    "underneath",
+    "backdrop",
+    "unobtrusive",
+    "hazy"
+  ],
+  "patterns": [
+    {
+      "id": "ambient.constant_hum",
+      "name": "Constant Hum",
+      "description": "A steady, unchanging vibration at the lowest perceptible level.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "steady",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 10000,
+          "vibrate": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2
+        },
+        {
+          "ms": 10000,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "ambient.fading_glow",
+      "name": "Fading Ember Glow",
+      "description": "A slow symmetric wave: rise, peak, fall, repeat.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "wave",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.gentle_pulse",
+      "name": "Soft Ambient Pulse",
+      "description": "Equal pulses of vibration separated by equal pauses.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "pulse",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.drifting_mist",
+      "name": "Drifting Mist",
+      "description": "Uneven, wandering intensities that never settle into a rhythm.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "random",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        }
+      ]
+    },
+    {
+      "id": "ambient.barely_there",
+      "name": "Barely There",
+      "description": "Tiny blips separated by long silences, barely perceptible.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "silence",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 4500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 4500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 4500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.soft_rotate",
+      "name": "Soft Rotate",
+      "description": "A steady vibration paired with slow, gentle rotation.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "motion",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 2
+        }
+      ]
+    },
+    {
+      "id": "ambient.quiet_breath",
+      "name": "Quiet Breath",
+      "description": "A breathing pattern: long slow inhale, shorter exhale.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "wave",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.hush",
+      "name": "Room Hush",
+      "description": "Near-total silence, broken only by the faintest touch.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "silence",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 7000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 7000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 7000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.lull",
+      "name": "Lull",
+      "description": "A slow rock: vibration and oscillation swell and ebb together.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "wave",
+        "motion",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "oscillate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "oscillate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1,
+          "oscillate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "oscillate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "oscillate": 2
+        }
+      ]
+    },
+    {
+      "id": "ambient.subtle_pump",
+      "name": "Subtle Pump",
+      "description": "A gentle constriction that pulses independently of vibration.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "squeeze",
+        "light",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.distant_echo",
+      "name": "Far-Off Echo",
+      "description": "A vibration that gradually appears, holds, then fades away completely.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "build",
+        "drop",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.floating",
+      "name": "Floating",
+      "description": "Two channels drift in opposite directions, creating a floating sensation.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "dual",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.soft_suction",
+      "name": "Soft Suction",
+      "description": "Gentle suction pulses that alternate with vibration.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "squeeze",
+        "light",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "suction": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "suction": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "suction": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "suction": 3
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "suction": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "suction": 2
+        }
+      ]
+    },
+    {
+      "id": "ambient.whispered_touch",
+      "name": "Whispered Touch",
+      "description": "Ultra-short pulses at irregular intervals.",
+      "energy": 1,
+      "tags": [
+        "short",
+        "pulse",
+        "light",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 1
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.cloud_drift",
+      "name": "Cloud Drift",
+      "description": "Rotation and vibration shift together in a slow, aimless drift.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "motion",
+        "light",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "rotate": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.still_water",
+      "name": "Still Water",
+      "description": "A long, glassy hold with the tiniest ripples.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "steady",
+        "light",
+        "long",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 1
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 1
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 1
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "ambient.drowsy_hum",
+      "name": "Drowsy Hum",
+      "description": "A low, constant rumble that barely changes.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "steady",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.quiet_thrust",
+      "name": "Quiet Thrust",
+      "description": "Slow, barely-moving thrust paired with minimal vibration.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "motion",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "thrust": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "thrust": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "thrust": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "thrust": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "thrust": 3
+        }
+      ]
+    },
+    {
+      "id": "ambient.murmur",
+      "name": "Murmur",
+      "description": "Continuous, barely-varying dual-channel murmur.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "dual",
+        "steady",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.faint_oscillation",
+      "name": "Faint Oscillation",
+      "description": "A vibration that gently rocks side to side.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "motion",
+        "light",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "oscillate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "oscillate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "oscillate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "oscillate": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "oscillate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "oscillate": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.glowing_ember",
+      "name": "Glowing Ember",
+      "description": "A warm, steady point of vibration with slow pump variations.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "squeeze",
+        "steady",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "ambient.soft_fingers",
+      "name": "Soft Fingers",
+      "description": "Delicate fingering motion that traces in a slow cycle.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "motion",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "fingering": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "fingering": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "fingering": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "fingering": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "fingering": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "fingering": 0
+        }
+      ]
+    },
+    {
+      "id": "ambient.shallow_wave",
+      "name": "Shallow Wave",
+      "description": "A gentle wave pattern that barely rises above silence.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "wave",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "ambient.background_noise",
+      "name": "Background Noise",
+      "description": "Random-length low vibrations that fill empty space.",
+      "energy": 1,
+      "tags": [
+        "random",
+        "light",
+        "steady",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    }
+  ]
+}

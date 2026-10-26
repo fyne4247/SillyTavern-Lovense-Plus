@@ -1,6 +1,6 @@
 <div class="inline-drawer">
     <div class="inline-drawer-toggle inline-drawer-header">
-        <b>Lovense Control <span style="font-size: 0.8em; opacity: 0.7;">v1.1</span></b>
+        <b>Lovense Control <span style="font-size: 0.8em; opacity: 0.7;">v2.0</span></b>
         <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
     </div>
     <div class="inline-drawer-content">
@@ -12,134 +12,236 @@
             </label>
 
             <small class="notes">
-                When enabled, the AI will be able to control your Lovense device during chats. Happy gooning!
+                When enabled, your toys react to the chat. Happy gooning!
             </small>
-
-            <!-- Setup Instructions -->
-            <div class="lovense_setup_instructions">
-                <h4 style="margin-top: 10px; margin-bottom: 5px;">Setup Instructions</h4>
-
-                <div class="lovense_setup_tabs">
-                    <strong>Choose your setup:</strong>
-
-                    <details open>
-                        <summary><strong>Option 1: PC</strong></summary>
-                        <ol style="margin-top: 5px; margin-bottom: 5px;">
-                            <li>Download and install <a href="https://www.lovense.com/app/remote" target="_blank">Lovense Remote</a> on your PC</li>
-                            <li>Open Lovense Remote and pair your device via Bluetooth</li>
-                            <li>Make sure Lovense Remote is running in the background</li>
-                            <li>Click "Check Connection" below</li>
-                            <li>In the Lovense Remote app, allow the third-party to connect</li>
-                            <li>Toggle <strong>"Enable Lovense Control"</strong> above</li>
-                        </ol>
-                        <p style="margin-top: 10px;"><strong>If you see Status: Connected, you're good to go!</strong></p>
-                    </details>
-
-                    <details open>
-                        <summary><strong>Option 2: Mobile</strong></summary>
-                        <ol style="margin-top: 5px; margin-bottom: 5px;">
-                            <li>Download <a href="https://apps.apple.com/app/lovense-remote/id1273067916" target="_blank">Lovense Remote</a> (iOS) or <a href="https://play.google.com/store/apps/details?id=com.lovense.remote" target="_blank">Android</a></li>
-                            <li>Open Lovense Remote and pair your device via Bluetooth</li>
-                            <li>Make sure your phone and PC are on the <strong>same WiFi network</strong></li>
-                            <li>In Lovense Remote, go to <strong>Discover → Game Mode → Turn on "Enable LAN"</strong></li>
-                            <li>In the Game Mode tab, find the local IP (e.g., "192-168-1-44.lovense.club")</li>
-                            <li>Enter that IP in "Advanced Connection Settings" below</li>
-                            <li>Click "Check Connection"</li>
-                            <li>In the Lovense Remote app, allow the third-party to connect</li>
-                            <li>Toggle <strong>"Enable Lovense Control"</strong> above</li>
-                        </ol>
-                        <p style="margin-top: 10px;"><strong>If you see Status: Connected, you're good to go!</strong></p>
-                    </details>
-                </div>
-                </div>
-            </div>
 
             <!-- Connection Section -->
             <div id="lovense_connection_section">
-                <h4 style="margin-top: 10px; margin-bottom: 5px;">Device Connection</h4>
+                <h4 class="lovense_heading">Device Connection</h4>
+
+                <label for="lovense_transport"><b>Connect through</b></label>
+                <select id="lovense_transport" class="text_pole">
+                    <option value="lovense">Lovense Remote (app)</option>
+                    <option value="intiface">Intiface Central (Bluetooth, any brand)</option>
+                </select>
+
+                <!-- Lovense Remote -->
+                <div id="lovense_transport_lovense" class="lovense_transport_block">
+                    <details>
+                        <summary><strong>Setup: Lovense Remote</strong></summary>
+                        <div class="lovense_setup_tabs">
+                            <details open>
+                                <summary><strong>PC</strong></summary>
+                                <ol>
+                                    <li>Install <a href="https://www.lovense.com/app/remote" target="_blank">Lovense Remote</a> on your PC and pair your toy</li>
+                                    <li>Keep Lovense Remote running in the background</li>
+                                    <li>Click "Connect" below and allow the third-party connection in the app</li>
+                                </ol>
+                            </details>
+                            <details>
+                                <summary><strong>Mobile</strong></summary>
+                                <ol>
+                                    <li>Install Lovense Remote (<a href="https://apps.apple.com/app/lovense-remote/id1273067916" target="_blank">iOS</a> / <a href="https://play.google.com/store/apps/details?id=com.lovense.remote" target="_blank">Android</a>) and pair your toy</li>
+                                    <li>Put your phone and PC on the <strong>same WiFi network</strong></li>
+                                    <li>In Lovense Remote: <strong>Discover → Game Mode → Enable LAN</strong></li>
+                                    <li>Enter the IP and port it shows below, then click "Connect"</li>
+                                </ol>
+                            </details>
+                            <small class="notes">Needs the server plugin. See the README.</small>
+                        </div>
+                    </details>
+                    <div class="lovense_row">
+                        <div class="lovense_field">
+                            <label for="lovense_local_ip"><b>IP address</b></label>
+                            <input type="text" id="lovense_local_ip" class="text_pole" placeholder="127.0.0.1" />
+                        </div>
+                        <div class="lovense_field lovense_field_small">
+                            <label for="lovense_local_port"><b>Port</b></label>
+                            <input type="text" id="lovense_local_port" class="text_pole" placeholder="30010" />
+                        </div>
+                    </div>
+                    <small class="notes">
+                        <strong>PC:</strong> <code>127.0.0.1</code> and <code>30010</code>.
+                        <strong>Mobile:</strong> the IP from Game Mode (e.g. <code>192.168.1.44</code>) and usually <code>20010</code>.
+                    </small>
+                </div>
+
+                <!-- Intiface -->
+                <div id="lovense_transport_intiface" class="lovense_transport_block" style="display: none;">
+                    <details>
+                        <summary><strong>Setup: Intiface Central</strong></summary>
+                        <ol>
+                            <li>Install <a href="https://intiface.com/central/" target="_blank">Intiface Central</a> and press the big start button</li>
+                            <li>Turn your toy on. Intiface finds it over Bluetooth (no Lovense app needed)</li>
+                            <li>Click "Connect" below</li>
+                        </ol>
+                        <small class="notes">Works with Lovense and most other brands. No server plugin needed.</small>
+                    </details>
+                    <label for="lovense_intiface_url"><b>Intiface server address</b></label>
+                    <input type="text" id="lovense_intiface_url" class="text_pole" placeholder="ws://127.0.0.1:12345" />
+                </div>
 
                 <div id="lovense_status" class="lovense_status disconnected">
                     <strong>Status:</strong> <span id="lovense_status_text">Not Connected</span>
                 </div>
 
                 <button id="lovense_connect_button" class="menu_button">
-                    <i class="fa-solid fa-plug"></i> Check Connection
+                    <i class="fa-solid fa-plug"></i> Connect
                 </button>
 
                 <div id="lovense_toys_section" style="display: none;">
-                    <h4 style="margin-top: 10px; margin-bottom: 5px;">Connected Toys</h4>
+                    <h4 class="lovense_heading">Connected Toys</h4>
                     <ul id="lovense_toy_list" class="lovense_toy_list"></ul>
                 </div>
+            </div>
 
-                <div class="lovense_advanced_settings" style="margin-top: 10px;">
+            <!-- Mode -->
+            <div id="lovense_mode_section">
+                <h4 class="lovense_heading">How patterns are chosen</h4>
+                <select id="lovense_mode" class="text_pole">
+                    <option value="script">Script: instant keyword matching (free)</option>
+                    <option value="api">API: a separate model reads each message</option>
+                    <option value="legacy">Legacy Mode: the chat model writes commands</option>
+                </select>
+                <small class="notes" id="lovense_mode_note"></small>
+
+                <!-- API picker -->
+                <div id="lovense_api_section" class="lovense_mode_block" style="display: none;">
+                    <label for="lovense_api_profile"><b>Connection profile for picking</b></label>
+                    <select id="lovense_api_profile" class="text_pole"></select>
+                    <small class="notes">Pick a fast, cheap model. It's separate from your chat model and only sees the finished message plus a short list of moods.</small>
+
+                    <div class="lovense_row">
+                        <div class="lovense_field">
+                            <label for="lovense_api_max_tokens"><b>Max response tokens</b></label>
+                            <input type="number" id="lovense_api_max_tokens" class="text_pole" min="16" max="4000" step="1" />
+                        </div>
+                    </div>
+                    <small class="notes">Raise this if a reasoning model runs out of room before answering.</small>
+
+                    <label class="checkbox_label" for="lovense_api_pick_pattern">
+                        <input type="checkbox" id="lovense_api_pick_pattern" />
+                        <span>Let the model choose the exact pattern (a second, small call)</span>
+                    </label>
+
                     <details>
-                        <summary><strong>Advanced Connection Settings</strong></summary>
-                        <div style="padding: 10px 0;">
-                            <label for="lovense_local_ip" style="margin-bottom: 3px;">
-                                <b>Local IP Address</b>
-                            </label>
-                            <input type="text" id="lovense_local_ip" class="text_pole" value="127.0.0.1" placeholder="e.g. 192.168.1.44" />
-                            <small class="notes">
-                                <strong>PC:</strong> <code>127.0.0.1</code> (default, app running on this computer)<br>
-                                <strong>Mobile:</strong> Your phone's local IP from Lovense Remote → Game Mode (e.g., <code>192.168.1.44</code>)
-                            </small>
+                        <summary><strong>Picker prompt</strong></summary>
+                        <textarea id="lovense_api_prompt" class="text_pole textarea_compact" rows="7"></textarea>
+                        <small class="notes">The mood list is added after this automatically. The reply must be JSON with "mood" and "energy".</small>
+                        <button id="lovense_api_prompt_reset" class="menu_button">
+                            <i class="fa-solid fa-rotate-left"></i> Reset prompt
+                        </button>
+                    </details>
+                </div>
 
-                            <label for="lovense_local_port" style="margin-top: 10px; margin-bottom: 3px;">
-                                <b>Local Port</b>
-                            </label>
-                            <input type="text" id="lovense_local_port" class="text_pole" value="30010" />
-                            <small class="notes">
-                                <strong>PC:</strong> <code>30010</code> (HTTPS, default)<br>
-                                <strong>Mobile:</strong> <code>20010</code> (HTTP) or as shown in app Game Mode settings
-                            </small>
-                            </div>
-                        </details>
+                <!-- Legacy -->
+                <div id="lovense_legacy_section" class="lovense_mode_block" style="display: none;">
+                    <label for="lovense_guidelines"><b>Guidelines for the AI</b></label>
+                    <textarea id="lovense_guidelines" class="text_pole textarea_compact" rows="4" placeholder="Enter guidelines for the AI..."></textarea>
+                    <small class="notes">
+                        Added to the system prompt along with the command syntax. With several toys connected, the AI can target one using <code>device="name"</code>.
+                    </small>
+                    <button id="lovense_reset_guidelines" class="menu_button">
+                        <i class="fa-solid fa-rotate-left"></i> Reset to Default Guidelines
+                    </button>
+                </div>
+            </div>
+
+            <!-- Timing (script + API) -->
+            <div id="lovense_timing_section">
+                <h4 class="lovense_heading">Timing</h4>
+
+                <div class="lovense_row">
+                    <div class="lovense_field">
+                        <label for="lovense_delay"><b>Delay after a message (seconds)</b></label>
+                        <input type="number" id="lovense_delay" class="text_pole" min="0" max="120" step="0.5" />
+                    </div>
+                </div>
+                <small class="notes">Swiping, editing or regenerating restarts the countdown, so only the message you keep sets the toys.</small>
+
+                <div class="lovense_subheading"><b>React to</b></div>
+                <label class="checkbox_label" for="lovense_trigger_char">
+                    <input type="checkbox" id="lovense_trigger_char" />
+                    <span>Character messages</span>
+                </label>
+                <label class="checkbox_label" for="lovense_trigger_user">
+                    <input type="checkbox" id="lovense_trigger_user" />
+                    <span>My messages</span>
+                </label>
+
+                <label class="checkbox_label" for="lovense_loop">
+                    <input type="checkbox" id="lovense_loop" />
+                    <span>Loop the pattern until the next message</span>
+                </label>
+
+                <label class="checkbox_label" for="lovense_idle_enabled">
+                    <input type="checkbox" id="lovense_idle_enabled" />
+                    <span>Switch to an idle mood when the chat goes quiet</span>
+                </label>
+                <div id="lovense_idle_options" class="lovense_row">
+                    <div class="lovense_field lovense_field_small">
+                        <label for="lovense_idle_minutes"><b>After (minutes)</b></label>
+                        <input type="number" id="lovense_idle_minutes" class="text_pole" min="1" max="120" step="1" />
+                    </div>
+                    <div class="lovense_field">
+                        <label for="lovense_idle_mood"><b>Idle mood</b></label>
+                        <select id="lovense_idle_mood" class="text_pole lovense_mood_select"></select>
                     </div>
                 </div>
 
-<!-- Guidelines Settings -->
-            <div id="lovense_guidelines_section" style="margin-top: 10px;">
-                <h4 style="margin-top: 10px; margin-bottom: 5px;">AI Guidelines</h4>
-
-                <label for="lovense_guidelines" style="margin-bottom: 3px;">
-                    <b>Guidelines for AI</b>
-                </label>
-                <textarea id="lovense_guidelines" class="text_pole textarea_compact" rows="4" placeholder="Enter guidelines for the AI..."></textarea>
-                <small class="notes">
-                    These guidelines tell the AI how to use the Lovense commands appropriately.
-                    <br><strong>Note:</strong> Changes are automatically included in the system prompt.
-                    <br><strong>Device Control:</strong> When multiple devices are connected, the AI can target specific devices using device="name" parameter, or control all devices at once (default).
-                </small>
-
-                <button id="lovense_reset_guidelines" class="menu_button" style="margin-top: 5px;">
-                    <i class="fa-solid fa-rotate-left"></i> Reset to Default Guidelines
-                </button>
+                <div id="lovense_fallback_row">
+                    <label for="lovense_fallback_mood"><b>When nothing matches and nothing is playing</b></label>
+                    <select id="lovense_fallback_mood" class="text_pole lovense_mood_select" data-allow-none="true"></select>
+                </div>
             </div>
 
-            <!-- Test Controls -->
-            <div id="lovense_test_section" style="margin-top: 10px;">
-                <h4 style="margin-top: 10px; margin-bottom: 5px;">Device Controls</h4>
-                <small class="notes">Manually control your Lovense devices:</small>
+            <!-- Moods -->
+            <div id="lovense_moods_section">
+                <h4 class="lovense_heading">Moods <small id="lovense_pattern_count" class="lovense_muted"></small></h4>
+                <small class="notes">Switched-off moods are never picked (and never sent to the picker model).</small>
+                <div class="lovense_row">
+                    <button id="lovense_moods_all" class="menu_button">All on</button>
+                    <button id="lovense_moods_none" class="menu_button">All off</button>
+                </div>
+                <div id="lovense_mood_list" class="lovense_mood_list"></div>
+            </div>
 
-                <div id="lovense_test_controls" style="margin-top: 5px; display: flex; gap: 5px; flex-wrap: wrap;">
-                    <button id="lovense_test_vibrate" class="menu_button" disabled style="flex: 1; min-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+            <!-- Now playing + controls -->
+            <div id="lovense_test_section">
+                <h4 class="lovense_heading">Now Playing</h4>
+                <div id="lovense_now_playing" class="lovense_now_playing">Nothing</div>
+
+                <details>
+                    <summary><strong>Try a pattern</strong></summary>
+                    <div class="lovense_row">
+                        <select id="lovense_try_mood" class="text_pole lovense_mood_select"></select>
+                        <select id="lovense_try_pattern" class="text_pole"></select>
+                    </div>
+                    <small class="notes" id="lovense_try_description"></small>
+                    <button id="lovense_try_play" class="menu_button" disabled>
+                        <i class="fa-solid fa-play"></i> Play
+                    </button>
+                </details>
+
+                <div id="lovense_test_controls">
+                    <button id="lovense_test_vibrate" class="menu_button" disabled>
                         <i class="fa-solid fa-bolt"></i> Test Vibrate
                     </button>
-                    <button id="lovense_stop_all" class="menu_button" disabled style="flex: 1; min-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background-color: #d9534f; border-color: #d43f3a;">
+                    <button id="lovense_stop_all" class="menu_button lovense_stop_button" disabled>
                         <i class="fa-solid fa-stop"></i> Stop All
                     </button>
                 </div>
             </div>
 
             <!-- Support Links -->
-            <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
-                <a href="https://www.lovense.com/a/SpicyMarinara" target="_blank" class="menu_button" style="flex: 1; text-align: center; text-decoration: none; min-width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+            <div class="lovense_links">
+                <a href="https://www.lovense.com/a/SpicyMarinara" target="_blank" class="menu_button">
                     <i class="fa-solid fa-tag"></i> Buy 55% OFF
                 </a>
-                <a href="https://discord.com/invite/KdAkTg94ME" target="_blank" class="menu_button" style="flex: 1; text-align: center; text-decoration: none; min-width: 100px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                <a href="https://discord.com/invite/KdAkTg94ME" target="_blank" class="menu_button">
                     <i class="fa-brands fa-discord"></i> Discord
                 </a>
-                <a href="https://ko-fi.com/marinara_spaghetti" target="_blank" class="menu_button" style="flex: 1; text-align: center; text-decoration: none; min-width: 100px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                <a href="https://ko-fi.com/marinara_spaghetti" target="_blank" class="menu_button">
                     <i class="fa-solid fa-heart"></i> Support
                 </a>
             </div>

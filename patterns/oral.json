@@ -1,0 +1,1474 @@
+{
+  "mood": "oral",
+  "label": "Oral",
+  "description": "Mouth-like sensations: bobbing rhythms, suction, licks, and swirling tongue motions.",
+  "keywords": [
+    "oral",
+    "mouth",
+    "lips",
+    "tongue",
+    "lick",
+    "licking",
+    "licked",
+    "swirl",
+    "swirling",
+    "swirls",
+    "suction",
+    "suck",
+    "sucking",
+    "sucked",
+    "slurp",
+    "slurping",
+    "bob",
+    "bobbing",
+    "blowjob",
+    "head",
+    "deepthroat",
+    "throat",
+    "fellatio",
+    "suckle",
+    "nurse",
+    "kiss",
+    "kissing",
+    "kisses",
+    "teeth",
+    "nibble",
+    "nibbling",
+    "gently",
+    "softly",
+    "wet",
+    "moist",
+    "damp",
+    "lap",
+    "lapping",
+    "flick",
+    "flicking",
+    "circle",
+    "circling",
+    "trace",
+    "tracing",
+    "lip",
+    "plump",
+    "hollow",
+    "cheeks"
+  ],
+  "patterns": [
+    {
+      "id": "oral.gentle_lick",
+      "name": "Gentle Lick",
+      "description": "Soft, slow licks with a warm tongue.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.swirling_tongue",
+      "name": "Swirling Tongue",
+      "description": "Circular tongue motion with steady suction.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "steady",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "rotate": 8,
+          "suction": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 6,
+          "suction": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "rotate": 8,
+          "suction": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "rotate": 4,
+          "suction": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "rotate": 8,
+          "suction": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 6,
+          "suction": 5
+        }
+      ]
+    },
+    {
+      "id": "oral.deep_bob",
+      "name": "Deep Bob",
+      "description": "Slow, deep bobbing motion with strong vibration.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "heavy",
+        "motion",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "thrust": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "thrust": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "thrust": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "thrust": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "thrust": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "thrust": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "thrust": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "thrust": 15
+        }
+      ]
+    },
+    {
+      "id": "oral.suction_pulse",
+      "name": "Tongue Suction Pulse",
+      "description": "Rhythmic suction pulses with matching vibration.",
+      "energy": 2,
+      "tags": [
+        "pulse",
+        "steady",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 3,
+          "suction": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 3,
+          "suction": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 3,
+          "suction": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "suction": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "suction": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "suction": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "suction": 4
+        }
+      ]
+    },
+    {
+      "id": "oral.flicking_tease",
+      "name": "Flicking Tease",
+      "description": "Quick flicks of the tongue tip, barely touching.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "light",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.slurping_build",
+      "name": "Slurping Build",
+      "description": "Gradual increase with wet, slurping suction.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "motion",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "suction": 3,
+          "rotate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "suction": 5,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "suction": 7,
+          "rotate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "suction": 10,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "suction": 12,
+          "rotate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "suction": 10,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "suction": 7,
+          "rotate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "suction": 5,
+          "rotate": 2
+        }
+      ]
+    },
+    {
+      "id": "oral.throat_hug",
+      "name": "Throat Hug",
+      "description": "Deep throat constriction with pumping rhythm.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "motion",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.tip_circle",
+      "name": "Tip Circle",
+      "description": "Tongue tip tracing slow circles.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 4
+        }
+      ]
+    },
+    {
+      "id": "oral.wet_kiss",
+      "name": "Wet Kiss",
+      "description": "Soft vibrations with light suction like wet kisses.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "light",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "suction": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "suction": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "suction": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "suction": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "suction": 2
+        }
+      ]
+    },
+    {
+      "id": "oral.choking_gag",
+      "name": "Choking Gag",
+      "description": "Aggressive throat rhythm with sudden stops.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "heavy",
+        "burst",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 18,
+          "suction": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 18,
+          "suction": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 18,
+          "suction": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 18,
+          "suction": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 15,
+          "suction": 8
+        }
+      ]
+    },
+    {
+      "id": "oral.lip_squeeze",
+      "name": "Lip Squeeze",
+      "description": "Tight lip pressure with slow vibration.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "slow",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "oral.flutter_tongue",
+      "name": "Flutter Tongue",
+      "description": "Rapid tongue fluttering against the tip.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "light",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "vibrate2": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "vibrate2": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "vibrate2": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "vibrate2": 3
+        }
+      ]
+    },
+    {
+      "id": "oral.slow_slurp",
+      "name": "Slow Slurp",
+      "description": "Long, drawn-out slurping with deep suction.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "suction": 8,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "suction": 5,
+          "rotate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "suction": 8,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "suction": 8,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "suction": 3,
+          "rotate": 1
+        }
+      ]
+    },
+    {
+      "id": "oral.aggressive_fuck",
+      "name": "Aggressive Fuck",
+      "description": "Hard, fast throat thrusting with maximum suction.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "heavy",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 15,
+          "suction": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "thrust": 5,
+          "suction": 3
+        }
+      ]
+    },
+    {
+      "id": "oral.soft_nuzzle",
+      "name": "Soft Nuzzle",
+      "description": "Gentle nosing and light licking.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "rotate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.tongue_wave",
+      "name": "Tongue Wave",
+      "description": "Rolling wave of tongue pressure from base to tip.",
+      "energy": 2,
+      "tags": [
+        "wave",
+        "motion",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 4
+        }
+      ]
+    },
+    {
+      "id": "oral.gag_reflex",
+      "name": "Gag Reflex",
+      "description": "Simulates gagging with irregular thrusts and suction drops.",
+      "energy": 2,
+      "tags": [
+        "random",
+        "motion",
+        "drop",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "thrust": 15,
+          "suction": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 3,
+          "thrust": 2,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "thrust": 12,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "thrust": 1,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 14,
+          "thrust": 18,
+          "suction": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "thrust": 8,
+          "suction": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 20,
+          "suction": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "thrust": 3,
+          "suction": 2
+        }
+      ]
+    },
+    {
+      "id": "oral.hollow_cheeks",
+      "name": "Hollow Cheeks",
+      "description": "Strong, steady suction with vibration pulses.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "pulse",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 12,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "suction": 15,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 12,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "suction": 15,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 12,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "suction": 10,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "oral.teeth_graze",
+      "name": "Teeth Graze",
+      "description": "Light scraping sensation with gentle vibration.",
+      "energy": 2,
+      "tags": [
+        "light",
+        "short",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.throat_massage",
+      "name": "Throat Massage",
+      "description": "Slow, deep throat constriction with subtle motion.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "squeeze",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "pump": 1,
+          "thrust": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "pump": 2,
+          "thrust": 5
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10,
+          "pump": 3,
+          "thrust": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "pump": 2,
+          "thrust": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "pump": 1,
+          "thrust": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "pump": 0,
+          "thrust": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 0,
+          "thrust": 1
+        }
+      ]
+    },
+    {
+      "id": "oral.lip_press_rhythm",
+      "name": "Lip Press Rhythm",
+      "description": "Regular lip pressure with syncopated vibration.",
+      "energy": 1,
+      "tags": [
+        "steady",
+        "squeeze",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.swallow_motion",
+      "name": "Swallow Motion",
+      "description": "Simulates swallowing with pulsing contraction.",
+      "energy": 3,
+      "tags": [
+        "motion",
+        "pulse",
+        "squeeze"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "oral.oral_ambient",
+      "name": "Oral Ambient",
+      "description": "Low, steady oral background for conversation.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "suction": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "suction": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "suction": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "suction": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "suction": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "suction": 2
+        }
+      ]
+    },
+    {
+      "id": "oral.fast_lap",
+      "name": "Fast Lap",
+      "description": "Quick lapping with tongue, fast and light.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "light",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "rotate": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    }
+  ]
+}

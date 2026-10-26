@@ -1,0 +1,1438 @@
+{
+  "mood": "climax",
+  "label": "Climax",
+  "description": "The final push: escalation into a sustained peak, then release. Overwhelming intensity building to the breaking point.",
+  "keywords": [
+    "climax",
+    "finish",
+    "peak",
+    "release",
+    "explode",
+    "overflow",
+    "breaking",
+    "shatter",
+    "pinnacle",
+    "summit",
+    "orgasm",
+    "come",
+    "cum",
+    "erupt",
+    "burst",
+    "gush",
+    "spasm",
+    "throb",
+    "surge",
+    "intense",
+    "overwhelming",
+    "relentless",
+    "uncontrollable",
+    "unleash",
+    "let go",
+    "abandon",
+    "surrender",
+    "height",
+    "zenith",
+    "crest",
+    "apogee",
+    "acme",
+    "top",
+    "max",
+    "maximum",
+    "final",
+    "rush",
+    "wave",
+    "crash",
+    "tremble",
+    "shudder",
+    "convulse",
+    "quiver",
+    "clench",
+    "grip"
+  ],
+  "patterns": [
+    {
+      "id": "climax.rising_tide",
+      "name": "Rising Tide",
+      "description": "Gradual escalation like an incoming wave, cresting then receding.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "wave",
+        "slow",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "climax.volcanic_eruption",
+      "name": "Volcanic Eruption",
+      "description": "Slow build then explosive release with trembling aftershocks.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "burst",
+        "drop",
+        "heavy",
+        "motion",
+        "squeeze"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "climax.thrusting_frenzy",
+      "name": "Thrusting Frenzy",
+      "description": "Fast deep thrusts with matching vibration peaks.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "motion",
+        "heavy",
+        "burst",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "thrust": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "thrust": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "thrust": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "climax.sustained_peak",
+      "name": "Sustained Peak",
+      "description": "Long plateau at maximum intensity before gentle descent.",
+      "energy": 5,
+      "tags": [
+        "steady",
+        "heavy",
+        "long",
+        "squeeze"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "climax.heartbeat_surge",
+      "name": "Heartbeat Surge",
+      "description": "Pulsing rhythm that accelerates into a pounding climax.",
+      "energy": 4,
+      "tags": [
+        "pulse",
+        "build",
+        "steady",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 400,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 400,
+          "vibrate": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 7
+        },
+        {
+          "ms": 400,
+          "vibrate": 16
+        },
+        {
+          "ms": 800,
+          "vibrate": 9
+        },
+        {
+          "ms": 400,
+          "vibrate": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 11
+        },
+        {
+          "ms": 400,
+          "vibrate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        }
+      ]
+    },
+    {
+      "id": "climax.rotating_crescendo",
+      "name": "Rotating Crescendo",
+      "description": "Rotation and vibration climb together to an overwhelming spin.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "build",
+        "heavy",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "rotate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "rotate": 13
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "rotate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "rotate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "rotate": 15
+        }
+      ]
+    },
+    {
+      "id": "climax.dual_oscillation",
+      "name": "Dual Oscillation",
+      "description": "Both motors oscillate in opposing rhythms for maximum effect.",
+      "energy": 4,
+      "tags": [
+        "dual",
+        "motion",
+        "wave",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "vibrate2": 5,
+          "oscillate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 5,
+          "vibrate2": 10,
+          "oscillate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "vibrate2": 8,
+          "oscillate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "vibrate2": 12,
+          "oscillate": 18
+        },
+        {
+          "ms": 1200,
+          "vibrate": 15,
+          "vibrate2": 10,
+          "oscillate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "vibrate2": 15,
+          "oscillate": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18,
+          "vibrate2": 18,
+          "oscillate": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 15,
+          "vibrate2": 15,
+          "oscillate": 18
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "vibrate2": 10,
+          "oscillate": 10
+        }
+      ]
+    },
+    {
+      "id": "climax.suction_climax",
+      "name": "Suction Climax",
+      "description": "Deep suction pulls synchronized with vibration pulses.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "pulse",
+        "motion",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "suction": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "suction": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "suction": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "suction": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "suction": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "suction": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "suction": 5
+        }
+      ]
+    },
+    {
+      "id": "climax.slow_burn_release",
+      "name": "Slow Burn Release",
+      "description": "Extended climb with deliberate pauses before the final surge.",
+      "energy": 4,
+      "tags": [
+        "slow",
+        "build",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18
+        },
+        {
+          "ms": 2500,
+          "vibrate": 15
+        }
+      ]
+    },
+    {
+      "id": "climax.thrust_pump_combo",
+      "name": "Thrust Pump Combo",
+      "description": "Thrusting speed synchronized with pump constriction waves.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "squeeze",
+        "build",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 8,
+          "thrust": 10,
+          "pump": 1
+        },
+        {
+          "ms": 2500,
+          "vibrate": 12,
+          "thrust": 15,
+          "pump": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 16,
+          "thrust": 20,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20,
+          "thrust": 20,
+          "pump": 3
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18,
+          "thrust": 18,
+          "pump": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 15,
+          "thrust": 15,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "thrust": 10,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "thrust": 5,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "climax.explosive_pulse",
+      "name": "Explosive Pulse",
+      "description": "Sudden intense bursts separated by brief breathing room.",
+      "energy": 4,
+      "tags": [
+        "burst",
+        "pulse",
+        "fast",
+        "heavy",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "thrust": 5
+        }
+      ]
+    },
+    {
+      "id": "climax.spiral_ascent",
+      "name": "Spiral Ascent",
+      "description": "Rotation and vibration spiral upward together.",
+      "energy": 4,
+      "tags": [
+        "motion",
+        "build",
+        "wave",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "rotate": 13
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "rotate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "rotate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "rotate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "rotate": 10
+        }
+      ]
+    },
+    {
+      "id": "climax.final_countdown",
+      "name": "Final Countdown",
+      "description": "Ticking countdown that accelerates to the final moment.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "fast",
+        "pulse",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "climax.deep_throat",
+      "name": "Deep Throat",
+      "description": "Long sustained thrusts with deep vibration.",
+      "energy": 5,
+      "tags": [
+        "motion",
+        "heavy",
+        "steady",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 10,
+          "thrust": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15,
+          "thrust": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "thrust": 5
+        }
+      ]
+    },
+    {
+      "id": "climax.overwhelming_squeeze",
+      "name": "Overwhelming Squeeze",
+      "description": "Pump constriction tightens while vibration climbs.",
+      "energy": 4,
+      "tags": [
+        "squeeze",
+        "build",
+        "heavy",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "climax.rapid_fire",
+      "name": "Rapid Fire",
+      "description": "Extremely fast pulses at maximum intensity.",
+      "energy": 5,
+      "tags": [
+        "fast",
+        "pulse",
+        "burst",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        }
+      ]
+    },
+    {
+      "id": "climax.growing_tremor",
+      "name": "Growing Tremor",
+      "description": "Shaking vibration with uneven jumps growing increasingly violent.",
+      "energy": 4,
+      "tags": [
+        "wave",
+        "build",
+        "steady",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "oscillate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "oscillate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "oscillate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "oscillate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "oscillate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "oscillate": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "oscillate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "oscillate": 10
+        }
+      ]
+    },
+    {
+      "id": "climax.breathless_climb",
+      "name": "Breathless Climb",
+      "description": "Relentless upward climb with no pauses.",
+      "energy": 5,
+      "tags": [
+        "build",
+        "steady",
+        "heavy",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        }
+      ]
+    },
+    {
+      "id": "climax.chaotic_climax",
+      "name": "Chaotic Climax",
+      "description": "Unpredictable changes in speed and intensity leading to peak.",
+      "energy": 5,
+      "tags": [
+        "random",
+        "burst",
+        "fast",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "rotate": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "rotate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "rotate": 5
+        }
+      ]
+    },
+    {
+      "id": "climax.pounding_finish",
+      "name": "Pounding Finish",
+      "description": "Hard pounding thrusts with matching vibration spikes.",
+      "energy": 5,
+      "tags": [
+        "motion",
+        "heavy",
+        "pulse",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 15
+        }
+      ]
+    },
+    {
+      "id": "climax.ecstatic_wave",
+      "name": "Ecstatic Wave",
+      "description": "Smooth rolling wave that peaks and gently subsides.",
+      "energy": 4,
+      "tags": [
+        "wave",
+        "slow",
+        "build",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 3
+        },
+        {
+          "ms": 2500,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        }
+      ]
+    },
+    {
+      "id": "climax.triple_crown",
+      "name": "Triple Crown",
+      "description": "Three escalating peaks before the final release.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "pulse",
+        "heavy",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2500,
+          "vibrate": 15
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10
+        }
+      ]
+    }
+  ]
+}

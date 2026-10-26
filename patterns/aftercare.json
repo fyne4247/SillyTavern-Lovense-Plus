@@ -1,0 +1,1089 @@
+{
+  "mood": "aftercare",
+  "label": "Aftercare",
+  "description": "Gentle cool-down after a peak. Soothing, low, slowly fading.",
+  "keywords": [
+    "aftercare",
+    "gentle",
+    "soothing",
+    "calm",
+    "fade",
+    "cool down",
+    "recovery",
+    "easy",
+    "delicate",
+    "tender",
+    "lingering",
+    "subside",
+    "settle",
+    "peaceful",
+    "quiet",
+    "breathe",
+    "hush",
+    "mellow",
+    "composed",
+    "tranquil",
+    "serene",
+    "bask",
+    "glow",
+    "comfort",
+    "nurture",
+    "cradle",
+    "lull",
+    "drift",
+    "ease",
+    "release",
+    "unwind",
+    "pamper",
+    "care",
+    "soothe"
+  ],
+  "patterns": [
+    {
+      "id": "aftercare.gentle_pulse",
+      "name": "Gentle Pulse",
+      "description": "Soft, steady heartbeat to settle the senses.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "steady",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.fading_glow",
+      "name": "Fading Glow",
+      "description": "A warm light that slowly dims away.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 5
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.breathing_waves",
+      "name": "Breathing Waves",
+      "description": "Inhale and exhale with slow, rhythmic swells.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "vibrate2": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "vibrate2": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "vibrate2": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "vibrate2": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.soft_hold",
+      "name": "Soft Hold",
+      "description": "A constant, gentle embrace that lingers.",
+      "energy": 1,
+      "tags": [
+        "steady",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.whispered_echoes",
+      "name": "Whispered Echoes",
+      "description": "Tiny pulses that fade like distant whispers.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "silence",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "aftercare.cradling_rotation",
+      "name": "Cradling Rotation",
+      "description": "Slow rotation with minimal vibration for comfort.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "rotate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "rotate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "rotate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "rotate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "rotate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.subsiding_tide",
+      "name": "Subsiding Tide",
+      "description": "A wave that recedes back to stillness.",
+      "energy": 2,
+      "tags": [
+        "wave",
+        "slow",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.soft_squeeze",
+      "name": "Soft Squeeze",
+      "description": "Gentle constriction paired with light vibration.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "slow",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.lullaby",
+      "name": "Lullaby",
+      "description": "Rocking rhythm lulls you into calm.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "steady",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.drifting_clouds",
+      "name": "Drifting Clouds",
+      "description": "Unpredictable but gentle, like floating on air.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "random",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "aftercare.tender_thrust",
+      "name": "Tender Thrust",
+      "description": "Slow, shallow thrusting for gentle aftercare.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "slow",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "thrust": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "thrust": 4
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "thrust": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "thrust": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "thrust": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.hush",
+      "name": "Hush",
+      "description": "Near-silence with occasional whispers of sensation.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "light",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "aftercare.warm_embrace",
+      "name": "Warm Embrace",
+      "description": "A steady, gentle pressure that holds and comforts.",
+      "energy": 2,
+      "tags": [
+        "steady",
+        "squeeze",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.evening_breeze",
+      "name": "Evening Breeze",
+      "description": "Light, drifting sensation like a cooling wind.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.soft_oscillation",
+      "name": "Soft Oscillation",
+      "description": "Gentle back-and-forth motion with light vibration.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "slow",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "oscillate": 5
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3,
+          "oscillate": 4
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "oscillate": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "oscillate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "oscillate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "oscillate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.dimming_stars",
+      "name": "Dimming Stars",
+      "description": "Tiny bursts that fade to darkness like twinkling stars.",
+      "energy": 1,
+      "tags": [
+        "burst",
+        "light",
+        "silence",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.slow_unwind",
+      "name": "Slow Unwind",
+      "description": "A gradual release from tension to perfect stillness.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "drop",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 4,
+          "vibrate2": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "vibrate2": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.comforting_pulse",
+      "name": "Comforting Pulse",
+      "description": "Steady, low pulses like a resting heartbeat.",
+      "energy": 1,
+      "tags": [
+        "steady",
+        "pulse",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.fading_suction",
+      "name": "Fading Suction",
+      "description": "Gentle suction that slowly releases.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "slow",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "suction": 5
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "suction": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "suction": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "suction": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "suction": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.distant_echo",
+      "name": "Distant Echo",
+      "description": "A sensation that returns, softer each time.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "drop",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.settling_mist",
+      "name": "Settling Mist",
+      "description": "A fine, diffuse sensation that gently disperses.",
+      "energy": 1,
+      "tags": [
+        "slow",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "vibrate2": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2,
+          "vibrate2": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.tender_rocking",
+      "name": "Tender Rocking",
+      "description": "Soft oscillation like being rocked to sleep.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "wave",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "oscillate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "oscillate": 5
+        },
+        {
+          "ms": 2500,
+          "vibrate": 2,
+          "oscillate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 1,
+          "oscillate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1,
+          "oscillate": 2
+        }
+      ]
+    },
+    {
+      "id": "aftercare.soft_fingering",
+      "name": "Soft Fingering",
+      "description": "Delicate, barely-there fingering motion.",
+      "energy": 1,
+      "tags": [
+        "motion",
+        "light",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "fingering": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "fingering": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "fingering": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 1,
+          "fingering": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "fingering": 0
+        }
+      ]
+    },
+    {
+      "id": "aftercare.peaceful_stillness",
+      "name": "Peaceful Stillness",
+      "description": "Extended calm with minimal interruption.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "slow",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 10000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1
+        }
+      ]
+    }
+  ]
+}

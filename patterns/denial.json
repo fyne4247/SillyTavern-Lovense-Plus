@@ -1,0 +1,982 @@
+{
+  "mood": "denial",
+  "label": "Denial",
+  "description": "Cruel cut-offs, long empty gaps, withheld relief. The power play of teased edges and sudden withdrawals, leaving desire unfulfilled.",
+  "keywords": [
+    "denial",
+    "deny",
+    "denied",
+    "stop",
+    "cut off",
+    "withheld",
+    "withhold",
+    "withdraw",
+    "pull away",
+    "tease",
+    "teasing",
+    "edge",
+    "edging",
+    "no",
+    "not yet",
+    "wait",
+    "hold on",
+    "patience",
+    "power",
+    "control",
+    "dominant",
+    "dominate",
+    "cruel",
+    "mean",
+    "punish",
+    "punishment",
+    "torture",
+    "torment",
+    "frustrated",
+    "frustration",
+    "desperate",
+    "desire",
+    "unfulfilled",
+    "empty",
+    "gap",
+    "silence",
+    "pause",
+    "nothing",
+    "abrupt",
+    "sudden",
+    "halt",
+    "relief",
+    "no relief",
+    "denied relief",
+    "cruelty",
+    "hard stop",
+    "abandon",
+    "abandoned"
+  ],
+  "patterns": [
+    {
+      "id": "denial.abrupt_cutoff",
+      "name": "Abrupt Cutoff",
+      "description": "Strong vibration building to a peak, then sudden complete silence.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "silence",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 4500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.cruel_pause",
+      "name": "Cruel Pause",
+      "description": "Reaches a high level then drops to nothing for an extended silence.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "silence",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.withheld_peak",
+      "name": "Withheld Peak",
+      "description": "Climbs to the brink repeatedly but never delivers the final push.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "steady",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "thrust": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 15,
+          "thrust": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "thrust": 2
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.empty_threat",
+      "name": "Empty Threat",
+      "description": "Vibration suggests intensity but never materializes, with extended silence.",
+      "energy": 1,
+      "tags": [
+        "light",
+        "silence",
+        "slow",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.squeeze_and_release",
+      "name": "Squeeze and Release",
+      "description": "Pump constricts tightly then suddenly lets go, leaving nothing.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "motion",
+        "drop",
+        "silence",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.cold_turkey",
+      "name": "Cold Turkey",
+      "description": "Full intensity then immediately cut to complete stillness.",
+      "energy": 2,
+      "tags": [
+        "heavy",
+        "drop",
+        "silence",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 15,
+          "vibrate2": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "vibrate2": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.false_start",
+      "name": "False Start",
+      "description": "Begins strongly then fades away to nothing.",
+      "energy": 2,
+      "tags": [
+        "build",
+        "drop",
+        "silence",
+        "steady",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "rotate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.longing_gap",
+      "name": "Longing Gap",
+      "description": "A single brief touch followed by a long, cruel silence.",
+      "energy": 1,
+      "tags": [
+        "light",
+        "silence",
+        "long",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 5500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.teasing_flicker",
+      "name": "Teasing Flicker",
+      "description": "Rapid tiny pulses that hint at more but deliver nothing substantial.",
+      "energy": 2,
+      "tags": [
+        "light",
+        "fast",
+        "pulse",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 5600,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.power_stop",
+      "name": "Power Stop",
+      "description": "Dominant thrusting motion halts abruptly mid-pattern.",
+      "energy": 3,
+      "tags": [
+        "heavy",
+        "motion",
+        "drop",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "thrust": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.hollow_echo",
+      "name": "Hollow Echo",
+      "description": "A pattern that fades in and out, each peak lower than the last.",
+      "energy": 2,
+      "tags": [
+        "wave",
+        "drop",
+        "light",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6
+        }
+      ]
+    },
+    {
+      "id": "denial.suction_denial",
+      "name": "Suction Denial",
+      "description": "Strong suction builds then is cruelly withdrawn.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "motion",
+        "squeeze"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "suction": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "suction": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "suction": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.rotating_abandon",
+      "name": "Rotating Abandon",
+      "description": "Rotation spins up then stops dead, leaving empty motion.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "build",
+        "drop",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "rotate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "rotate": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.fingering_withdraw",
+      "name": "Fingering Withdraw",
+      "description": "Fingering motion teases then withdraws completely.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "light",
+        "drop",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "fingering": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "fingering": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "fingering": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "fingering": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "fingering": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.oscillate_and_drop",
+      "name": "Oscillate and Drop",
+      "description": "Oscillation builds rhythm then vanishes without warning.",
+      "energy": 3,
+      "tags": [
+        "motion",
+        "wave",
+        "drop",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 7,
+          "oscillate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "oscillate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "oscillate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "oscillate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "oscillate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.dual_denial",
+      "name": "Dual Denial",
+      "description": "Both motors build then both are cut off simultaneously.",
+      "energy": 3,
+      "tags": [
+        "dual",
+        "build",
+        "drop",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1500,
+          "vibrate": 16,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.stuttered_false_hope",
+      "name": "Stuttered False Hope",
+      "description": "Short bursts suggest progress but each dies away.",
+      "energy": 2,
+      "tags": [
+        "burst",
+        "drop",
+        "light",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "thrust": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 8
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.vanishing_pressure",
+      "name": "Vanishing Pressure",
+      "description": "Pump pressure gradually increases then disappears.",
+      "energy": 2,
+      "tags": [
+        "squeeze",
+        "build",
+        "drop",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 11,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.silent_command",
+      "name": "Silent Command",
+      "description": "Complete silence for an extended period, power through absence.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "long",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.almost_there",
+      "name": "Almost There",
+      "description": "Builds to the edge of climax then cuts off completely.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "heavy",
+        "short",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 6,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "rotate": 10,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "rotate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "rotate": 20,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "rotate": 0,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.echo_chamber",
+      "name": "Echo Chamber",
+      "description": "Each pulse is weaker than the last, fading into nothing.",
+      "energy": 2,
+      "tags": [
+        "pulse",
+        "drop",
+        "wave",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "denial.the_great_void",
+      "name": "The Great Void",
+      "description": "Extended period of near nothingness with faintest hints, the cruelest denial.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "long",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    }
+  ]
+}

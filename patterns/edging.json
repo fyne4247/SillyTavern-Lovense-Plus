@@ -1,0 +1,1436 @@
+{
+  "mood": "edging",
+  "label": "Edging",
+  "description": "Patterns that bring you to the brink then pull back, repeating the cycle without letting you finish. Tantalizing, teasing, and frustratingly satisfying.",
+  "keywords": [
+    "edging",
+    "edge",
+    "brink",
+    "pull back",
+    "almost",
+    "nearly",
+    "teetering",
+    "tantalize",
+    "tease",
+    "deny",
+    "build up",
+    "climb",
+    "peak",
+    "threshold",
+    "retreat",
+    "withdraw",
+    "cycle",
+    "repeat",
+    "over and over",
+    "again",
+    "brinkmanship",
+    "torture",
+    "frustration",
+    "aching",
+    "need",
+    "desperate",
+    "close",
+    "so close",
+    "almost there",
+    "not yet",
+    "wait",
+    "hold on",
+    "pause",
+    "drop back",
+    "surging",
+    "rising",
+    "falling",
+    "wave",
+    "swell",
+    "ebb",
+    "pulsing",
+    "throbbing",
+    "climbing",
+    "descending",
+    "tension",
+    "release",
+    "false peak",
+    "near climax",
+    "not enough",
+    "keep going"
+  ],
+  "patterns": [
+    {
+      "id": "edging.classic_wave",
+      "name": "Classic Wave",
+      "description": "Smooth swell to the edge, then gentle retreat, repeating endlessly.",
+      "energy": 4,
+      "tags": [
+        "wave",
+        "build",
+        "drop",
+        "steady",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "edging.sharp_peak",
+      "name": "Sharp Peak",
+      "description": "Rapid climb to maximum, instant cutoff, repeat.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "drop",
+        "burst",
+        "short",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.gradual_climb",
+      "name": "Gradual Climb",
+      "description": "Very slow, steady ascent with a long gentle pull-back.",
+      "energy": 3,
+      "tags": [
+        "slow",
+        "build",
+        "drop",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        }
+      ]
+    },
+    {
+      "id": "edging.pulse_tease",
+      "name": "Pulse Tease",
+      "description": "Pulsing vibrations that grow stronger then fade away.",
+      "energy": 2,
+      "tags": [
+        "pulse",
+        "build",
+        "drop",
+        "steady",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.thrusting_edge",
+      "name": "Thrusting Edge",
+      "description": "Deep thrusts build to a frantic rhythm, then sudden stillness.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "motion",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "thrust": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "thrust": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "thrust": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.pump_squeeze",
+      "name": "Pump Squeeze",
+      "description": "Air pump constricts as vibration climbs, then releases.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "squeeze",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.rotate_swell",
+      "name": "Rotate Swell",
+      "description": "Rotation increases as vibration builds, creating a swirling edge.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "wave",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "rotate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 16,
+          "rotate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "rotate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 2
+        }
+      ]
+    },
+    {
+      "id": "edging.stutter_step",
+      "name": "Stutter Step",
+      "description": "Uneven climb with stuttering steps to the edge.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "random",
+        "short",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.dual_escalation",
+      "name": "Dual Escalation",
+      "description": "Both vibrators climb at different rates, pulling back asymmetrically.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "drop",
+        "dual",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "vibrate2": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 2
+        }
+      ]
+    },
+    {
+      "id": "edging.suction_pulse",
+      "name": "Suction Pulse",
+      "description": "Suction pulses in sync with building vibrations, then drops.",
+      "energy": 3,
+      "tags": [
+        "pulse",
+        "build",
+        "drop",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "suction": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "suction": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "suction": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "suction": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.fingering_creep",
+      "name": "Fingering Creep",
+      "description": "Fingering motion gradually increases as vibration builds.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "slow",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "fingering": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "fingering": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "fingering": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "fingering": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14,
+          "fingering": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "fingering": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "fingering": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "fingering": 1
+        }
+      ]
+    },
+    {
+      "id": "edging.oscillate_wave",
+      "name": "Oscillate Wave",
+      "description": "Oscillating motion adds texture to a classic wave pattern.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "motion",
+        "build",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "oscillate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "oscillate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 15,
+          "oscillate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "oscillate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "oscillate": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "oscillate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.triplet_climb",
+      "name": "Triplet Climb",
+      "description": "Three-step rhythm climbing toward the edge in triplets.",
+      "energy": 2,
+      "tags": [
+        "build",
+        "pulse",
+        "short",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.hold_and_release",
+      "name": "Hold and Release",
+      "description": "Long holds at high intensity with brief drops.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "silence",
+        "long",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.accelerando",
+      "name": "Accelerando",
+      "description": "Steps get shorter and stronger as it races to the edge.",
+      "energy": 4,
+      "tags": [
+        "fast",
+        "build",
+        "short",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 13
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        }
+      ]
+    },
+    {
+      "id": "edging.ritardando",
+      "name": "Ritardando",
+      "description": "Climbs quickly then slows and fades away.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "drop",
+        "slow",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.echo_chamber",
+      "name": "Edge Echo",
+      "description": "Peaks echo and fade with decreasing intensity.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "drop",
+        "wave",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 16
+        },
+        {
+          "ms": 800,
+          "vibrate": 11
+        },
+        {
+          "ms": 800,
+          "vibrate": 7
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.thrust_pump_combo",
+      "name": "Thrust and Pump Edge",
+      "description": "Thrusting and pumping work together to push to the edge.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "motion",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "thrust": 3,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "thrust": 6,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "thrust": 10,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 12,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "thrust": 8,
+          "pump": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "thrust": 5,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "thrust": 2,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.silence_between",
+      "name": "Silence Between",
+      "description": "Full stops between each climbing phase.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "drop",
+        "silence",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 13
+        },
+        {
+          "ms": 1500,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.crescendo_fall",
+      "name": "Crescendo Fall",
+      "description": "Long, slow crescendo to a peak, then a rapid fall.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "drop",
+        "long",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.vibrate2_counter",
+      "name": "Vibrate2 Counter",
+      "description": "Second motor counter-moves to the first for tension.",
+      "energy": 3,
+      "tags": [
+        "dual",
+        "build",
+        "drop",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.random_walk",
+      "name": "Edge Wander",
+      "description": "Unpredictable ups and downs that never quite peak.",
+      "energy": 3,
+      "tags": [
+        "random",
+        "build",
+        "wave",
+        "short"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.double_peak",
+      "name": "Double Peak",
+      "description": "Two rapid climbs to the brink with a brief dip between.",
+      "energy": 5,
+      "tags": [
+        "build",
+        "drop",
+        "burst",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "edging.steady_push",
+      "name": "Steady Push",
+      "description": "Relentless push that gets so close but never quite there.",
+      "energy": 4,
+      "tags": [
+        "steady",
+        "build",
+        "heavy",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 10
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14
+        },
+        {
+          "ms": 2500,
+          "vibrate": 16
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 17
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        }
+      ]
+    }
+  ]
+}

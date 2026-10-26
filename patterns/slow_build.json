@@ -1,0 +1,1369 @@
+{
+  "mood": "slow_build",
+  "label": "Slow Build",
+  "description": "Long gradual climbs from almost nothing to strong. Patient, inevitable tension that grows steadily over time.",
+  "keywords": [
+    "slow build",
+    "gradual",
+    "climb",
+    "rising",
+    "patient",
+    "inevitable",
+    "build up",
+    "growing",
+    "steadily",
+    "creeping",
+    "ramp",
+    "ascend",
+    "swell",
+    "increasing",
+    "mounting",
+    "unrelenting",
+    "long",
+    "slowly",
+    "builds",
+    "intensify",
+    "escalate",
+    "rise",
+    "waxing",
+    "crescendo",
+    "tension",
+    "anticipation",
+    "delayed",
+    "lingering",
+    "sustained",
+    "prolonged",
+    "unfolding",
+    "creep",
+    "steady",
+    "progress",
+    "grow",
+    "heighten",
+    "extend",
+    "draw out"
+  ],
+  "patterns": [
+    {
+      "id": "slow_build.linear_rise",
+      "name": "Linear Rise",
+      "description": "Steady, unbroken climb from silence to full intensity.",
+      "energy": 4,
+      "tags": [
+        "slow",
+        "build",
+        "steady",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "slow_build.exponential_climb",
+      "name": "Exponential Climb",
+      "description": "Growth accelerates as it rises, starting almost imperceptible.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "steady",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2500,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 11
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 17
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "slow_build.stepped_ascent",
+      "name": "Stepped Ascent",
+      "description": "Plateaus at each level before climbing to the next.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "steady",
+        "long",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        }
+      ]
+    },
+    {
+      "id": "slow_build.tidal_swell",
+      "name": "Tidal Swell",
+      "description": "Small waves gradually rising with each crest.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "build",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2500,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7
+        },
+        {
+          "ms": 1500,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
+          "vibrate": 9
+        },
+        {
+          "ms": 1500,
+          "vibrate": 13
+        },
+        {
+          "ms": 2500,
+          "vibrate": 15
+        }
+      ]
+    },
+    {
+      "id": "slow_build.heartbeat_grow",
+      "name": "Heartbeat Grow",
+      "description": "Pulsing rhythm that strengthens with each beat.",
+      "energy": 3,
+      "tags": [
+        "pulse",
+        "build",
+        "steady",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19
+        }
+      ]
+    },
+    {
+      "id": "slow_build.breathing_ramp",
+      "name": "Breathing Ramp",
+      "description": "Inhale and exhale, each cycle reaching higher than the last.",
+      "energy": 2,
+      "tags": [
+        "wave",
+        "build",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 4
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 12
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15
+        },
+        {
+          "ms": 4000,
+          "vibrate": 18
+        }
+      ]
+    },
+    {
+      "id": "slow_build.pump_squeeze_rise",
+      "name": "Pump Squeeze Rise",
+      "description": "Gradual vibration climb with tightening and releasing pump pressure.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "squeeze",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "pump": 0
+        }
+      ]
+    },
+    {
+      "id": "slow_build.rotate_climb",
+      "name": "Rotate Climb",
+      "description": "Spinning motion that slowly intensifies alongside vibration.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "motion",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 5000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 4000,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 4000,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "rotate": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10,
+          "rotate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "rotate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16,
+          "rotate": 14
+        }
+      ]
+    },
+    {
+      "id": "slow_build.thrust_accelerate",
+      "name": "Thrust Accelerate",
+      "description": "Thrusting speed climbs from still to relentless.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "motion",
+        "long",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "thrust": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "thrust": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 14,
+          "thrust": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "thrust": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "thrust": 16
+        }
+      ]
+    },
+    {
+      "id": "slow_build.dual_motor_rise",
+      "name": "Dual Motor Rise",
+      "description": "Both motors climb together with a staggered, uneven rhythm.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "dual",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 4000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "vibrate2": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10,
+          "vibrate2": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12,
+          "vibrate2": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "vibrate2": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16,
+          "vibrate2": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "vibrate2": 10
+        }
+      ]
+    },
+    {
+      "id": "slow_build.suction_creep",
+      "name": "Suction Creep",
+      "description": "Vibration rises as suction pulls harder and harder.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "squeeze",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "suction": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "suction": 5
+        },
+        {
+          "ms": 3000,
+          "vibrate": 7,
+          "suction": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9,
+          "suction": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11,
+          "suction": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 13,
+          "suction": 15
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15,
+          "suction": 17
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "suction": 20
+        }
+      ]
+    },
+    {
+      "id": "slow_build.fingering_ascent",
+      "name": "Fingering Ascent",
+      "description": "Fingering motion grows more insistent alongside vibration.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "motion",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 2,
+          "fingering": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4,
+          "fingering": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6,
+          "fingering": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "fingering": 8
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10,
+          "fingering": 10
+        },
+        {
+          "ms": 2500,
+          "vibrate": 12,
+          "fingering": 12
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14,
+          "fingering": 14
+        },
+        {
+          "ms": 2500,
+          "vibrate": 16,
+          "fingering": 16
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18,
+          "fingering": 18
+        }
+      ]
+    },
+    {
+      "id": "slow_build.oscillate_build",
+      "name": "Oscillate Build",
+      "description": "Oscillating motion widens and speeds up as vibration climbs.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "motion",
+        "long",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "oscillate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5,
+          "oscillate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 7,
+          "oscillate": 6
+        },
+        {
+          "ms": 2500,
+          "vibrate": 9,
+          "oscillate": 8
+        },
+        {
+          "ms": 2500,
+          "vibrate": 11,
+          "oscillate": 10
+        },
+        {
+          "ms": 2500,
+          "vibrate": 13,
+          "oscillate": 12
+        },
+        {
+          "ms": 2500,
+          "vibrate": 15,
+          "oscillate": 14
+        },
+        {
+          "ms": 2500,
+          "vibrate": 18,
+          "oscillate": 16
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20,
+          "oscillate": 18
+        }
+      ]
+    },
+    {
+      "id": "slow_build.silence_then_storm",
+      "name": "Silence Then Storm",
+      "description": "Long quiet, then the slow inevitable climb begins.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "silence",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "slow_build.hold_and_climb",
+      "name": "Hold and Climb",
+      "description": "Pauses at each plateau before reaching higher.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "steady",
+        "long",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 6000,
+          "vibrate": 0
+        },
+        {
+          "ms": 6000,
+          "vibrate": 5
+        },
+        {
+          "ms": 6000,
+          "vibrate": 5
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10
+        },
+        {
+          "ms": 6000,
+          "vibrate": 10
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15
+        },
+        {
+          "ms": 6000,
+          "vibrate": 15
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18
+        },
+        {
+          "ms": 6000,
+          "vibrate": 18
+        }
+      ]
+    },
+    {
+      "id": "slow_build.crescendo_waves",
+      "name": "Crescendo Waves",
+      "description": "Wave patterns grow in amplitude with each cycle.",
+      "energy": 3,
+      "tags": [
+        "wave",
+        "build",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15
+        }
+      ]
+    },
+    {
+      "id": "slow_build.pulse_build",
+      "name": "Pulse Build",
+      "description": "Pulse rate increases as intensity climbs.",
+      "energy": 3,
+      "tags": [
+        "pulse",
+        "build",
+        "fast",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 13
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19
+        }
+      ]
+    },
+    {
+      "id": "slow_build.thrust_and_pump_rise",
+      "name": "Thrust and Pump Rise",
+      "description": "Thrusting and pump tighten together in a steady climb.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "motion",
+        "squeeze",
+        "long",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "thrust": 0,
+          "pump": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5,
+          "thrust": 2,
+          "pump": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "thrust": 4,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 10,
+          "thrust": 6,
+          "pump": 1
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12,
+          "thrust": 8,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 14,
+          "thrust": 10,
+          "pump": 2
+        },
+        {
+          "ms": 3000,
+          "vibrate": 16,
+          "thrust": 12,
+          "pump": 3
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "thrust": 14,
+          "pump": 3
+        }
+      ]
+    },
+    {
+      "id": "slow_build.vibrate2_counterpoint",
+      "name": "Vibrate2 Counterpoint",
+      "description": "Second motor moves opposite to primary, creating tension.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "dual",
+        "long",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "vibrate2": 20
+        },
+        {
+          "ms": 2500,
+          "vibrate": 3,
+          "vibrate2": 18
+        },
+        {
+          "ms": 2500,
+          "vibrate": 5,
+          "vibrate2": 15
+        },
+        {
+          "ms": 2500,
+          "vibrate": 8,
+          "vibrate2": 12
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10,
+          "vibrate2": 10
+        },
+        {
+          "ms": 2500,
+          "vibrate": 12,
+          "vibrate2": 8
+        },
+        {
+          "ms": 2500,
+          "vibrate": 14,
+          "vibrate2": 5
+        },
+        {
+          "ms": 2500,
+          "vibrate": 16,
+          "vibrate2": 3
+        },
+        {
+          "ms": 5000,
+          "vibrate": 18,
+          "vibrate2": 0
+        }
+      ]
+    },
+    {
+      "id": "slow_build.logarithmic_lift",
+      "name": "Logarithmic Lift",
+      "description": "Rapid early gains that slow as they approach the peak.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "steady",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 2500,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 3500,
+          "vibrate": 14
+        },
+        {
+          "ms": 4000,
+          "vibrate": 16
+        },
+        {
+          "ms": 4500,
+          "vibrate": 18
+        },
+        {
+          "ms": 5000,
+          "vibrate": 20
+        }
+      ]
+    },
+    {
+      "id": "slow_build.rotating_vibe_climb",
+      "name": "Rotating Vibe Climb",
+      "description": "Rotation speeds up while vibration steadily rises.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "motion",
+        "long",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 4000,
+          "vibrate": 3,
+          "rotate": 5
+        },
+        {
+          "ms": 3000,
+          "vibrate": 5,
+          "rotate": 8
+        },
+        {
+          "ms": 3000,
+          "vibrate": 7,
+          "rotate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 9,
+          "rotate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11,
+          "rotate": 14
+        },
+        {
+          "ms": 3000,
+          "vibrate": 13,
+          "rotate": 16
+        },
+        {
+          "ms": 3000,
+          "vibrate": 15,
+          "rotate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 18,
+          "rotate": 20
+        }
+      ]
+    },
+    {
+      "id": "slow_build.quiet_then_relentless",
+      "name": "Quiet Then Relentless",
+      "description": "Barely-there start that becomes inescapable.",
+      "energy": 4,
+      "tags": [
+        "build",
+        "steady",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 8000,
+          "vibrate": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 5
+        },
+        {
+          "ms": 4000,
+          "vibrate": 7
+        },
+        {
+          "ms": 4000,
+          "vibrate": 9
+        },
+        {
+          "ms": 4000,
+          "vibrate": 11
+        },
+        {
+          "ms": 4000,
+          "vibrate": 13
+        },
+        {
+          "ms": 4000,
+          "vibrate": 15
+        },
+        {
+          "ms": 4000,
+          "vibrate": 17
+        },
+        {
+          "ms": 4000,
+          "vibrate": 19
+        }
+      ]
+    }
+  ]
+}

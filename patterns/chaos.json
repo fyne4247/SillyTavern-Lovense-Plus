@@ -1,0 +1,1656 @@
+{
+  "mood": "chaos",
+  "label": "Chaos",
+  "description": "Unpredictable, erratic, glitchy patterns that keep you guessing. Sudden shifts, irregular rhythms, and chaotic energy that defies expectation.",
+  "keywords": [
+    "chaos",
+    "chaotic",
+    "unpredictable",
+    "erratic",
+    "glitchy",
+    "random",
+    "wild",
+    "crazy",
+    "frantic",
+    "manic",
+    "spontaneous",
+    "jerky",
+    "stutter",
+    "skip",
+    "jump",
+    "surprise",
+    "unexpected",
+    "abrupt",
+    "shifting",
+    "mixed",
+    "turbulent",
+    "frenzied",
+    "haphazard",
+    "disjointed",
+    "scattered",
+    "spasmodic",
+    "irregular",
+    "dizzy",
+    "swerving",
+    "lurching",
+    "unhinged",
+    "untamed",
+    "unknown",
+    "shock",
+    "jolt",
+    "twitch",
+    "flail"
+  ],
+  "patterns": [
+    {
+      "id": "chaos.glitch_burst",
+      "name": "Glitch Burst",
+      "description": "Sudden stuttering bursts with digital glitches.",
+      "energy": 2,
+      "tags": [
+        "burst",
+        "random",
+        "short",
+        "motion",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "rotate": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "vibrate2": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "oscillate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "suction": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "fingering": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.manic_spiral",
+      "name": "Manic Spiral",
+      "description": "Ever-tightening spiral of intensity with no clear peak.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "fast",
+        "heavy",
+        "motion",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 16,
+          "rotate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 3,
+          "rotate": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "rotate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "rotate": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 14,
+          "rotate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 2,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "rotate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 9,
+          "rotate": 7
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "rotate": 17
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "rotate": 10
+        }
+      ]
+    },
+    {
+      "id": "chaos.jerky_rhythm",
+      "name": "Jerky Rhythm",
+      "description": "Staccato pulses that jump unpredictably between levels.",
+      "energy": 1,
+      "tags": [
+        "pulse",
+        "random",
+        "short",
+        "light",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 600,
+          "vibrate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.silence_ambush",
+      "name": "Silence Ambush",
+      "description": "Long quiet periods broken by sudden brutal attacks.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "burst",
+        "slow",
+        "heavy",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 15,
+          "pump": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "rotate": 12,
+          "suction": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "rotate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 17,
+          "fingering": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "fingering": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "oscillate": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.random_walk",
+      "name": "Random Walk",
+      "description": "Wandering intensity that never settles into a pattern.",
+      "energy": 2,
+      "tags": [
+        "random",
+        "wave",
+        "long",
+        "motion",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "vibrate2": 13
+        }
+      ]
+    },
+    {
+      "id": "chaos.thrust_chaos",
+      "name": "Thrust Chaos",
+      "description": "Irregular thrusting with unpredictable vibration bursts.",
+      "energy": 3,
+      "tags": [
+        "motion",
+        "random",
+        "heavy",
+        "build",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "thrust": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "thrust": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "thrust": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 7,
+          "thrust": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 15
+        }
+      ]
+    },
+    {
+      "id": "chaos.digital_stutter",
+      "name": "Digital Stutter",
+      "description": "Glitchy stuttering like a corrupted audio file.",
+      "energy": 2,
+      "tags": [
+        "burst",
+        "random",
+        "short",
+        "fast",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "vibrate2": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "vibrate2": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "rotate": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 16,
+          "suction": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.pump_frenzy",
+      "name": "Pump Frenzy",
+      "description": "Air pump cycling erratically between inflation states.",
+      "energy": 3,
+      "tags": [
+        "squeeze",
+        "motion",
+        "heavy",
+        "random",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "pump": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "pump": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 1600,
+          "vibrate": 18,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "pump": 3
+        },
+        {
+          "ms": 1300,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 1300,
+          "vibrate": 16,
+          "pump": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7,
+          "pump": 2
+        }
+      ]
+    },
+    {
+      "id": "chaos.oscillate_madness",
+      "name": "Oscillate Madness",
+      "description": "Wild oscillation patterns that change direction unpredictably.",
+      "energy": 3,
+      "tags": [
+        "motion",
+        "random",
+        "fast",
+        "wave",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "oscillate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "oscillate": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "oscillate": 2
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "oscillate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "oscillate": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "oscillate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 9,
+          "oscillate": 15
+        },
+        {
+          "ms": 700,
+          "vibrate": 14,
+          "oscillate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 7,
+          "oscillate": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 16,
+          "oscillate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 11,
+          "oscillate": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 13,
+          "oscillate": 10
+        }
+      ]
+    },
+    {
+      "id": "chaos.suction_chaos",
+      "name": "Suction Chaos",
+      "description": "Unpredictable suction pulses with matching vibration.",
+      "energy": 1,
+      "tags": [
+        "squeeze",
+        "pulse",
+        "random",
+        "motion",
+        "light"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 6,
+          "suction": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "suction": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "suction": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "suction": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "suction": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "suction": 15
+        },
+        {
+          "ms": 700,
+          "vibrate": 3,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "suction": 10
+        }
+      ]
+    },
+    {
+      "id": "chaos.dual_chaos",
+      "name": "Dual Chaos",
+      "description": "Both motors doing completely different chaotic dances.",
+      "energy": 2,
+      "tags": [
+        "dual",
+        "random",
+        "motion",
+        "heavy",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "vibrate2": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "vibrate2": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "vibrate2": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "vibrate2": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "vibrate2": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 16,
+          "vibrate2": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "vibrate2": 14
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 19,
+          "vibrate2": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 7,
+          "vibrate2": 17
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "vibrate2": 9
+        }
+      ]
+    },
+    {
+      "id": "chaos.fingering_frenzy",
+      "name": "Fingering Frenzy",
+      "description": "Chaotic fingering motions that never establish a rhythm.",
+      "energy": 3,
+      "tags": [
+        "motion",
+        "random",
+        "fast",
+        "build",
+        "pulse"
+      ],
+      "steps": [
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "fingering": 15
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "fingering": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "fingering": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "fingering": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "fingering": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "fingering": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 9,
+          "fingering": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 11,
+          "fingering": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 7,
+          "fingering": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "fingering": 15
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "fingering": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "fingering": 10
+        }
+      ]
+    },
+    {
+      "id": "chaos.sudden_shifts",
+      "name": "Sudden Shifts",
+      "description": "Jarring transitions between extremes with no warning.",
+      "energy": 2,
+      "tags": [
+        "burst",
+        "random",
+        "heavy",
+        "drop",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "thrust": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "thrust": 0,
+          "pump": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "rotate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "suction": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "fingering": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "oscillate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 14,
+          "pump": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.irregular_waves",
+      "name": "Irregular Waves",
+      "description": "Wave patterns with inconsistent periods and amplitudes.",
+      "energy": 1,
+      "tags": [
+        "wave",
+        "random",
+        "long",
+        "light",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 900,
+          "vibrate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7
+        },
+        {
+          "ms": 900,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.rotate_whirl",
+      "name": "Rotate Whirl",
+      "description": "Random rotation directions and speeds creating chaos.",
+      "energy": 2,
+      "tags": [
+        "motion",
+        "random",
+        "squeeze",
+        "wave",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 10,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "rotate": 15
+        },
+        {
+          "ms": 900,
+          "vibrate": 12,
+          "rotate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "rotate": 10
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "rotate": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 8,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 14,
+          "rotate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "rotate": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 9,
+          "rotate": 8
+        }
+      ]
+    },
+    {
+      "id": "chaos.spike_and_valley",
+      "name": "Spike and Valley",
+      "description": "Extreme peaks followed by deep valleys at random intervals.",
+      "energy": 1,
+      "tags": [
+        "burst",
+        "drop",
+        "random",
+        "heavy",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 1200,
+          "vibrate": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "rotate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "suction": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "chaos.broken_beat",
+      "name": "Broken Beat",
+      "description": "A beat that keeps trying to establish itself but keeps breaking.",
+      "energy": 2,
+      "tags": [
+        "pulse",
+        "random",
+        "steady",
+        "burst",
+        "slow"
+      ],
+      "steps": [
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 1100,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 1100,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 10
+        }
+      ]
+    },
+    {
+      "id": "chaos.multi_channel_chaos",
+      "name": "Multi-Channel Chaos",
+      "description": "Every channel doing something different and unpredictable.",
+      "energy": 2,
+      "tags": [
+        "dual",
+        "motion",
+        "random",
+        "heavy",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 15,
+          "rotate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "vibrate2": 5,
+          "rotate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "vibrate2": 12,
+          "rotate": 18,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 8,
+          "rotate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0,
+          "rotate": 12,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 19,
+          "vibrate2": 10,
+          "rotate": 20,
+          "pump": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "vibrate2": 18,
+          "rotate": 0,
+          "pump": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "vibrate2": 4,
+          "rotate": 15,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "vibrate2": 0,
+          "rotate": 8,
+          "pump": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "vibrate2": 12,
+          "rotate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 7,
+          "vibrate2": 9,
+          "rotate": 5,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "chaos.chaotic_crescendo",
+      "name": "Chaotic Crescendo",
+      "description": "A climb to a peak that keeps getting interrupted.",
+      "energy": 3,
+      "tags": [
+        "build",
+        "random",
+        "drop",
+        "wave",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 8
+        }
+      ]
+    },
+    {
+      "id": "chaos.quiet_chaos",
+      "name": "Quiet Chaos",
+      "description": "Subtle chaotic vibrations that stay at low levels.",
+      "energy": 1,
+      "tags": [
+        "light",
+        "random",
+        "slow",
+        "silence",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "suction": 3
+        }
+      ]
+    },
+    {
+      "id": "chaos.pulsing_madness",
+      "name": "Pulsing Madness",
+      "description": "Pulses that vary wildly in timing and intensity.",
+      "energy": 2,
+      "tags": [
+        "pulse",
+        "random",
+        "fast",
+        "heavy",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 10
+        },
+        {
+          "vibrate": 0,
+          "ms": 1000
+        },
+        {
+          "ms": 600,
+          "vibrate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 14
+        }
+      ]
+    },
+    {
+      "id": "chaos.silence_storm",
+      "name": "Silence Storm",
+      "description": "Storm of activity broken by unpredictable silences.",
+      "energy": 1,
+      "tags": [
+        "silence",
+        "burst",
+        "random",
+        "motion",
+        "fast"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "thrust": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "rotate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "rotate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "suction": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "suction": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "fingering": 10
+        }
+      ]
+    }
+  ]
+}

@@ -73,3 +73,98 @@
 #lovense_test_controls button {
     padding: 8px 16px;
 }
+
+.lovense_heading {
+    margin: 10px 0 5px;
+}
+
+.lovense_subheading {
+    margin-top: 6px;
+}
+
+#lovense_moods_section .menu_button {
+    white-space: nowrap;
+}
+
+.lovense_muted {
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.lovense_row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.lovense_field {
+    flex: 1 1 160px;
+    min-width: 0;
+}
+
+.lovense_field_small {
+    flex: 0 1 110px;
+}
+
+.lovense_transport_block,
+.lovense_mode_block {
+    margin-top: 6px;
+}
+
+.lovense_setup_tabs ol,
+.lovense_transport_block ol {
+    margin: 5px 0;
+}
+
+.lovense_toy_channels {
+    font-size: 0.85em;
+    opacity: 0.75;
+}
+
+.lovense_mood_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2px 10px;
+    margin-top: 6px;
+}
+
+.lovense_mood_list .checkbox_label small {
+    opacity: 0.6;
+}
+
+.lovense_now_playing {
+    padding: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.lovense_now_playing small {
+    display: block;
+    opacity: 0.75;
+}
+
+.lovense_stop_button {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+#lovense_test_controls button {
+    flex: 1;
+    min-width: 150px;
+}
+
+.lovense_links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.lovense_links a {
+    flex: 1;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}

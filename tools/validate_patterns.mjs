@@ -32,7 +32,7 @@ function shape(steps) {
     return steps.map((s) => `${Math.round((s.vibrate / max) * 4)}:${Math.round((s.ms / sum) * 20)}`).join(',');
 }
 
-const files = readdirSync(DIR).filter((f) => f.endsWith('.json')).sort();
+const files = readdirSync(DIR).filter((f) => f.endsWith('.json') && f !== 'index.json').sort();
 for (const file of files) {
     const mood = file.replace(/\.json$/, '');
     const report = only.size === 0 || only.has(mood);

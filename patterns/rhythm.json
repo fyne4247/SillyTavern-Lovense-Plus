@@ -1,0 +1,1427 @@
+{
+  "mood": "rhythm",
+  "label": "Rhythm",
+  "description": "Steady beats and hypnotic pulses. Heartbeat, metronome, marching, clockwork—patterns that lock into a groove and hold it.",
+  "keywords": [
+    "rhythm",
+    "beat",
+    "pulse",
+    "pulsing",
+    "steady",
+    "metronome",
+    "heartbeat",
+    "thump",
+    "march",
+    "marching",
+    "clock",
+    "clockwork",
+    "tick",
+    "tock",
+    "hypnotic",
+    "groove",
+    "drum",
+    "drumming",
+    "cadence",
+    "tempo",
+    "regular",
+    "repeating",
+    "loop",
+    "syncopated",
+    "backbeat",
+    "downbeat",
+    "upbeat",
+    "beatbox",
+    "percussion",
+    "throb",
+    "throbbing",
+    "pulsate",
+    "pulsating",
+    "pump",
+    "swing",
+    "shuffle",
+    "galop"
+  ],
+  "patterns": [
+    {
+      "id": "rhythm.metronome_60",
+      "name": "Metronome 60",
+      "description": "Precise one-second ticks like a practice metronome.",
+      "energy": 2,
+      "tags": [
+        "steady",
+        "slow",
+        "pulse",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.heartbeat_lub_dub",
+      "name": "Heartbeat Lub-Dub",
+      "description": "A slow, deep heartbeat: short lub, longer dub, with rests between.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "pulse",
+        "wave",
+        "long"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 300,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 300,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 300,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        }
+      ]
+    },
+    {
+      "id": "rhythm.marching_band",
+      "name": "Marching Band",
+      "description": "Left-right-left-right: a steady marching cadence.",
+      "energy": 3,
+      "tags": [
+        "steady",
+        "motion",
+        "short",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 10
+        }
+      ]
+    },
+    {
+      "id": "rhythm.clockwork_gears",
+      "name": "Clockwork Gears",
+      "description": "Ticking gears with overlapping rhythms on two channels.",
+      "energy": 2,
+      "tags": [
+        "steady",
+        "dual",
+        "pulse",
+        "motion"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 4
+        }
+      ]
+    },
+    {
+      "id": "rhythm.drum_fill_44",
+      "name": "Drum Fill 4/4",
+      "description": "Four-on-the-floor kick drum rhythm.",
+      "energy": 1,
+      "tags": [
+        "steady",
+        "fast",
+        "pulse",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.waltz_34",
+      "name": "Waltz 3/4",
+      "description": "One-two-three, one-two-three: elegant waltz time.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        }
+      ]
+    },
+    {
+      "id": "rhythm.samba_shuffle",
+      "name": "Samba Shuffle",
+      "description": "Syncopated samba rhythm with swung sixteenths.",
+      "energy": 1,
+      "tags": [
+        "fast",
+        "short",
+        "pulse",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.ticking_clock",
+      "name": "Ticking Clock",
+      "description": "Grandfather clock: tick-tock with a weighty swing.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "steady",
+        "pulse",
+        "wave"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        }
+      ]
+    },
+    {
+      "id": "rhythm.pumping_heart",
+      "name": "Pumping Heart",
+      "description": "Heart-like pulses with pump channel swelling in time.",
+      "energy": 3,
+      "tags": [
+        "steady",
+        "pulse",
+        "squeeze",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "pump": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "pump": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "pump": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "pump": 1
+        }
+      ]
+    },
+    {
+      "id": "rhythm.galloping_horse",
+      "name": "Galloping Horse",
+      "description": "Clip-clop gallop rhythm, three fast then a rest.",
+      "energy": 3,
+      "tags": [
+        "fast",
+        "motion",
+        "short",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 12
+        }
+      ]
+    },
+    {
+      "id": "rhythm.steam_engine",
+      "name": "Steam Engine",
+      "description": "Chugging steam engine with rotating motion.",
+      "energy": 3,
+      "tags": [
+        "steady",
+        "motion",
+        "dual",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "rotate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "rotate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "rotate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 4
+        }
+      ]
+    },
+    {
+      "id": "rhythm.tango_staccato",
+      "name": "Tango Staccato",
+      "description": "Sharp, staccato tango beats with sudden accents.",
+      "energy": 1,
+      "tags": [
+        "short",
+        "pulse",
+        "steady",
+        "burst"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.ocean_waves",
+      "name": "Ocean Waves",
+      "description": "Slow rolling waves that crest and recede.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "long",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 10,
+          "rotate": 10
+        }
+      ]
+    },
+    {
+      "id": "rhythm.morse_code_sos",
+      "name": "Morse Code SOS",
+      "description": "Dot-dot-dot dash-dash-dash dot-dot-dot rhythm.",
+      "energy": 2,
+      "tags": [
+        "steady",
+        "short",
+        "pulse",
+        "silence"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.snare_drum_roll",
+      "name": "Snare Drum Roll",
+      "description": "Fast alternating hits like a drum roll.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "short",
+        "pulse",
+        "heavy"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.hypnotic_spiral",
+      "name": "Hypnotic Spiral",
+      "description": "Gradually tightening spiral with oscillation.",
+      "energy": 3,
+      "tags": [
+        "steady",
+        "wave",
+        "motion",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "oscillate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 9,
+          "oscillate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "oscillate": 7
+        },
+        {
+          "ms": 1500,
+          "vibrate": 11,
+          "oscillate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "oscillate": 7
+        },
+        {
+          "ms": 1500,
+          "vibrate": 9,
+          "oscillate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "oscillate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "oscillate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "oscillate": 5
+        }
+      ]
+    },
+    {
+      "id": "rhythm.bass_drum_thump",
+      "name": "Bass Drum Thump",
+      "description": "Deep, heavy thumps like a bass drum.",
+      "energy": 1,
+      "tags": [
+        "heavy",
+        "pulse",
+        "slow",
+        "drop"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        }
+      ]
+    },
+    {
+      "id": "rhythm.syncopated_clap",
+      "name": "Syncopated Clap",
+      "description": "Off-beat accents that surprise and groove.",
+      "energy": 2,
+      "tags": [
+        "steady",
+        "short",
+        "pulse",
+        "random"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        }
+      ]
+    },
+    {
+      "id": "rhythm.clock_chime",
+      "name": "Clock Chime",
+      "description": "Quarter-hour chimes: one, two, three, four.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "steady",
+        "pulse",
+        "build"
+      ],
+      "steps": [
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10
+        }
+      ]
+    },
+    {
+      "id": "rhythm.pendulum_swing",
+      "name": "Pendulum Swing",
+      "description": "Smooth swing from side to side, back and forth.",
+      "energy": 2,
+      "tags": [
+        "slow",
+        "wave",
+        "motion",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 15
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "rotate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 6,
+          "rotate": 10
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "rotate": 15
+        }
+      ]
+    },
+    {
+      "id": "rhythm.industrial_piston",
+      "name": "Industrial Piston",
+      "description": "Mechanical piston motion with thrust channel.",
+      "energy": 3,
+      "tags": [
+        "steady",
+        "heavy",
+        "motion",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "thrust": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 0
+        }
+      ]
+    },
+    {
+      "id": "rhythm.typing_rhythm",
+      "name": "Typing Rhythm",
+      "description": "The steady clack of fingers on a keyboard.",
+      "energy": 2,
+      "tags": [
+        "fast",
+        "short",
+        "pulse",
+        "steady"
+      ],
+      "steps": [
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        }
+      ]
+    },
+    {
+      "id": "rhythm.rain_drops",
+      "name": "Rain Drops",
+      "description": "Random-feeling raindrops with suction pulses.",
+      "energy": 2,
+      "tags": [
+        "steady",
+        "short",
+        "silence",
+        "dual"
+      ],
+      "steps": [
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "suction": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "suction": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "suction": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "suction": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "suction": 0
+        }
+      ]
+    }
+  ]
+}
