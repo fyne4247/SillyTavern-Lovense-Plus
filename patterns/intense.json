@@ -40,7 +40,7 @@
     {
       "id": "intense.punishing_pound",
       "name": "Punishing Pound",
-      "description": "Relentless heavy blows that never let up.",
+      "description": "Relentless heavy blows, hammering in sets with only a split-second breath.",
       "energy": 5,
       "tags": [
         "heavy",
@@ -81,22 +81,122 @@
           "thrust": 18
         },
         {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "thrust": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "thrust": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "thrust": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 19,
+          "thrust": 19
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "thrust": 3
+        },
+        {
           "ms": 1200,
-          "vibrate": 16,
-          "thrust": 16
+          "vibrate": 19,
+          "thrust": 19
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18,
+          "thrust": 17
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 2200,
+          "vibrate": 20,
+          "thrust": 20
         },
         {
           "ms": 1000,
-          "vibrate": 20,
-          "thrust": 20
+          "vibrate": 16,
+          "thrust": 14
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18,
+          "thrust": 18
         }
       ]
     },
     {
       "id": "intense.relentless_surge",
       "name": "Relentless Surge",
-      "description": "Ever-climbing pressure with no relief.",
-      "energy": 5,
+      "description": "Ever-climbing pressure in waves that each reach higher, with no real relief.",
+      "energy": 4,
       "tags": [
         "build",
         "heavy",
@@ -136,14 +236,114 @@
           "thrust": 20
         },
         {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
           "ms": 1200,
           "vibrate": 19,
-          "thrust": 19
+          "thrust": 18
         },
         {
           "ms": 1200,
           "vibrate": 20,
           "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18,
+          "thrust": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 13,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "thrust": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "thrust": 19
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "thrust": 5
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 16
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "thrust": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 19
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "thrust": 12
         }
       ]
     },
@@ -205,13 +405,13 @@
     {
       "id": "intense.furious_barrage",
       "name": "Furious Barrage",
-      "description": "Rapid-fire bursts that never slow down.",
+      "description": "Rapid-fire bursts from both motors, trading blows, never slowing down.",
       "energy": 5,
       "tags": [
         "fast",
         "burst",
         "heavy",
-        "short",
+        "dual",
         "steady"
       ],
       "steps": [
@@ -246,14 +446,109 @@
           "vibrate2": 16
         },
         {
-          "ms": 800,
+          "ms": 500,
           "vibrate": 20,
+          "vibrate2": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "vibrate2": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "vibrate2": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "vibrate2": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "vibrate2": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "vibrate2": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "vibrate2": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "vibrate2": 19
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "vibrate2": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 19,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 17
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 19
+        },
+        {
+          "ms": 1600,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1600,
+          "vibrate": 19,
           "vibrate2": 20
         },
         {
           "ms": 600,
           "vibrate": 18,
+          "vibrate2": 16
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
           "vibrate2": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "vibrate2": 15
         },
         {
           "ms": 800,
@@ -263,7 +558,7 @@
         {
           "ms": 600,
           "vibrate": 19,
-          "vibrate2": 17
+          "vibrate2": 16
         },
         {
           "ms": 800,
@@ -271,9 +566,14 @@
           "vibrate2": 18
         },
         {
-          "ms": 600,
-          "vibrate": 18,
-          "vibrate2": 16
+          "ms": 500,
+          "vibrate": 9,
+          "vibrate2": 14
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "vibrate2": 18
         }
       ]
     },
@@ -335,7 +635,7 @@
     {
       "id": "intense.thrusting_frenzy",
       "name": "Relentless Thrusting",
-      "description": "Aggressive thrusting with maximum vibration.",
+      "description": "Aggressive thrusting with maximum vibration, with hard accents and one brief gasp.",
       "energy": 5,
       "tags": [
         "fast",
@@ -347,51 +647,161 @@
       "steps": [
         {
           "ms": 1100,
-          "vibrate": 18,
-          "thrust": 15
-        },
-        {
-          "ms": 900,
-          "vibrate": 19,
-          "thrust": 18
-        },
-        {
-          "ms": 1100,
-          "vibrate": 20,
-          "thrust": 20
+          "vibrate": 16,
+          "thrust": 14
         },
         {
           "ms": 900,
           "vibrate": 18,
-          "thrust": 18
-        },
-        {
-          "ms": 1100,
-          "vibrate": 20,
-          "thrust": 20
-        },
-        {
-          "ms": 900,
-          "vibrate": 19,
           "thrust": 17
         },
         {
           "ms": 1100,
+          "vibrate": 19,
+          "thrust": 19
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1100,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
           "vibrate": 17,
           "thrust": 15
         },
         {
-          "ms": 900,
+          "ms": 600,
           "vibrate": 20,
           "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 19,
+          "thrust": 19
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "thrust": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 16
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 19,
+          "thrust": 19
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1400,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 1400,
+          "vibrate": 19,
+          "thrust": 17
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 11,
+          "thrust": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 16
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 17,
+          "thrust": 14
         }
       ]
     },
     {
       "id": "intense.overwhelming_wave",
       "name": "Overwhelming Wave",
-      "description": "Massive swells that crash and reform endlessly.",
-      "energy": 5,
+      "description": "Massive swells with rotation that crash into brief troughs and rear up again.",
+      "energy": 4,
       "tags": [
         "wave",
         "heavy",
@@ -431,22 +841,117 @@
           "rotate": 14
         },
         {
+          "ms": 900,
+          "vibrate": 13,
+          "rotate": 8
+        },
+        {
           "ms": 1300,
+          "vibrate": 16,
+          "rotate": 12
+        },
+        {
+          "ms": 1300,
+          "vibrate": 18,
+          "rotate": 15
+        },
+        {
+          "ms": 1300,
+          "vibrate": 20,
+          "rotate": 18
+        },
+        {
+          "ms": 1300,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "rotate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 10,
+          "rotate": 4
+        },
+        {
+          "ms": 1600,
+          "vibrate": 14,
+          "rotate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 17,
+          "rotate": 13
+        },
+        {
+          "ms": 1200,
           "vibrate": 19,
           "rotate": 16
         },
         {
+          "ms": 1200,
+          "vibrate": 20,
+          "rotate": 19
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 8,
+          "rotate": 3
+        },
+        {
+          "ms": 1300,
+          "vibrate": 18,
+          "rotate": 18
+        },
+        {
           "ms": 1100,
           "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 1300,
+          "vibrate": 17,
+          "rotate": 14
+        },
+        {
+          "ms": 1100,
+          "vibrate": 19,
           "rotate": 18
+        },
+        {
+          "ms": 1300,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 1800,
+          "vibrate": 16,
+          "rotate": 12
         }
       ]
     },
     {
       "id": "intense.unforgiving_pulse",
       "name": "Unforgiving Pulse",
-      "description": "Deep alternating pulses with no escape.",
-      "energy": 5,
+      "description": "Deep alternating pulses that quicken, lock in unison, and then swing again.",
+      "energy": 4,
       "tags": [
         "pulse",
         "heavy",
@@ -486,21 +991,116 @@
           "vibrate2": 20
         },
         {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "vibrate2": 20
+        },
+        {
           "ms": 1400,
           "vibrate": 20,
           "vibrate2": 14
         },
         {
           "ms": 1000,
+          "vibrate": 14,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "vibrate2": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
           "vibrate": 16,
           "vibrate2": 19
+        },
+        {
+          "ms": 800,
+          "vibrate": 19,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "vibrate2": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "vibrate2": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1400,
+          "vibrate": 18,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "vibrate2": 15
         }
       ]
     },
     {
       "id": "intense.double_onslaught",
       "name": "Double Onslaught",
-      "description": "Both motors pound in relentless unison.",
+      "description": "Both motors pound in relentless unison, then trade sides and slam back together.",
       "energy": 5,
       "tags": [
         "dual",
@@ -531,12 +1131,97 @@
           "vibrate2": 18
         },
         {
-          "ms": 1000,
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1400,
+          "vibrate": 19,
+          "vibrate2": 19
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 8,
+          "vibrate2": 8
+        },
+        {
+          "ms": 700,
           "vibrate": 17,
           "vibrate2": 17
         },
         {
-          "ms": 1200,
+          "ms": 700,
+          "vibrate": 19,
+          "vibrate2": 19
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "vibrate2": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1100,
+          "vibrate": 16,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1100,
+          "vibrate": 20,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1100,
+          "vibrate": 18,
+          "vibrate2": 18
+        },
+        {
+          "ms": 2200,
           "vibrate": 20,
           "vibrate2": 20
         },
@@ -547,8 +1232,13 @@
         },
         {
           "ms": 1000,
-          "vibrate": 18,
-          "vibrate2": 18
+          "vibrate": 17,
+          "vibrate2": 17
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20,
+          "vibrate2": 20
         }
       ]
     },
@@ -610,8 +1300,8 @@
     {
       "id": "intense.merciless_rhythm",
       "name": "Merciless Rhythm",
-      "description": "Brutal heartbeat that refuses any slowdown.",
-      "energy": 5,
+      "description": "A brutal heartbeat that refuses any slowdown, double-timing and surging as it goes.",
+      "energy": 4,
       "tags": [
         "pulse",
         "heavy",
@@ -651,13 +1341,123 @@
           "thrust": 12
         },
         {
-          "ms": 1200,
+          "ms": 600,
           "vibrate": 20,
           "thrust": 20
         },
         {
+          "ms": 600,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "thrust": 12
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "thrust": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "thrust": 3
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 13,
+          "thrust": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 13,
+          "thrust": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "thrust": 10
+        },
+        {
           "ms": 1200,
-          "vibrate": 18,
+          "vibrate": 20,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 13,
+          "thrust": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 19,
           "thrust": 18
         }
       ]
@@ -720,7 +1520,7 @@
     {
       "id": "intense.raging_tempest",
       "name": "Raging Tempest",
-      "description": "Chaotic storm of vibration and thrust.",
+      "description": "A chaotic storm of vibration and thrust that gusts, lulls and crashes again.",
       "energy": 5,
       "tags": [
         "random",
@@ -766,9 +1566,104 @@
           "thrust": 20
         },
         {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 6
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 11,
+          "thrust": 3
+        },
+        {
           "ms": 1000,
           "vibrate": 19,
-          "thrust": 15
+          "thrust": 16
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1300,
+          "vibrate": 17,
+          "thrust": 11
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 13
+        },
+        {
+          "ms": 1700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "thrust": 7
+        },
+        {
+          "ms": 1100,
+          "vibrate": 19,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 14
+        },
+        {
+          "ms": 1200,
+          "vibrate": 19,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 10
         },
         {
           "ms": 1100,
@@ -780,7 +1675,7 @@
     {
       "id": "intense.oscillating_fury",
       "name": "Oscillating Fury",
-      "description": "Oscillation swells while vibration stays high.",
+      "description": "Oscillation swells and snaps while vibration stays pinned high.",
       "energy": 5,
       "tags": [
         "motion",
@@ -821,12 +1716,107 @@
           "oscillate": 18
         },
         {
-          "ms": 1100,
+          "ms": 700,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "oscillate": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "oscillate": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "oscillate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 17,
+          "oscillate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 19,
+          "oscillate": 16
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "oscillate": 6
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "oscillate": 20
+        },
+        {
+          "ms": 900,
           "vibrate": 18,
+          "oscillate": 10
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "oscillate": 10
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 1800,
+          "vibrate": 18,
+          "oscillate": 14
+        },
+        {
+          "ms": 1800,
+          "vibrate": 20,
+          "oscillate": 18
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 1100,
+          "vibrate": 19,
           "oscillate": 16
         },
         {
           "ms": 1300,
+          "vibrate": 18,
+          "oscillate": 18
+        },
+        {
+          "ms": 1100,
           "vibrate": 20,
           "oscillate": 20
         }
@@ -945,7 +1935,7 @@
     {
       "id": "intense.overpowering_drive",
       "name": "Overpowering Drive",
-      "description": "Thrust and vibration in dominating rhythm.",
+      "description": "Thrust and vibration driving in a dominating rhythm that keeps shifting gears.",
       "energy": 5,
       "tags": [
         "motion",
@@ -986,14 +1976,109 @@
           "thrust": 20
         },
         {
-          "ms": 1200,
+          "ms": 1600,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 1600,
           "vibrate": 18,
-          "thrust": 16
+          "thrust": 15
+        },
+        {
+          "ms": 1600,
+          "vibrate": 20,
+          "thrust": 18
+        },
+        {
+          "ms": 1600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "thrust": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "thrust": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "thrust": 4
+        },
+        {
+          "ms": 2000,
+          "vibrate": 19,
+          "thrust": 19
         },
         {
           "ms": 1000,
           "vibrate": 20,
           "thrust": 20
+        },
+        {
+          "ms": 2000,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 19,
+          "thrust": 17
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "thrust": 14
         }
       ]
     },
@@ -1050,7 +2135,7 @@
     {
       "id": "intense.fingering_frenzy",
       "name": "Hard Fingering",
-      "description": "Aggressive rapid fingering motion with vibration.",
+      "description": "Aggressive rapid fingering with vibration, punctuated by hard stutters.",
       "energy": 5,
       "tags": [
         "motion",
@@ -1091,19 +2176,114 @@
           "fingering": 18
         },
         {
-          "ms": 1000,
+          "ms": 600,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 1400,
+          "vibrate": 19,
+          "fingering": 14
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "fingering": 17
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "fingering": 5
+        },
+        {
+          "ms": 800,
           "vibrate": 18,
           "fingering": 20
         },
         {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 19,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 10
+        },
+        {
           "ms": 800,
           "vibrate": 20,
-          "fingering": 19
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 10
+        },
+        {
+          "ms": 1700,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "fingering": 12
         },
         {
           "ms": 1000,
           "vibrate": 19,
           "fingering": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "fingering": 19
         }
       ]
     },

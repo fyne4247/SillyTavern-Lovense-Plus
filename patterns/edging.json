@@ -113,8 +113,8 @@
     {
       "id": "edging.sharp_peak",
       "name": "Sharp Peak",
-      "description": "Rapid climb to maximum, instant cutoff, repeat.",
-      "energy": 4,
+      "description": "Climbs to maximum and cuts, a fast, a slow, a flash, and a final surge.",
+      "energy": 2,
       "tags": [
         "build",
         "drop",
@@ -144,16 +144,88 @@
           "vibrate": 0
         },
         {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 17
+        },
+        {
+          "ms": 1500,
+          "vibrate": 19
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
           "ms": 1000,
           "vibrate": 0
         },
         {
           "ms": 1000,
-          "vibrate": 10
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
         },
         {
           "ms": 1000,
           "vibrate": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 19
         },
         {
           "ms": 500,
@@ -164,7 +236,35 @@
           "vibrate": 0
         },
         {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 13
+        },
+        {
           "ms": 1000,
+          "vibrate": 17
+        },
+        {
+          "ms": 1200,
+          "vibrate": 19
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 2500,
           "vibrate": 0
         }
       ]
@@ -226,8 +326,8 @@
     {
       "id": "edging.pulse_tease",
       "name": "Pulse Tease",
-      "description": "Pulsing vibrations that grow stronger then fade away.",
-      "energy": 2,
+      "description": "Pulses that climb, back off, climb higher, and fade just before the peak.",
+      "energy": 1,
       "tags": [
         "pulse",
         "build",
@@ -274,10 +374,130 @@
         },
         {
           "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 17
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 19
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
           "vibrate": 10
         },
         {
           "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 1500,
           "vibrate": 0
         },
         {
@@ -290,10 +510,42 @@
         },
         {
           "ms": 500,
-          "vibrate": 5
+          "vibrate": 11
         },
         {
           "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 6
+        },
+        {
+          "ms": 2000,
           "vibrate": 0
         }
       ]
@@ -463,8 +715,8 @@
     {
       "id": "edging.stutter_step",
       "name": "Stutter Step",
-      "description": "Uneven climb with stuttering steps to the edge.",
-      "energy": 3,
+      "description": "Uneven, stuttering climbs to the edge, each pulled back at a different point.",
+      "energy": 2,
       "tags": [
         "build",
         "random",
@@ -513,11 +765,175 @@
           "vibrate": 5
         },
         {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 6
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 10
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 17
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 19
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12
+        },
+        {
           "ms": 1000,
           "vibrate": 0
         },
         {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 13
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 19
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 14
+        },
+        {
+          "ms": 800,
+          "vibrate": 8
+        },
+        {
           "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 11
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 15
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 13
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11
+        },
+        {
+          "ms": 2000,
           "vibrate": 0
         }
       ]
@@ -525,8 +941,8 @@
     {
       "id": "edging.dual_escalation",
       "name": "Dual Escalation",
-      "description": "Both vibrators climb at different rates, pulling back asymmetrically.",
-      "energy": 4,
+      "description": "Two motors climb at different rates, taking turns to lead and pulling back asymmetrically.",
+      "energy": 3,
       "tags": [
         "build",
         "drop",
@@ -578,14 +994,169 @@
           "ms": 1000,
           "vibrate": 3,
           "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 13
+        },
+        {
+          "ms": 1000,
+          "vibrate": 11,
+          "vibrate2": 17
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "vibrate2": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "vibrate2": 13
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "vibrate2": 19
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "vibrate2": 13
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "vibrate2": 2
         }
       ]
     },
     {
       "id": "edging.suction_pulse",
       "name": "Suction Pulse",
-      "description": "Suction pulses in sync with building vibrations, then drops.",
-      "energy": 3,
+      "description": "Suction pulses in sync with a building buzz, three climbs with different drops.",
+      "energy": 2,
       "tags": [
         "pulse",
         "build",
@@ -644,7 +1215,172 @@
           "suction": 8
         },
         {
+          "ms": 1000,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "suction": 6
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "suction": 10
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "suction": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 17,
+          "suction": 17
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "suction": 19
+        },
+        {
           "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "suction": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "suction": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "suction": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "suction": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "suction": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "suction": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 7,
+          "suction": 7
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 11,
+          "suction": 11
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "suction": 15
+        },
+        {
+          "ms": 400,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18,
+          "suction": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 14,
+          "suction": 14
+        },
+        {
+          "ms": 1200,
+          "vibrate": 9,
+          "suction": 9
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "suction": 4
+        },
+        {
+          "ms": 1500,
           "vibrate": 0,
           "suction": 0
         }
@@ -706,7 +1442,7 @@
     {
       "id": "edging.oscillate_wave",
       "name": "Oscillate Wave",
-      "description": "Oscillating motion adds texture to a classic wave pattern.",
+      "description": "Oscillation adds texture to three swells, each rising higher before it falls away.",
       "energy": 3,
       "tags": [
         "wave",
@@ -754,14 +1490,159 @@
           "ms": 800,
           "vibrate": 0,
           "oscillate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 6,
+          "oscillate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "oscillate": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 14,
+          "oscillate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 17,
+          "oscillate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 19,
+          "oscillate": 17
+        },
+        {
+          "ms": 1200,
+          "vibrate": 14,
+          "oscillate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 9,
+          "oscillate": 7
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "oscillate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "oscillate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "oscillate": 18
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "oscillate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 6,
+          "oscillate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "oscillate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "oscillate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "oscillate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9,
+          "oscillate": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "oscillate": 11
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "oscillate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "oscillate": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "oscillate": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "oscillate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "oscillate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "oscillate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "oscillate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "oscillate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "oscillate": 0
         }
       ]
     },
     {
       "id": "edging.triplet_climb",
       "name": "Triplet Climb",
-      "description": "Three-step rhythm climbing toward the edge in triplets.",
-      "energy": 2,
+      "description": "Triplet rhythms climbing toward the edge, backing off, and starting over a little higher.",
+      "energy": 1,
       "tags": [
         "build",
         "pulse",
@@ -831,6 +1712,162 @@
         },
         {
           "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 10
+        },
+        {
+          "ms": 400,
+          "vibrate": 8
+        },
+        {
+          "ms": 400,
+          "vibrate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 13
+        },
+        {
+          "ms": 400,
+          "vibrate": 11
+        },
+        {
+          "ms": 400,
+          "vibrate": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 16
+        },
+        {
+          "ms": 400,
+          "vibrate": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 16
+        },
+        {
+          "ms": 400,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 8
+        },
+        {
+          "ms": 400,
+          "vibrate": 6
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 11
+        },
+        {
+          "ms": 400,
+          "vibrate": 9
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 16
+        },
+        {
+          "ms": 400,
+          "vibrate": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 16
+        },
+        {
+          "ms": 400,
+          "vibrate": 13
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 2500,
           "vibrate": 0
         }
       ]
@@ -1218,7 +2255,7 @@
     {
       "id": "edging.vibrate2_counter",
       "name": "Vibrate2 Counter",
-      "description": "Second motor counter-moves to the first for tension.",
+      "description": "The second motor moves against the first, then the two converge and pull back.",
       "energy": 3,
       "tags": [
         "dual",
@@ -1266,6 +2303,166 @@
           "ms": 1000,
           "vibrate": 5,
           "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "vibrate2": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3,
+          "vibrate2": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "vibrate2": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "vibrate2": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "vibrate2": 15
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "vibrate2": 17
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "vibrate2": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "vibrate2": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "vibrate2": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "vibrate2": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "vibrate2": 6
         },
         {
           "ms": 1000,
@@ -1335,8 +2532,8 @@
     {
       "id": "edging.double_peak",
       "name": "Double Peak",
-      "description": "Two rapid climbs to the brink with a brief dip between.",
-      "energy": 5,
+      "description": "Two quick climbs to the brink, a dip, then a third, longer one. Pull-backs fall at different heights.",
+      "energy": 3,
       "tags": [
         "build",
         "drop",
@@ -1350,19 +2547,91 @@
         },
         {
           "ms": 1000,
-          "vibrate": 10
+          "vibrate": 6
         },
         {
           "ms": 1000,
-          "vibrate": 18
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 16
+        },
+        {
+          "ms": 700,
+          "vibrate": 19
+        },
+        {
+          "ms": 600,
+          "vibrate": 20
         },
         {
           "ms": 500,
           "vibrate": 20
         },
         {
-          "ms": 500,
-          "vibrate": 15
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 13
+        },
+        {
+          "ms": 1200,
+          "vibrate": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5
         },
         {
           "ms": 1000,
@@ -1370,18 +2639,42 @@
         },
         {
           "ms": 1000,
-          "vibrate": 18
-        },
-        {
-          "ms": 500,
-          "vibrate": 20
-        },
-        {
-          "ms": 500,
           "vibrate": 15
         },
         {
+          "ms": 700,
+          "vibrate": 19
+        },
+        {
+          "ms": 500,
+          "vibrate": 13
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12
+        },
+        {
           "ms": 1000,
+          "vibrate": 17
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 2000,
           "vibrate": 0
         }
       ]

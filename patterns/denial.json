@@ -56,8 +56,8 @@
     {
       "id": "denial.abrupt_cutoff",
       "name": "Abrupt Cutoff",
-      "description": "Strong vibration building to a peak, then sudden complete silence.",
-      "energy": 3,
+      "description": "Strong builds that end in sudden, total silence, one cut early and one at the very top.",
+      "energy": 1,
       "tags": [
         "build",
         "drop",
@@ -86,7 +86,59 @@
           "vibrate": 20
         },
         {
-          "ms": 4500,
+          "ms": 8000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 16
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20
+        },
+        {
+          "ms": 17000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
           "vibrate": 0
         }
       ]
@@ -176,7 +228,7 @@
     {
       "id": "denial.empty_threat",
       "name": "Empty Threat",
-      "description": "Vibration suggests intensity but never materializes, with extended silence.",
+      "description": "Hints of intensity that never arrive, with long empty stretches in between.",
       "energy": 1,
       "tags": [
         "light",
@@ -206,7 +258,75 @@
           "vibrate": 4
         },
         {
-          "ms": 5000,
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 16000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 4
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 8000,
+          "vibrate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5
+        },
+        {
+          "ms": 12000,
           "vibrate": 0
         }
       ]
@@ -259,13 +379,13 @@
     {
       "id": "denial.cold_turkey",
       "name": "Cold Turkey",
-      "description": "Full intensity then immediately cut to complete stillness.",
-      "energy": 2,
+      "description": "Full-power surges cut dead, again and again, with long cold silences between.",
+      "energy": 1,
       "tags": [
         "heavy",
         "drop",
         "silence",
-        "short"
+        "long"
       ],
       "steps": [
         {
@@ -289,12 +409,77 @@
           "vibrate2": 16
         },
         {
-          "ms": 3000,
+          "ms": 9000,
           "vibrate": 0,
           "vibrate2": 0
         },
         {
-          "ms": 2000,
+          "ms": 700,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "vibrate2": 16
+        },
+        {
+          "ms": 14000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 2500,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 17000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "vibrate2": 3
+        },
+        {
+          "ms": 2500,
           "vibrate": 0,
           "vibrate2": 0
         }
@@ -303,8 +488,8 @@
     {
       "id": "denial.false_start",
       "name": "False Start",
-      "description": "Begins strongly then fades away to nothing.",
-      "energy": 2,
+      "description": "Starts strong, then sputters out. Each attempt dies sooner or later, with long empty waits.",
+      "energy": 1,
       "tags": [
         "build",
         "drop",
@@ -334,12 +519,77 @@
           "rotate": 2
         },
         {
-          "ms": 2000,
+          "ms": 9000,
           "vibrate": 0,
           "rotate": 0
         },
         {
-          "ms": 2000,
+          "ms": 800,
+          "vibrate": 6,
+          "rotate": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "rotate": 2
+        },
+        {
+          "ms": 7000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 10,
+          "rotate": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 7,
+          "rotate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "rotate": 1
+        },
+        {
+          "ms": 12000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 13,
+          "rotate": 9
+        },
+        {
+          "ms": 1500,
+          "vibrate": 9,
+          "rotate": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 8000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "rotate": 3
+        },
+        {
+          "ms": 3000,
           "vibrate": 0,
           "rotate": 0
         }
@@ -386,8 +636,8 @@
     {
       "id": "denial.teasing_flicker",
       "name": "Teasing Flicker",
-      "description": "Rapid tiny pulses that hint at more but deliver nothing substantial.",
-      "energy": 2,
+      "description": "Tiny flickers that promise more, then long stretches of nothing.",
+      "energy": 1,
       "tags": [
         "light",
         "fast",
@@ -416,11 +666,111 @@
           "vibrate": 2
         },
         {
+          "ms": 9000,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 3
+        },
+        {
           "ms": 300,
           "vibrate": 0
         },
         {
-          "ms": 5600,
+          "ms": 400,
+          "vibrate": 4
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 5
+        },
+        {
+          "ms": 14000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 3
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 4
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 5
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 4
+        },
+        {
+          "ms": 18000,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 2
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 2
+        },
+        {
+          "ms": 5000,
           "vibrate": 0
         }
       ]
@@ -428,8 +778,8 @@
     {
       "id": "denial.power_stop",
       "name": "Power Stop",
-      "description": "Dominant thrusting motion halts abruptly mid-pattern.",
-      "energy": 3,
+      "description": "Dominant thrusting that halts mid-stride, over and over, leaving long stillness.",
+      "energy": 1,
       "tags": [
         "heavy",
         "motion",
@@ -458,12 +808,67 @@
           "thrust": 10
         },
         {
-          "ms": 2000,
+          "ms": 7000,
           "vibrate": 0,
           "thrust": 0
         },
         {
           "ms": 1000,
+          "vibrate": 8,
+          "thrust": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "thrust": 14
+        },
+        {
+          "ms": 2000,
+          "vibrate": 15,
+          "thrust": 18
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 12000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 3000,
+          "vibrate": 8,
+          "thrust": 10
+        },
+        {
+          "ms": 3000,
+          "vibrate": 11,
+          "thrust": 14
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "thrust": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "thrust": 16
+        },
+        {
+          "ms": 1500,
+          "vibrate": 17,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 10
+        },
+        {
+          "ms": 14000,
           "vibrate": 0,
           "thrust": 0
         }
@@ -554,8 +959,8 @@
     {
       "id": "denial.rotating_abandon",
       "name": "Rotating Abandon",
-      "description": "Rotation spins up then stops dead, leaving empty motion.",
-      "energy": 2,
+      "description": "Rotation spins up, stops dead, and leaves empty motion and long silences.",
+      "energy": 1,
       "tags": [
         "motion",
         "build",
@@ -591,6 +996,81 @@
         {
           "ms": 2000,
           "vibrate": 0,
+          "rotate": 8
+        },
+        {
+          "ms": 7000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "rotate": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 12
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "rotate": 6
+        },
+        {
+          "ms": 11000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "rotate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "rotate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "rotate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 17,
+          "rotate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "rotate": 12
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "rotate": 10
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0,
           "rotate": 0
         }
       ]
@@ -598,8 +1078,8 @@
     {
       "id": "denial.fingering_withdraw",
       "name": "Fingering Withdraw",
-      "description": "Fingering motion teases then withdraws completely.",
-      "energy": 2,
+      "description": "Fingering teases, builds, then withdraws completely. Long, uneven absences.",
+      "energy": 1,
       "tags": [
         "motion",
         "light",
@@ -628,12 +1108,72 @@
           "fingering": 3
         },
         {
-          "ms": 2000,
+          "ms": 6000,
           "vibrate": 0,
           "fingering": 0
         },
         {
-          "ms": 1000,
+          "ms": 1500,
+          "vibrate": 5,
+          "fingering": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 9,
+          "fingering": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "fingering": 15
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "fingering": 4
+        },
+        {
+          "ms": 14000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "fingering": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 7,
+          "fingering": 6
+        },
+        {
+          "ms": 2000,
+          "vibrate": 4,
+          "fingering": 3
+        },
+        {
+          "ms": 4000,
+          "vibrate": 0,
+          "fingering": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "fingering": 8
+        },
+        {
+          "ms": 2000,
+          "vibrate": 11,
+          "fingering": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "fingering": 6
+        },
+        {
+          "ms": 10000,
           "vibrate": 0,
           "fingering": 0
         }
@@ -686,8 +1226,8 @@
     {
       "id": "denial.dual_denial",
       "name": "Dual Denial",
-      "description": "Both motors build then both are cut off simultaneously.",
-      "energy": 3,
+      "description": "Both motors climb together, then are cut at once. Long gaps, a cruel flutter, a final surge.",
+      "energy": 1,
       "tags": [
         "dual",
         "build",
@@ -716,12 +1256,72 @@
           "vibrate2": 14
         },
         {
-          "ms": 1500,
+          "ms": 8000,
           "vibrate": 0,
           "vibrate2": 0
         },
         {
           "ms": 1500,
+          "vibrate": 6,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 16,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "vibrate2": 18
+        },
+        {
+          "ms": 12000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "vibrate2": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 6000,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "vibrate2": 13
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 2000,
+          "vibrate": 20,
+          "vibrate2": 18
+        },
+        {
+          "ms": 15000,
           "vibrate": 0,
           "vibrate2": 0
         }
@@ -855,8 +1455,8 @@
     {
       "id": "denial.almost_there",
       "name": "Almost There",
-      "description": "Builds to the edge of climax then cuts off completely.",
-      "energy": 3,
+      "description": "Three climbs toward the brink, each cut at a different point. The last nearly arrives.",
+      "energy": 1,
       "tags": [
         "build",
         "drop",
@@ -866,37 +1466,109 @@
       ],
       "steps": [
         {
-          "ms": 1000,
+          "ms": 1500,
           "vibrate": 5,
           "rotate": 3,
           "pump": 1
         },
         {
-          "ms": 1000,
+          "ms": 1500,
           "vibrate": 10,
           "rotate": 6,
           "pump": 2
         },
         {
-          "ms": 1000,
+          "ms": 1500,
+          "vibrate": 13,
+          "rotate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 8000,
+          "vibrate": 0,
+          "rotate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "rotate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 11,
+          "rotate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "rotate": 11,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 18,
+          "rotate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "rotate": 5,
+          "pump": 1
+        },
+        {
+          "ms": 5000,
+          "vibrate": 0,
+          "rotate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "rotate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "rotate": 6,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
           "vibrate": 15,
           "rotate": 10,
           "pump": 3
         },
         {
-          "ms": 1000,
+          "ms": 1500,
           "vibrate": 18,
           "rotate": 15,
           "pump": 3
         },
         {
-          "ms": 1000,
+          "ms": 1500,
           "vibrate": 20,
           "rotate": 20,
-          "pump": 2
+          "pump": 3
         },
         {
-          "ms": 3000,
+          "ms": 2000,
+          "vibrate": 20,
+          "rotate": 20,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 19,
+          "rotate": 19,
+          "pump": 3
+        },
+        {
+          "ms": 16000,
           "vibrate": 0,
           "rotate": 0,
           "pump": 0
@@ -906,8 +1578,8 @@
     {
       "id": "denial.echo_chamber",
       "name": "Echo Chamber",
-      "description": "Each pulse is weaker than the last, fading into nothing.",
-      "energy": 2,
+      "description": "Each pulse weaker than the last, the gaps stretching until nothing returns.",
+      "energy": 1,
       "tags": [
         "pulse",
         "drop",
@@ -936,7 +1608,87 @@
           "vibrate": 9
         },
         {
-          "ms": 5000,
+          "ms": 8000,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 6
+        },
+        {
+          "ms": 1900,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 3
+        },
+        {
+          "ms": 10000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 14
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7
+        },
+        {
+          "ms": 2200,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 4
+        },
+        {
+          "ms": 3000,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 2
+        },
+        {
+          "ms": 14000,
           "vibrate": 0
         }
       ]

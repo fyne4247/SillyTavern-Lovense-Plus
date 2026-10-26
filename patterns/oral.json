@@ -56,7 +56,7 @@
     {
       "id": "oral.gentle_lick",
       "name": "Gentle Lick",
-      "description": "Soft, slow licks with a warm tongue.",
+      "description": "Soft, slow licks in small phrases that warm up, linger and fade between breaths.",
       "energy": 1,
       "tags": [
         "slow",
@@ -106,10 +106,106 @@
         },
         {
           "ms": 1000,
-          "vibrate": 1
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
         },
         {
           "ms": 1000,
+          "vibrate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 4
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 5
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1
+        },
+        {
+          "ms": 1500,
           "vibrate": 0
         }
       ]
@@ -225,7 +321,7 @@
     {
       "id": "oral.suction_pulse",
       "name": "Tongue Suction Pulse",
-      "description": "Rhythmic suction pulses with matching vibration.",
+      "description": "Rhythmic suction pulses that deepen, hold one long draw, then quicken and ease off.",
       "energy": 2,
       "tags": [
         "pulse",
@@ -269,26 +365,136 @@
           "suction": 8
         },
         {
-          "ms": 1000,
+          "ms": 500,
           "vibrate": 3,
           "suction": 4
         },
         {
+          "ms": 1500,
+          "vibrate": 2,
+          "suction": 2
+        },
+        {
           "ms": 1000,
+          "vibrate": 7,
+          "suction": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "suction": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7,
+          "suction": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "suction": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 11
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "suction": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 11
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "suction": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "suction": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "suction": 6
+        },
+        {
+          "ms": 2200,
+          "vibrate": 9,
+          "suction": 13
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "suction": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "suction": 2
+        },
+        {
+          "ms": 700,
           "vibrate": 6,
           "suction": 8
         },
         {
-          "ms": 1000,
+          "ms": 400,
           "vibrate": 3,
           "suction": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "suction": 8
+        },
+        {
+          "ms": 400,
+          "vibrate": 3,
+          "suction": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 7,
+          "suction": 9
+        },
+        {
+          "ms": 400,
+          "vibrate": 3,
+          "suction": 4
+        },
+        {
+          "ms": 700,
+          "vibrate": 7,
+          "suction": 9
+        },
+        {
+          "ms": 400,
+          "vibrate": 4,
+          "suction": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "suction": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "suction": 2
         }
       ]
     },
     {
       "id": "oral.flicking_tease",
       "name": "Flicking Tease",
-      "description": "Quick flicks of the tongue tip, barely touching.",
+      "description": "Quick light flicks in little groups that quicken, pause for breath, then flutter away.",
       "energy": 2,
       "tags": [
         "fast",
@@ -297,59 +503,175 @@
       ],
       "steps": [
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 4
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 0
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 5
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 0
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 4
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 0
         },
         {
-          "ms": 1000,
+          "ms": 1200,
           "vibrate": 0
         },
         {
-          "ms": 500,
+          "ms": 450,
+          "vibrate": 5
+        },
+        {
+          "ms": 450,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
           "vibrate": 6
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 0
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 5
         },
         {
-          "ms": 500,
+          "ms": 450,
           "vibrate": 0
         },
         {
-          "ms": 1000,
+          "ms": 450,
+          "vibrate": 6
+        },
+        {
+          "ms": 450,
           "vibrate": 0
         },
         {
-          "ms": 500,
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 350,
+          "vibrate": 6
+        },
+        {
+          "ms": 350,
+          "vibrate": 0
+        },
+        {
+          "ms": 350,
+          "vibrate": 7
+        },
+        {
+          "ms": 350,
+          "vibrate": 0
+        },
+        {
+          "ms": 350,
+          "vibrate": 7
+        },
+        {
+          "ms": 350,
+          "vibrate": 0
+        },
+        {
+          "ms": 350,
+          "vibrate": 8
+        },
+        {
+          "ms": 350,
+          "vibrate": 0
+        },
+        {
+          "ms": 350,
+          "vibrate": 8
+        },
+        {
+          "ms": 350,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
           "vibrate": 4
         },
         {
-          "ms": 500,
+          "ms": 450,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 3
+        },
+        {
+          "ms": 450,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 5
+        },
+        {
+          "ms": 450,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 6
+        },
+        {
+          "ms": 450,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 7
+        },
+        {
+          "ms": 450,
+          "vibrate": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 2
+        },
+        {
+          "ms": 900,
           "vibrate": 0
         }
       ]
@@ -582,7 +904,7 @@
     {
       "id": "oral.choking_gag",
       "name": "Choking Gag",
-      "description": "Aggressive throat rhythm with sudden stops.",
+      "description": "Forceful throat rhythm in short sets, each cut off by a sudden stop and a held breath.",
       "energy": 2,
       "tags": [
         "fast",
@@ -593,63 +915,231 @@
       "steps": [
         {
           "ms": 800,
-          "vibrate": 15,
-          "thrust": 18,
-          "suction": 10
+          "vibrate": 12,
+          "thrust": 13,
+          "suction": 7
         },
         {
           "ms": 600,
-          "vibrate": 8,
-          "thrust": 5,
-          "suction": 3
-        },
-        {
-          "ms": 800,
-          "vibrate": 15,
-          "thrust": 18,
-          "suction": 10
-        },
-        {
-          "ms": 600,
-          "vibrate": 8,
-          "thrust": 5,
-          "suction": 3
-        },
-        {
-          "ms": 800,
-          "vibrate": 15,
-          "thrust": 18,
-          "suction": 10
-        },
-        {
-          "ms": 800,
-          "vibrate": 0,
-          "thrust": 0,
-          "suction": 0
-        },
-        {
-          "ms": 2000,
-          "vibrate": 0,
-          "thrust": 0,
-          "suction": 0
-        },
-        {
-          "ms": 800,
-          "vibrate": 15,
-          "thrust": 18,
-          "suction": 10
-        },
-        {
-          "ms": 600,
-          "vibrate": 8,
-          "thrust": 5,
-          "suction": 3
+          "vibrate": 6,
+          "thrust": 4,
+          "suction": 2
         },
         {
           "ms": 800,
           "vibrate": 12,
-          "thrust": 15,
-          "suction": 8
+          "thrust": 13,
+          "suction": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "thrust": 4,
+          "suction": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 13,
+          "suction": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "thrust": 4,
+          "suction": 2
+        },
+        {
+          "ms": 1800,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 17,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 17,
+          "thrust": 19,
+          "suction": 10
+        },
+        {
+          "ms": 2800,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 11,
+          "suction": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "thrust": 3,
+          "suction": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 11,
+          "suction": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "thrust": 3,
+          "suction": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 11,
+          "suction": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "thrust": 3,
+          "suction": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
+          "thrust": 2,
+          "suction": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 13,
+          "suction": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "thrust": 4,
+          "suction": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 13,
+          "suction": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "thrust": 4,
+          "suction": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 2200,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
         }
       ]
     },
@@ -709,7 +1199,7 @@
     {
       "id": "oral.flutter_tongue",
       "name": "Flutter Tongue",
-      "description": "Rapid tongue fluttering against the tip.",
+      "description": "Rapid fluttering that alternates sides, speeds up in short bursts and rests between runs.",
       "energy": 2,
       "tags": [
         "fast",
@@ -748,22 +1238,82 @@
           "vibrate2": 0
         },
         {
-          "ms": 700,
+          "ms": 600,
           "vibrate": 6,
           "vibrate2": 4
         },
         {
-          "ms": 700,
+          "ms": 600,
           "vibrate": 4,
           "vibrate2": 6
         },
         {
-          "ms": 700,
+          "ms": 600,
           "vibrate": 6,
           "vibrate2": 4
         },
         {
-          "ms": 1000,
+          "ms": 600,
+          "vibrate": 4,
+          "vibrate2": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 600,
+          "vibrate": 4,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "vibrate2": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "vibrate2": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "vibrate2": 7
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "vibrate2": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 5,
+          "vibrate2": 7
+        },
+        {
+          "ms": 1500,
           "vibrate": 0,
           "vibrate2": 0
         },
@@ -771,6 +1321,56 @@
           "ms": 700,
           "vibrate": 5,
           "vibrate2": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 3,
+          "vibrate2": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 3,
+          "vibrate2": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 5,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "vibrate2": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "vibrate2": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "vibrate2": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 4,
+          "vibrate2": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "vibrate2": 4
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "vibrate2": 0
         }
       ]
     },
@@ -826,7 +1426,7 @@
     {
       "id": "oral.aggressive_fuck",
       "name": "Aggressive Fuck",
-      "description": "Hard, fast throat thrusting with maximum suction.",
+      "description": "Hard, driving rhythm that ramps in, drives, breathes and drives again, then eases off.",
       "energy": 3,
       "tags": [
         "fast",
@@ -836,63 +1436,225 @@
       "steps": [
         {
           "ms": 800,
-          "vibrate": 18,
-          "thrust": 20,
-          "suction": 15
-        },
-        {
-          "ms": 800,
-          "vibrate": 10,
-          "thrust": 10,
-          "suction": 8
-        },
-        {
-          "ms": 800,
-          "vibrate": 18,
-          "thrust": 20,
-          "suction": 15
-        },
-        {
-          "ms": 800,
-          "vibrate": 10,
-          "thrust": 10,
-          "suction": 8
-        },
-        {
-          "ms": 800,
-          "vibrate": 18,
-          "thrust": 20,
-          "suction": 15
-        },
-        {
-          "ms": 800,
-          "vibrate": 10,
-          "thrust": 10,
-          "suction": 8
-        },
-        {
-          "ms": 800,
-          "vibrate": 18,
-          "thrust": 20,
-          "suction": 15
-        },
-        {
-          "ms": 800,
-          "vibrate": 10,
-          "thrust": 10,
-          "suction": 8
-        },
-        {
-          "ms": 800,
-          "vibrate": 15,
-          "thrust": 15,
-          "suction": 12
-        },
-        {
-          "ms": 800,
-          "vibrate": 5,
+          "vibrate": 6,
           "thrust": 5,
+          "suction": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "thrust": 8,
+          "suction": 6
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 12,
+          "suction": 9
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 18,
+          "suction": 13
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "thrust": 9,
+          "suction": 7
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 18,
+          "suction": 13
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "thrust": 9,
+          "suction": 7
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 18,
+          "suction": 13
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "thrust": 9,
+          "suction": 7
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 18,
+          "suction": 13
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "thrust": 9,
+          "suction": 7
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "thrust": 4,
           "suction": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 1800,
+          "vibrate": 5,
+          "thrust": 3,
+          "suction": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "thrust": 11,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "thrust": 11,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "thrust": 11,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "thrust": 11,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 18,
+          "thrust": 20,
+          "suction": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "thrust": 11,
+          "suction": 9
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20,
+          "suction": 16
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "thrust": 5,
+          "suction": 4
+        },
+        {
+          "ms": 900,
+          "vibrate": 12,
+          "thrust": 10,
+          "suction": 8
+        },
+        {
+          "ms": 900,
+          "vibrate": 9,
+          "thrust": 6,
+          "suction": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "thrust": 3,
+          "suction": 2
         }
       ]
     },
@@ -958,7 +1720,7 @@
     {
       "id": "oral.tongue_wave",
       "name": "Tongue Wave",
-      "description": "Rolling wave of tongue pressure from base to tip.",
+      "description": "Rolling waves of pressure that swell higher with each pass before rolling back out.",
       "energy": 2,
       "tags": [
         "wave",
@@ -967,51 +1729,186 @@
       ],
       "steps": [
         {
-          "ms": 1500,
-          "vibrate": 4,
+          "ms": 1200,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3,
           "rotate": 3
         },
         {
-          "ms": 1000,
+          "ms": 1200,
+          "vibrate": 5,
+          "rotate": 5
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1,
+          "rotate": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 1,
+          "rotate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 7,
+          "rotate": 7
+        },
+        {
+          "ms": 1200,
+          "vibrate": 5,
+          "rotate": 5
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3,
+          "rotate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1,
+          "rotate": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 1,
+          "rotate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 3,
+          "rotate": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 5,
+          "rotate": 5
+        },
+        {
+          "ms": 1200,
+          "vibrate": 9,
+          "rotate": 9
+        },
+        {
+          "ms": 1200,
           "vibrate": 6,
           "rotate": 6
         },
         {
-          "ms": 1500,
+          "ms": 1200,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1,
+          "rotate": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 1,
+          "rotate": 0
+        },
+        {
+          "ms": 1400,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 1400,
+          "vibrate": 7,
+          "rotate": 7
+        },
+        {
+          "ms": 1400,
+          "vibrate": 11,
+          "rotate": 11
+        },
+        {
+          "ms": 1300,
           "vibrate": 8,
           "rotate": 8
         },
         {
+          "ms": 1300,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
+          "ms": 1300,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "rotate": 4
+        },
+        {
           "ms": 1000,
           "vibrate": 6,
           "rotate": 6
         },
         {
-          "ms": 1500,
+          "ms": 1000,
           "vibrate": 4,
-          "rotate": 3
+          "rotate": 4
         },
         {
           "ms": 1000,
           "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 1,
           "rotate": 1
         },
         {
           "ms": 1500,
-          "vibrate": 4,
-          "rotate": 3
-        },
-        {
-          "ms": 1000,
-          "vibrate": 5,
-          "rotate": 4
+          "vibrate": 0,
+          "rotate": 0
         }
       ]
     },
     {
       "id": "oral.gag_reflex",
       "name": "Gag Reflex",
-      "description": "Simulates gagging with irregular thrusts and suction drops.",
+      "description": "Irregular surges and sudden drops that return to a familiar motif, with long recovery pauses.",
       "energy": 2,
       "tags": [
         "random",
@@ -1057,10 +1954,70 @@
           "suction": 0
         },
         {
+          "ms": 1500,
+          "vibrate": 4,
+          "thrust": 3,
+          "suction": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "thrust": 12,
+          "suction": 8
+        },
+        {
+          "ms": 500,
+          "vibrate": 2,
+          "thrust": 1,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 15,
+          "suction": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 2,
+          "thrust": 1,
+          "suction": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "thrust": 18,
+          "suction": 12
+        },
+        {
+          "ms": 2200,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
           "ms": 1200,
           "vibrate": 8,
           "thrust": 8,
           "suction": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "thrust": 2,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "thrust": 14,
+          "suction": 9
+        },
+        {
+          "ms": 600,
+          "vibrate": 1,
+          "thrust": 0,
+          "suction": 0
         },
         {
           "ms": 800,
@@ -1069,9 +2026,51 @@
           "suction": 15
         },
         {
+          "ms": 700,
+          "vibrate": 3,
+          "thrust": 2,
+          "suction": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "thrust": 11,
+          "suction": 8
+        },
+        {
+          "ms": 2500,
+          "vibrate": 0,
+          "thrust": 0,
+          "suction": 0
+        },
+        {
           "ms": 1200,
-          "vibrate": 4,
-          "thrust": 3,
+          "vibrate": 6,
+          "thrust": 5,
+          "suction": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "thrust": 2,
+          "suction": 1
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8,
+          "thrust": 8,
+          "suction": 5
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "thrust": 1,
+          "suction": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 5,
+          "thrust": 4,
           "suction": 2
         }
       ]
@@ -1128,7 +2127,7 @@
     {
       "id": "oral.teeth_graze",
       "name": "Teeth Graze",
-      "description": "Light scraping sensation with gentle vibration.",
+      "description": "Light scraping touches in small clusters, with a brief quickening and long still pauses.",
       "energy": 2,
       "tags": [
         "light",
@@ -1137,7 +2136,7 @@
       ],
       "steps": [
         {
-          "ms": 1000,
+          "ms": 900,
           "vibrate": 5,
           "rotate": 4
         },
@@ -1147,7 +2146,7 @@
           "rotate": 0
         },
         {
-          "ms": 1000,
+          "ms": 900,
           "vibrate": 4,
           "rotate": 3
         },
@@ -1157,22 +2156,92 @@
           "rotate": 0
         },
         {
-          "ms": 1000,
+          "ms": 900,
           "vibrate": 6,
           "rotate": 5
         },
         {
-          "ms": 1000,
+          "ms": 500,
           "vibrate": 0,
           "rotate": 0
         },
         {
-          "ms": 1000,
-          "vibrate": 4,
-          "rotate": 3
+          "ms": 1200,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 5,
+          "rotate": 4
         },
         {
           "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 6,
+          "rotate": 5
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 7,
+          "rotate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 6,
+          "rotate": 5
+        },
+        {
+          "ms": 300,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "rotate": 6
+        },
+        {
+          "ms": 300,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 7,
+          "rotate": 6
+        },
+        {
+          "ms": 300,
           "vibrate": 0,
           "rotate": 0
         },
@@ -1182,7 +2251,47 @@
           "rotate": 4
         },
         {
-          "ms": 1000,
+          "ms": 1800,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 5,
+          "rotate": 4
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 3,
+          "rotate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 2,
+          "rotate": 1
+        },
+        {
+          "ms": 1500,
           "vibrate": 0,
           "rotate": 0
         }
@@ -1246,7 +2355,7 @@
     {
       "id": "oral.lip_press_rhythm",
       "name": "Lip Press Rhythm",
-      "description": "Regular lip pressure with syncopated vibration.",
+      "description": "Regular lip pressure with syncopated accents that firm up in the middle, then release.",
       "energy": 1,
       "tags": [
         "steady",
@@ -1262,7 +2371,7 @@
         {
           "ms": 800,
           "vibrate": 8,
-          "pump": 1
+          "pump": 2
         },
         {
           "ms": 1500,
@@ -1272,12 +2381,42 @@
         {
           "ms": 800,
           "vibrate": 8,
-          "pump": 1
+          "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 5,
           "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 3
         },
         {
           "ms": 800,
@@ -1286,13 +2425,78 @@
         },
         {
           "ms": 1500,
+          "vibrate": 6,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "pump": 3
+        },
+        {
+          "ms": 1500,
+          "vibrate": 6,
+          "pump": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 11,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "pump": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
           "vibrate": 5,
           "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 5,
+          "pump": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
+          "pump": 2
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
           "pump": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "pump": 0
         },
         {
           "ms": 1000,
@@ -1400,7 +2604,7 @@
     {
       "id": "oral.fast_lap",
       "name": "Fast Lap",
-      "description": "Quick lapping with tongue, fast and light.",
+      "description": "Quick light lapping in runs that speed up, with breath pauses between.",
       "energy": 2,
       "tags": [
         "fast",
@@ -1420,7 +2624,17 @@
         },
         {
           "ms": 700,
-          "vibrate": 5,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
           "rotate": 6
         },
         {
@@ -1440,31 +2654,211 @@
         },
         {
           "ms": 700,
-          "vibrate": 6,
-          "rotate": 7
-        },
-        {
-          "ms": 700,
-          "vibrate": 0,
-          "rotate": 0
-        },
-        {
-          "ms": 800,
           "vibrate": 4,
           "rotate": 5
         },
         {
-          "ms": 800,
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "rotate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "rotate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "rotate": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "rotate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5,
+          "rotate": 6
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "rotate": 7
+        },
+        {
+          "ms": 600,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 8,
+          "rotate": 8
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 8,
+          "rotate": 8
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 450,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 450,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 6,
+          "rotate": 7
+        },
+        {
+          "ms": 1800,
           "vibrate": 0,
           "rotate": 0
         },
         {
           "ms": 700,
-          "vibrate": 5,
-          "rotate": 4
+          "vibrate": 4,
+          "rotate": 5
         },
         {
           "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 6,
+          "rotate": 6
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 4,
+          "rotate": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 2,
+          "rotate": 2
+        },
+        {
+          "ms": 1200,
           "vibrate": 0,
           "rotate": 0
         }

@@ -30,7 +30,7 @@
     {
       "id": "rough.jackhammer",
       "name": "Jackhammer",
-      "description": "Rapid, relentless thrusting with no pause.",
+      "description": "Rapid, relentless thrusting that tightens in tempo and barely pauses.",
       "energy": 5,
       "tags": [
         "fast",
@@ -71,8 +71,123 @@
           "thrust": 20
         },
         {
-          "ms": 700,
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "thrust": 6
+        },
+        {
+          "ms": 900,
           "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "thrust": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "thrust": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "thrust": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 17,
           "thrust": 20
         },
         {
@@ -81,22 +196,37 @@
           "thrust": 20
         },
         {
-          "ms": 700,
-          "vibrate": 18,
+          "ms": 600,
+          "vibrate": 19,
           "thrust": 20
         },
         {
-          "ms": 700,
-          "vibrate": 18,
+          "ms": 500,
+          "vibrate": 20,
           "thrust": 20
         },
         {
-          "ms": 700,
-          "vibrate": 18,
+          "ms": 500,
+          "vibrate": 20,
           "thrust": 20
         },
         {
-          "ms": 700,
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
           "vibrate": 18,
           "thrust": 20
         }
@@ -336,8 +466,8 @@
     {
       "id": "rough.oscillate_slam",
       "name": "Oscillate Slam",
-      "description": "Oscillating head swivels rapidly while thrusting hard.",
-      "energy": 5,
+      "description": "Oscillating head swivels while thrusting hard, snapping faster as it goes.",
+      "energy": 4,
       "tags": [
         "fast",
         "motion",
@@ -389,6 +519,42 @@
           "oscillate": 15
         },
         {
+          "ms": 600,
+          "vibrate": 16,
+          "thrust": 18,
+          "oscillate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "thrust": 18,
+          "oscillate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "thrust": 18,
+          "oscillate": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
           "ms": 800,
           "vibrate": 10,
           "thrust": 5,
@@ -401,16 +567,88 @@
           "oscillate": 10
         },
         {
-          "ms": 800,
+          "ms": 1200,
           "vibrate": 14,
           "thrust": 12,
-          "oscillate": 15
+          "oscillate": 20
+        },
+        {
+          "ms": 1200,
+          "vibrate": 17,
+          "thrust": 16,
+          "oscillate": 8
+        },
+        {
+          "ms": 1200,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
+          "ms": 1600,
+          "vibrate": 19,
+          "thrust": 18,
+          "oscillate": 14
         },
         {
           "ms": 800,
-          "vibrate": 10,
-          "thrust": 0,
-          "oscillate": 5
+          "vibrate": 12,
+          "thrust": 6,
+          "oscillate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "thrust": 14,
+          "oscillate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 20,
+          "oscillate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "thrust": 10,
+          "oscillate": 10
         }
       ]
     },
@@ -482,7 +720,7 @@
     {
       "id": "rough.stutter_step",
       "name": "Rough Stutter",
-      "description": "Uneven, glitchy thrusting that catches and stutters.",
+      "description": "Uneven, glitchy thrusting that catches, stutters and lurches forward.",
       "energy": 4,
       "tags": [
         "random",
@@ -528,14 +766,139 @@
           "thrust": 18
         },
         {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
           "ms": 700,
+          "vibrate": 14,
+          "thrust": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "thrust": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 1300,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "thrust": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 16,
+          "thrust": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "thrust": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 13,
+          "thrust": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 10,
+          "thrust": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 18,
+          "thrust": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 15,
+          "thrust": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
           "vibrate": 14,
           "thrust": 10
         },
         {
+          "ms": 800,
+          "vibrate": 17,
+          "thrust": 18
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
           "ms": 900,
           "vibrate": 12,
-          "thrust": 5
+          "thrust": 4
         },
         {
           "ms": 1000,
@@ -692,8 +1055,8 @@
     {
       "id": "rough.fingering_frenzy",
       "name": "Rough Fingering",
-      "description": "Fast fingering motion combined with strong vibration.",
-      "energy": 5,
+      "description": "Fast fingering motion against strong vibration, quickening into a hard flurry.",
+      "energy": 4,
       "tags": [
         "fast",
         "motion",
@@ -738,7 +1101,42 @@
           "fingering": 15
         },
         {
-          "ms": 1600,
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 20
+        },
+        {
+          "ms": 1200,
           "vibrate": 10,
           "fingering": 0
         },
@@ -748,17 +1146,92 @@
           "fingering": 10
         },
         {
-          "ms": 800,
-          "vibrate": 8,
+          "ms": 1000,
+          "vibrate": 17,
+          "fingering": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 19,
+          "fingering": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
           "fingering": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "fingering": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "fingering": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "fingering": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "fingering": 0
+        },
+        {
+          "ms": 1600,
+          "vibrate": 19,
+          "fingering": 16
+        },
+        {
+          "ms": 800,
+          "vibrate": 11,
+          "fingering": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "fingering": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "fingering": 12
         }
       ]
     },
     {
       "id": "rough.motorboat",
       "name": "Motorboat",
-      "description": "Oscillating head with thrusting in a steady engine-like pattern.",
-      "energy": 5,
+      "description": "An engine-like churn of oscillation and thrust that revs, surges and idles.",
+      "energy": 4,
       "tags": [
         "fast",
         "motion",
@@ -810,6 +1283,48 @@
           "oscillate": 20
         },
         {
+          "ms": 700,
+          "vibrate": 13,
+          "thrust": 13,
+          "oscillate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "thrust": 17,
+          "oscillate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 13,
+          "thrust": 13,
+          "oscillate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "thrust": 17,
+          "oscillate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 13,
+          "thrust": 13,
+          "oscillate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 17,
+          "thrust": 17,
+          "oscillate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 13,
+          "thrust": 13,
+          "oscillate": 20
+        },
+        {
           "ms": 800,
           "vibrate": 10,
           "thrust": 0,
@@ -822,10 +1337,82 @@
           "oscillate": 5
         },
         {
+          "ms": 1000,
+          "vibrate": 15,
+          "thrust": 15,
+          "oscillate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 18,
+          "oscillate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 6
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 16,
+          "thrust": 10,
+          "oscillate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 16,
+          "thrust": 10,
+          "oscillate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20,
+          "oscillate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 16,
+          "thrust": 10,
+          "oscillate": 0
+        },
+        {
+          "ms": 1600,
+          "vibrate": 19,
+          "thrust": 19,
+          "oscillate": 16
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 4,
+          "oscillate": 0
+        },
+        {
           "ms": 800,
           "vibrate": 14,
-          "thrust": 8,
-          "oscillate": 10
+          "thrust": 14,
+          "oscillate": 18
         },
         {
           "ms": 800,
@@ -978,8 +1565,8 @@
     {
       "id": "rough.slam_bounce",
       "name": "Slam Bounce",
-      "description": "Full thrust slam followed by quick bounce-back.",
-      "energy": 5,
+      "description": "Full thrust slams with a quick bounce-back, building to double-time hammering.",
+      "energy": 4,
       "tags": [
         "fast",
         "motion",
@@ -1024,23 +1611,143 @@
           "thrust": 5
         },
         {
-          "ms": 1600,
+          "ms": 1000,
+          "vibrate": 11,
+          "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 14,
+          "thrust": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 14,
+          "thrust": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 14,
+          "thrust": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 14,
+          "thrust": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "thrust": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
           "vibrate": 10,
           "thrust": 0
         },
         {
-          "ms": 1000,
+          "ms": 700,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "thrust": 5
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1100,
+          "vibrate": 13,
+          "thrust": 2
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
           "vibrate": 12,
+          "thrust": 4
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 13,
           "thrust": 3
         },
         {
+          "ms": 700,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 14,
+          "thrust": 5
+        },
+        {
           "ms": 1000,
-          "vibrate": 8,
+          "vibrate": 10,
           "thrust": 0
         },
         {
           "ms": 800,
-          "vibrate": 5,
+          "vibrate": 8,
           "thrust": 0
         }
       ]
@@ -1113,8 +1820,8 @@
     {
       "id": "rough.double_time",
       "name": "Double Time",
-      "description": "Rapid paired thrusts with brief rests between sets.",
-      "energy": 5,
+      "description": "Rapid paired thrusts in sets that double up, with brief rests between.",
+      "energy": 4,
       "tags": [
         "fast",
         "motion",
@@ -1164,18 +1871,138 @@
           "thrust": 20
         },
         {
+          "ms": 500,
+          "vibrate": 12,
+          "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
+          "thrust": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 11,
+          "thrust": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 12,
+          "thrust": 0
+        },
+        {
           "ms": 1600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
           "vibrate": 15,
           "thrust": 10
         },
         {
-          "ms": 1000,
-          "vibrate": 8,
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 10,
           "thrust": 0
         },
         {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 12,
+          "thrust": 4
+        },
+        {
           "ms": 800,
-          "vibrate": 5,
+          "vibrate": 14,
+          "thrust": 8
+        },
+        {
+          "ms": 800,
+          "vibrate": 8,
           "thrust": 0
         }
       ]
@@ -1258,8 +2085,8 @@
     {
       "id": "rough.pounding_rain",
       "name": "Pounding Rain",
-      "description": "Rapid random-seeming thrusts like raindrops hitting hard.",
-      "energy": 5,
+      "description": "Thrusts like raindrops hitting hard, a heavy downpour swelling into a deluge.",
+      "energy": 4,
       "tags": [
         "fast",
         "random",
@@ -1307,6 +2134,121 @@
           "ms": 800,
           "vibrate": 10,
           "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 16,
+          "thrust": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "thrust": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 6
+        },
+        {
+          "ms": 1100,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 15,
+          "thrust": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 1200,
+          "vibrate": 12,
+          "thrust": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 600,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 1400,
+          "vibrate": 17,
+          "thrust": 10
+        },
+        {
+          "ms": 1000,
+          "vibrate": 18,
+          "thrust": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 13,
+          "thrust": 8
+        },
+        {
+          "ms": 1300,
+          "vibrate": 20,
+          "thrust": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 15,
+          "thrust": 5
         },
         {
           "ms": 1000,
@@ -1393,8 +2335,8 @@
     {
       "id": "rough.short_stroke_frenzy",
       "name": "Short Stroke Frenzy",
-      "description": "Very short, fast strokes at the entrance.",
-      "energy": 5,
+      "description": "Very short, fast strokes at the entrance that flutter faster, then ease and return.",
+      "energy": 4,
       "tags": [
         "fast",
         "short",
@@ -1439,8 +2381,128 @@
           "thrust": 15
         },
         {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 12
+        },
+        {
+          "ms": 500,
+          "vibrate": 19,
+          "thrust": 0
+        },
+        {
           "ms": 1400,
           "vibrate": 10,
+          "thrust": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 8
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "thrust": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "thrust": 14
+        },
+        {
+          "ms": 900,
+          "vibrate": 19,
+          "thrust": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 18
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "thrust": 0
+        },
+        {
+          "ms": 1400,
+          "vibrate": 20,
+          "thrust": 15
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "thrust": 6
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
+          "thrust": 14
+        },
+        {
+          "ms": 400,
+          "vibrate": 20,
           "thrust": 0
         },
         {
@@ -1454,9 +2516,19 @@
           "thrust": 0
         },
         {
-          "ms": 800,
-          "vibrate": 5,
+          "ms": 700,
+          "vibrate": 18,
+          "thrust": 10
+        },
+        {
+          "ms": 700,
+          "vibrate": 18,
           "thrust": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14,
+          "thrust": 6
         }
       ]
     }

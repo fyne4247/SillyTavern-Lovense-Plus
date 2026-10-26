@@ -45,7 +45,7 @@
     {
       "id": "chaos.glitch_burst",
       "name": "Glitch Burst",
-      "description": "Sudden stuttering bursts with digital glitches.",
+      "description": "Sudden stuttering bursts across every channel, glitching in and out of silence.",
       "energy": 2,
       "tags": [
         "burst",
@@ -56,66 +56,231 @@
       ],
       "steps": [
         {
+          "ms": 900,
+          "vibrate": 8,
+          "oscillate": 17
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 20
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "suction": 18
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 10,
+          "pump": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 3
+        },
+        {
+          "ms": 300,
+          "vibrate": 17
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "thrust": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "thrust": 9
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 13
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 12,
+          "oscillate": 19
+        },
+        {
+          "ms": 400,
+          "vibrate": 4
+        },
+        {
+          "ms": 300,
+          "vibrate": 17
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "pump": 1
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 17,
+          "thrust": 14
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "suction": 9
+        },
+        {
           "ms": 800,
           "vibrate": 0
         },
         {
-          "ms": 500,
-          "vibrate": 18,
-          "rotate": 15
-        },
-        {
-          "ms": 500,
-          "vibrate": 0
+          "ms": 800,
+          "vibrate": 19,
+          "fingering": 13
         },
         {
           "ms": 600,
-          "vibrate": 12,
-          "vibrate2": 8
-        },
-        {
-          "ms": 500,
-          "vibrate": 0
+          "vibrate": 2
         },
         {
           "ms": 600,
-          "vibrate": 20,
+          "vibrate": 11,
+          "fingering": 12
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 11,
+          "rotate": 12
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 16
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 1500,
+          "vibrate": 13,
+          "pump": 3
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 300,
+          "vibrate": 16
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 11,
+          "fingering": 17
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "thrust": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 2
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "rotate": 9
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 11,
+          "rotate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 2
+        },
+        {
+          "ms": 400,
+          "vibrate": 13,
           "thrust": 10
         },
         {
-          "ms": 700,
-          "vibrate": 5,
-          "oscillate": 12
+          "ms": 800,
+          "vibrate": 3
         },
         {
-          "ms": 600,
+          "ms": 1500,
+          "vibrate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 800,
           "vibrate": 0
         },
         {
           "ms": 700,
           "vibrate": 15,
-          "suction": 8
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
+          "vibrate2": 6
         },
         {
           "ms": 700,
-          "vibrate": 10,
-          "pump": 2
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
-        },
-        {
-          "ms": 600,
-          "vibrate": 18,
-          "fingering": 15
-        },
-        {
-          "ms": 600,
           "vibrate": 0
         }
       ]
@@ -123,7 +288,7 @@
     {
       "id": "chaos.manic_spiral",
       "name": "Manic Spiral",
-      "description": "Ever-tightening spiral of intensity with no clear peak.",
+      "description": "A spiral of swings that widen and tighten with no clear peak, then collapse and begin again.",
       "energy": 3,
       "tags": [
         "build",
@@ -134,39 +299,74 @@
       ],
       "steps": [
         {
-          "ms": 700,
+          "ms": 800,
           "vibrate": 8,
           "rotate": 5
         },
         {
-          "ms": 600,
-          "vibrate": 12,
+          "ms": 700,
+          "vibrate": 6,
           "rotate": 10
         },
         {
-          "ms": 700,
-          "vibrate": 16,
+          "ms": 800,
+          "vibrate": 10,
+          "rotate": 10
+        },
+        {
+          "ms": 900,
+          "vibrate": 7,
+          "rotate": 7
+        },
+        {
+          "ms": 800,
+          "vibrate": 13,
           "rotate": 15
         },
         {
           "ms": 600,
-          "vibrate": 3,
-          "rotate": 8
+          "vibrate": 9,
+          "rotate": 5
         },
         {
           "ms": 700,
+          "vibrate": 15,
+          "rotate": 14
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "rotate": 11
+        },
+        {
+          "ms": 900,
+          "vibrate": 17,
+          "rotate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 9,
+          "rotate": 7
+        },
+        {
+          "ms": 800,
           "vibrate": 18,
+          "rotate": 13
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "rotate": 7
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
           "rotate": 18
         },
         {
-          "ms": 600,
-          "vibrate": 6,
-          "rotate": 3
-        },
-        {
-          "ms": 700,
-          "vibrate": 14,
-          "rotate": 12
+          "ms": 500,
+          "vibrate": 10,
+          "rotate": 14
         },
         {
           "ms": 600,
@@ -174,42 +374,121 @@
           "rotate": 20
         },
         {
-          "ms": 700,
-          "vibrate": 2,
-          "rotate": 0
-        },
-        {
-          "ms": 600,
-          "vibrate": 15,
-          "rotate": 15
-        },
-        {
-          "ms": 600,
-          "vibrate": 9,
+          "ms": 900,
+          "vibrate": 12,
           "rotate": 7
         },
         {
+          "ms": 600,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 9,
+          "rotate": 12
+        },
+        {
           "ms": 700,
-          "vibrate": 17,
-          "rotate": 17
+          "vibrate": 20,
+          "rotate": 15
+        },
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "rotate": 13
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "rotate": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "rotate": 5
         },
         {
           "ms": 600,
-          "vibrate": 10,
-          "rotate": 10
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 4,
+          "rotate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 900,
+          "vibrate": 4,
+          "rotate": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 20,
+          "rotate": 20
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 1
+        },
+        {
+          "ms": 500,
+          "vibrate": 18,
+          "rotate": 18
+        },
+        {
+          "ms": 700,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
+          "rotate": 11
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "rotate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 16,
+          "rotate": 17
+        },
+        {
+          "ms": 800,
+          "vibrate": 0,
+          "rotate": 1
+        },
+        {
+          "ms": 500,
+          "vibrate": 12,
+          "rotate": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 9,
+          "rotate": 8
         }
       ]
     },
     {
       "id": "chaos.jerky_rhythm",
       "name": "Jerky Rhythm",
-      "description": "Staccato pulses that jump unpredictably between levels.",
+      "description": "Staccato pulses that jump unpredictably in level and timing, with stuttered doubles.",
       "energy": 1,
       "tags": [
         "pulse",
         "random",
         "short",
-        "light",
         "fast"
       ],
       "steps": [
@@ -223,23 +502,7 @@
         },
         {
           "ms": 600,
-          "vibrate": 18
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
-        },
-        {
-          "ms": 600,
-          "vibrate": 5
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
-        },
-        {
-          "ms": 600,
-          "vibrate": 14
+          "vibrate": 10
         },
         {
           "ms": 600,
@@ -255,7 +518,31 @@
         },
         {
           "ms": 600,
-          "vibrate": 16
+          "vibrate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 14
         },
         {
           "ms": 600,
@@ -264,6 +551,166 @@
         {
           "ms": 600,
           "vibrate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 6
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 7
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 12
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8
+        },
+        {
+          "ms": 1100,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 8
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 19
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 18
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 17
+        },
+        {
+          "ms": 800,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 13
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 15
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 20
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 18
+        },
+        {
+          "ms": 1000,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 19
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 17
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 19
+        },
+        {
+          "ms": 700,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 14
         },
         {
           "ms": 600,
@@ -352,8 +799,8 @@
     {
       "id": "chaos.random_walk",
       "name": "Random Walk",
-      "description": "Wandering intensity that never settles into a pattern.",
-      "energy": 2,
+      "description": "Wandering intensity that never settles into a pattern, a long drunken walk.",
+      "energy": 3,
       "tags": [
         "random",
         "wave",
@@ -363,34 +810,104 @@
       ],
       "steps": [
         {
-          "ms": 1200,
+          "ms": 1300,
           "vibrate": 6,
           "vibrate2": 4
         },
         {
           "ms": 1000,
+          "vibrate": 7,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 7,
+          "vibrate2": 8
+        },
+        {
+          "ms": 1300,
+          "vibrate": 11,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1300,
+          "vibrate": 14,
+          "vibrate2": 11
+        },
+        {
+          "ms": 1600,
           "vibrate": 11,
           "vibrate2": 9
         },
         {
-          "ms": 1000,
-          "vibrate": 3,
-          "vibrate2": 2
+          "ms": 1500,
+          "vibrate": 8,
+          "vibrate2": 6
+        },
+        {
+          "ms": 1500,
+          "vibrate": 15,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1400,
+          "vibrate": 19,
+          "vibrate2": 19
+        },
+        {
+          "ms": 1300,
+          "vibrate": 16,
+          "vibrate2": 17
+        },
+        {
+          "ms": 1100,
+          "vibrate": 16,
+          "vibrate2": 18
         },
         {
           "ms": 1000,
+          "vibrate": 18,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1500,
+          "vibrate": 12,
+          "vibrate2": 10
+        },
+        {
+          "ms": 1300,
+          "vibrate": 10,
+          "vibrate2": 11
+        },
+        {
+          "ms": 1400,
           "vibrate": 15,
           "vibrate2": 12
         },
         {
           "ms": 1000,
-          "vibrate": 8,
-          "vibrate2": 6
+          "vibrate": 15,
+          "vibrate2": 13
         },
         {
-          "ms": 1000,
-          "vibrate": 18,
-          "vibrate2": 14
+          "ms": 1500,
+          "vibrate": 11,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 15,
+          "vibrate2": 11
+        },
+        {
+          "ms": 1500,
+          "vibrate": 14,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1500,
+          "vibrate": 8,
+          "vibrate2": 10
         },
         {
           "ms": 1000,
@@ -398,19 +915,49 @@
           "vibrate2": 1
         },
         {
-          "ms": 1000,
-          "vibrate": 13,
-          "vibrate2": 10
-        },
-        {
-          "ms": 1000,
-          "vibrate": 5,
+          "ms": 1100,
+          "vibrate": 2,
           "vibrate2": 3
         },
         {
+          "ms": 1100,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1100,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1100,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1600,
+          "vibrate": 1,
+          "vibrate2": 2
+        },
+        {
           "ms": 1000,
-          "vibrate": 16,
-          "vibrate2": 13
+          "vibrate": 7,
+          "vibrate2": 3
+        },
+        {
+          "ms": 1200,
+          "vibrate": 13,
+          "vibrate2": 11
+        },
+        {
+          "ms": 1500,
+          "vibrate": 19,
+          "vibrate2": 20
+        },
+        {
+          "ms": 1100,
+          "vibrate": 5,
+          "vibrate2": 3
         }
       ]
     },
@@ -492,7 +1039,7 @@
     {
       "id": "chaos.digital_stutter",
       "name": "Digital Stutter",
-      "description": "Glitchy stuttering like a corrupted audio file.",
+      "description": "Glitchy stuttering like a corrupted audio file, skipping, repeating and dropping out.",
       "energy": 2,
       "tags": [
         "burst",
@@ -503,7 +1050,7 @@
       ],
       "steps": [
         {
-          "ms": 600,
+          "ms": 300,
           "vibrate": 18
         },
         {
@@ -515,51 +1062,239 @@
           "vibrate": 18
         },
         {
-          "ms": 600,
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 18
+        },
+        {
+          "ms": 300,
           "vibrate": 0
         },
         {
           "ms": 600,
-          "vibrate": 18
+          "vibrate": 9,
+          "rotate": 10
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 15,
+          "vibrate2": 7
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
         },
         {
           "ms": 800,
-          "vibrate": 0
-        },
-        {
-          "ms": 700,
-          "vibrate": 15,
-          "vibrate2": 10
-        },
-        {
-          "ms": 600,
-          "vibrate": 0
-        },
-        {
-          "ms": 700,
-          "vibrate": 15,
-          "vibrate2": 10
-        },
-        {
-          "ms": 800,
-          "vibrate": 0
-        },
-        {
-          "ms": 700,
-          "vibrate": 12,
-          "rotate": 8
-        },
-        {
-          "ms": 700,
-          "vibrate": 0
-        },
-        {
-          "ms": 700,
-          "vibrate": 16,
+          "vibrate": 13,
           "suction": 12
         },
         {
+          "ms": 1400,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
+          "vibrate": 12
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 12
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
           "ms": 500,
+          "vibrate": 12
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 8,
+          "oscillate": 9
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 16
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 16
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 16
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "thrust": 10
+        },
+        {
+          "ms": 1400,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 18,
+          "vibrate2": 7
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 18
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 12,
+          "rotate": 9
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 13,
+          "suction": 15
+        },
+        {
+          "ms": 1100,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 20
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 20
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 20
+        },
+        {
+          "ms": 300,
           "vibrate": 0
         }
       ]
@@ -637,8 +1372,8 @@
     {
       "id": "chaos.oscillate_madness",
       "name": "Oscillate Madness",
-      "description": "Wild oscillation patterns that change direction unpredictably.",
-      "energy": 3,
+      "description": "Wild oscillation that swerves unpredictably, surging and sagging across the whole pass.",
+      "energy": 2,
       "tags": [
         "motion",
         "random",
@@ -648,64 +1383,204 @@
       ],
       "steps": [
         {
-          "ms": 800,
-          "vibrate": 10,
-          "oscillate": 5
+          "ms": 1100,
+          "vibrate": 13,
+          "oscillate": 10
         },
         {
-          "ms": 700,
-          "vibrate": 15,
-          "oscillate": 18
-        },
-        {
-          "ms": 700,
-          "vibrate": 8,
-          "oscillate": 2
-        },
-        {
-          "ms": 700,
-          "vibrate": 12,
+          "ms": 1000,
+          "vibrate": 9,
           "oscillate": 20
         },
         {
           "ms": 800,
-          "vibrate": 5,
-          "oscillate": 10
+          "vibrate": 14,
+          "oscillate": 6
         },
         {
           "ms": 700,
-          "vibrate": 18,
+          "vibrate": 8,
+          "oscillate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 9,
+          "oscillate": 11
+        },
+        {
+          "ms": 700,
+          "vibrate": 12,
           "oscillate": 0
         },
         {
+          "ms": 1000,
+          "vibrate": 7,
+          "oscillate": 13
+        },
+        {
           "ms": 700,
-          "vibrate": 9,
+          "vibrate": 10,
           "oscillate": 15
         },
         {
-          "ms": 700,
-          "vibrate": 14,
-          "oscillate": 8
+          "ms": 1100,
+          "vibrate": 10,
+          "oscillate": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "oscillate": 0
         },
         {
           "ms": 800,
-          "vibrate": 7,
-          "oscillate": 12
+          "vibrate": 13,
+          "oscillate": 20
         },
         {
-          "ms": 700,
-          "vibrate": 16,
+          "ms": 600,
+          "vibrate": 18,
+          "oscillate": 16
+        },
+        {
+          "ms": 900,
+          "vibrate": 9,
+          "oscillate": 11
+        },
+        {
+          "ms": 900,
+          "vibrate": 18,
           "oscillate": 5
         },
         {
           "ms": 700,
-          "vibrate": 11,
-          "oscillate": 18
+          "vibrate": 9,
+          "oscillate": 5
+        },
+        {
+          "ms": 600,
+          "vibrate": 7,
+          "oscillate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "oscillate": 12
         },
         {
           "ms": 700,
-          "vibrate": 13,
+          "vibrate": 10,
+          "oscillate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "oscillate": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 8,
+          "oscillate": 5
+        },
+        {
+          "ms": 1100,
+          "vibrate": 4,
+          "oscillate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 5,
+          "oscillate": 18
+        },
+        {
+          "ms": 1100,
+          "vibrate": 2,
+          "oscillate": 4
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "oscillate": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 2,
           "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "oscillate": 6
+        },
+        {
+          "ms": 900,
+          "vibrate": 7,
+          "oscillate": 13
+        },
+        {
+          "ms": 1100,
+          "vibrate": 2,
+          "oscillate": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 9,
+          "oscillate": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "oscillate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
+          "oscillate": 20
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7,
+          "oscillate": 10
+        },
+        {
+          "ms": 600,
+          "vibrate": 9,
+          "oscillate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 8,
+          "oscillate": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 3,
+          "oscillate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 13,
+          "oscillate": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 13,
+          "oscillate": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "oscillate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "oscillate": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 13,
+          "oscillate": 14
         }
       ]
     },
@@ -787,7 +1662,7 @@
     {
       "id": "chaos.dual_chaos",
       "name": "Dual Chaos",
-      "description": "Both motors doing completely different chaotic dances.",
+      "description": "Both motors performing separate chaotic dances that cross, collide and trade places.",
       "energy": 2,
       "tags": [
         "dual",
@@ -798,71 +1673,226 @@
       ],
       "steps": [
         {
-          "ms": 800,
-          "vibrate": 5,
-          "vibrate2": 18
+          "ms": 900,
+          "vibrate": 1,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 1,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 13,
+          "vibrate2": 19
+        },
+        {
+          "ms": 900,
+          "vibrate": 20,
+          "vibrate2": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 10,
+          "vibrate2": 19
+        },
+        {
+          "ms": 600,
+          "vibrate": 4,
+          "vibrate2": 14
         },
         {
           "ms": 700,
-          "vibrate": 15,
+          "vibrate": 3,
+          "vibrate2": 13
+        },
+        {
+          "ms": 800,
+          "vibrate": 16,
           "vibrate2": 3
         },
         {
-          "ms": 700,
-          "vibrate": 0,
-          "vibrate2": 12
+          "ms": 1000,
+          "vibrate": 2,
+          "vibrate2": 0
         },
         {
-          "ms": 800,
-          "vibrate": 18,
-          "vibrate2": 8
+          "ms": 600,
+          "vibrate": 11,
+          "vibrate2": 18
         },
         {
-          "ms": 700,
+          "ms": 1100,
+          "vibrate": 20,
+          "vibrate2": 19
+        },
+        {
+          "ms": 900,
+          "vibrate": 6,
+          "vibrate2": 13
+        },
+        {
+          "ms": 600,
           "vibrate": 10,
           "vibrate2": 0
         },
         {
-          "ms": 800,
+          "ms": 900,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 600,
           "vibrate": 2,
-          "vibrate2": 20
+          "vibrate2": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "vibrate2": 4
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "vibrate2": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 5,
+          "vibrate2": 12
+        },
+        {
+          "ms": 1100,
+          "vibrate": 3,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1000,
+          "vibrate": 2,
+          "vibrate2": 14
         },
         {
           "ms": 700,
-          "vibrate": 16,
+          "vibrate": 1,
+          "vibrate2": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 1,
+          "vibrate2": 4
+        },
+        {
+          "ms": 900,
+          "vibrate": 1,
+          "vibrate2": 19
+        },
+        {
+          "ms": 900,
+          "vibrate": 7,
+          "vibrate2": 6
+        },
+        {
+          "ms": 900,
+          "vibrate": 2,
           "vibrate2": 6
         },
         {
           "ms": 700,
           "vibrate": 8,
-          "vibrate2": 14
+          "vibrate2": 1
         },
         {
           "ms": 700,
-          "vibrate": 0,
+          "vibrate": 1,
+          "vibrate2": 3
+        },
+        {
+          "ms": 900,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 8,
+          "vibrate2": 13
+        },
+        {
+          "ms": 1000,
+          "vibrate": 7,
+          "vibrate2": 18
+        },
+        {
+          "ms": 800,
+          "vibrate": 2,
           "vibrate2": 0
         },
         {
-          "ms": 700,
-          "vibrate": 19,
-          "vibrate2": 4
+          "ms": 800,
+          "vibrate": 3,
+          "vibrate2": 10
         },
         {
-          "ms": 700,
-          "vibrate": 7,
+          "ms": 1100,
+          "vibrate": 6,
+          "vibrate2": 1
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
           "vibrate2": 17
         },
         {
           "ms": 700,
-          "vibrate": 12,
-          "vibrate2": 9
+          "vibrate": 2,
+          "vibrate2": 16
+        },
+        {
+          "ms": 700,
+          "vibrate": 3,
+          "vibrate2": 18
+        },
+        {
+          "ms": 600,
+          "vibrate": 9,
+          "vibrate2": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 20,
+          "vibrate2": 16
+        },
+        {
+          "ms": 1100,
+          "vibrate": 3,
+          "vibrate2": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 6,
+          "vibrate2": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 10,
+          "vibrate2": 15
+        },
+        {
+          "ms": 900,
+          "vibrate": 2,
+          "vibrate2": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 4,
+          "vibrate2": 19
         }
       ]
     },
     {
       "id": "chaos.fingering_frenzy",
       "name": "Fingering Frenzy",
-      "description": "Chaotic fingering motions that never establish a rhythm.",
+      "description": "Chaotic fingering motions that never settle into a rhythm.",
       "energy": 3,
       "tags": [
         "motion",
@@ -873,64 +1903,204 @@
       ],
       "steps": [
         {
-          "ms": 700,
+          "ms": 800,
+          "vibrate": 18,
+          "fingering": 9
+        },
+        {
+          "ms": 800,
           "vibrate": 8,
           "fingering": 15
         },
         {
-          "ms": 700,
-          "vibrate": 12,
-          "fingering": 0
-        },
-        {
-          "ms": 800,
-          "vibrate": 6,
-          "fingering": 10
-        },
-        {
-          "ms": 800,
-          "vibrate": 18,
-          "fingering": 20
-        },
-        {
-          "ms": 700,
-          "vibrate": 4,
-          "fingering": 5
-        },
-        {
           "ms": 800,
           "vibrate": 14,
-          "fingering": 18
-        },
-        {
-          "ms": 700,
-          "vibrate": 9,
-          "fingering": 0
-        },
-        {
-          "ms": 800,
-          "vibrate": 11,
-          "fingering": 12
-        },
-        {
-          "ms": 700,
-          "vibrate": 7,
-          "fingering": 8
+          "fingering": 2
         },
         {
           "ms": 800,
           "vibrate": 16,
-          "fingering": 15
+          "fingering": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 13,
+          "fingering": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 12,
+          "fingering": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 8,
+          "fingering": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 15,
+          "fingering": 0
         },
         {
           "ms": 700,
-          "vibrate": 5,
+          "vibrate": 15,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 8,
+          "fingering": 18
+        },
+        {
+          "ms": 1100,
+          "vibrate": 16,
+          "fingering": 1
+        },
+        {
+          "ms": 600,
+          "vibrate": 14,
+          "fingering": 0
+        },
+        {
+          "ms": 1000,
+          "vibrate": 6,
+          "fingering": 10
+        },
+        {
+          "ms": 1100,
+          "vibrate": 15,
+          "fingering": 3
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "fingering": 8
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "fingering": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "fingering": 15
+        },
+        {
+          "ms": 600,
+          "vibrate": 6,
+          "fingering": 20
+        },
+        {
+          "ms": 800,
+          "vibrate": 17,
+          "fingering": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 7,
+          "fingering": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 11,
+          "fingering": 7
+        },
+        {
+          "ms": 1000,
+          "vibrate": 3,
+          "fingering": 19
+        },
+        {
+          "ms": 1000,
+          "vibrate": 15,
+          "fingering": 2
+        },
+        {
+          "ms": 1000,
+          "vibrate": 4,
+          "fingering": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 6,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 17,
+          "fingering": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 16,
+          "fingering": 11
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
           "fingering": 3
         },
         {
           "ms": 700,
+          "vibrate": 8,
+          "fingering": 9
+        },
+        {
+          "ms": 1000,
           "vibrate": 10,
-          "fingering": 10
+          "fingering": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 5,
+          "fingering": 0
+        },
+        {
+          "ms": 1100,
+          "vibrate": 3,
+          "fingering": 12
+        },
+        {
+          "ms": 800,
+          "vibrate": 14,
+          "fingering": 6
+        },
+        {
+          "ms": 1100,
+          "vibrate": 14,
+          "fingering": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 3,
+          "fingering": 12
+        },
+        {
+          "ms": 700,
+          "vibrate": 10,
+          "fingering": 12
+        },
+        {
+          "ms": 600,
+          "vibrate": 13,
+          "fingering": 11
+        },
+        {
+          "ms": 800,
+          "vibrate": 3,
+          "fingering": 3
         }
       ]
     },
@@ -1290,8 +2460,8 @@
     {
       "id": "chaos.multi_channel_chaos",
       "name": "Multi-Channel Chaos",
-      "description": "Every channel doing something different and unpredictable.",
-      "energy": 2,
+      "description": "Every channel doing something different and unpredictable, in long restless phrases.",
+      "energy": 3,
       "tags": [
         "dual",
         "motion",
@@ -1301,89 +2471,180 @@
       ],
       "steps": [
         {
-          "ms": 1000,
-          "vibrate": 8,
-          "vibrate2": 15,
-          "rotate": 10,
-          "pump": 2
-        },
-        {
-          "ms": 800,
-          "vibrate": 18,
-          "vibrate2": 5,
-          "rotate": 0,
-          "pump": 0
-        },
-        {
-          "ms": 800,
-          "vibrate": 3,
-          "vibrate2": 12,
-          "rotate": 18,
-          "pump": 3
-        },
-        {
-          "ms": 800,
+          "ms": 1800,
           "vibrate": 14,
-          "vibrate2": 8,
-          "rotate": 5,
-          "pump": 1
-        },
-        {
-          "ms": 1000,
-          "vibrate": 0,
-          "vibrate2": 0,
+          "vibrate2": 5,
           "rotate": 12,
           "pump": 2
         },
         {
-          "ms": 800,
-          "vibrate": 19,
+          "ms": 1500,
+          "vibrate": 7,
+          "vibrate2": 4,
+          "rotate": 7,
+          "pump": 3
+        },
+        {
+          "ms": 1700,
+          "vibrate": 10,
+          "vibrate2": 17,
+          "rotate": 11,
+          "pump": 0
+        },
+        {
+          "ms": 1700,
+          "vibrate": 16,
+          "vibrate2": 14,
+          "rotate": 12,
+          "pump": 1
+        },
+        {
+          "ms": 1500,
+          "vibrate": 4,
           "vibrate2": 10,
+          "rotate": 17,
+          "pump": 0
+        },
+        {
+          "ms": 2000,
+          "vibrate": 12,
+          "vibrate2": 3,
+          "rotate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 1600,
+          "vibrate": 19,
+          "vibrate2": 2,
           "rotate": 20,
           "pump": 0
         },
         {
-          "ms": 800,
-          "vibrate": 6,
-          "vibrate2": 18,
-          "rotate": 0,
+          "ms": 2000,
+          "vibrate": 20,
+          "vibrate2": 1,
+          "rotate": 8,
           "pump": 1
         },
         {
-          "ms": 800,
-          "vibrate": 12,
-          "vibrate2": 4,
-          "rotate": 15,
-          "pump": 3
-        },
-        {
-          "ms": 800,
-          "vibrate": 0,
-          "vibrate2": 0,
-          "rotate": 8,
-          "pump": 0
-        },
-        {
-          "ms": 800,
-          "vibrate": 15,
-          "vibrate2": 12,
-          "rotate": 10,
+          "ms": 1500,
+          "vibrate": 3,
+          "vibrate2": 18,
+          "rotate": 7,
           "pump": 2
         },
         {
-          "ms": 800,
-          "vibrate": 7,
-          "vibrate2": 9,
-          "rotate": 5,
+          "ms": 1700,
+          "vibrate": 20,
+          "vibrate2": 3,
+          "rotate": 14,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 11,
+          "vibrate2": 0,
+          "rotate": 8,
           "pump": 1
+        },
+        {
+          "ms": 1900,
+          "vibrate": 5,
+          "vibrate2": 7,
+          "rotate": 10,
+          "pump": 1
+        },
+        {
+          "ms": 1900,
+          "vibrate": 1,
+          "vibrate2": 19,
+          "rotate": 2,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 3,
+          "vibrate2": 17,
+          "rotate": 20,
+          "pump": 2
+        },
+        {
+          "ms": 1700,
+          "vibrate": 14,
+          "vibrate2": 20,
+          "rotate": 6,
+          "pump": 3
+        },
+        {
+          "ms": 1600,
+          "vibrate": 18,
+          "vibrate2": 17,
+          "rotate": 13,
+          "pump": 0
+        },
+        {
+          "ms": 1900,
+          "vibrate": 2,
+          "vibrate2": 0,
+          "rotate": 15,
+          "pump": 2
+        },
+        {
+          "ms": 1700,
+          "vibrate": 20,
+          "vibrate2": 15,
+          "rotate": 4,
+          "pump": 2
+        },
+        {
+          "ms": 1700,
+          "vibrate": 3,
+          "vibrate2": 10,
+          "rotate": 9,
+          "pump": 1
+        },
+        {
+          "ms": 1900,
+          "vibrate": 18,
+          "vibrate2": 19,
+          "rotate": 12,
+          "pump": 3
+        },
+        {
+          "ms": 2000,
+          "vibrate": 5,
+          "vibrate2": 4,
+          "rotate": 0,
+          "pump": 0
+        },
+        {
+          "ms": 1600,
+          "vibrate": 18,
+          "vibrate2": 5,
+          "rotate": 19,
+          "pump": 1
+        },
+        {
+          "ms": 2000,
+          "vibrate": 8,
+          "vibrate2": 10,
+          "rotate": 4,
+          "pump": 3
+        },
+        {
+          "ms": 1900,
+          "vibrate": 7,
+          "vibrate2": 7,
+          "rotate": 11,
+          "pump": 0
         }
       ]
     },
     {
       "id": "chaos.chaotic_crescendo",
       "name": "Chaotic Crescendo",
-      "description": "A climb to a peak that keeps getting interrupted.",
-      "energy": 3,
+      "description": "A climb to a peak that keeps getting cut off, each attempt closer, ending in a ragged collapse.",
+      "energy": 2,
       "tags": [
         "build",
         "random",
@@ -1393,58 +2654,199 @@
       ],
       "steps": [
         {
-          "ms": 800,
-          "vibrate": 5
+          "ms": 600,
+          "vibrate": 4
+        },
+        {
+          "ms": 1200,
+          "vibrate": 8
+        },
+        {
+          "ms": 700,
+          "vibrate": 1
         },
         {
           "ms": 600,
+          "vibrate": 5
+        },
+        {
+          "ms": 1000,
+          "vibrate": 9
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 800,
+          "vibrate": 6
+        },
+        {
+          "ms": 1300,
+          "vibrate": 11
+        },
+        {
+          "ms": 500,
+          "vibrate": 5
+        },
+        {
+          "ms": 800,
+          "vibrate": 6
+        },
+        {
+          "ms": 1100,
           "vibrate": 10
+        },
+        {
+          "ms": 800,
+          "vibrate": 3
+        },
+        {
+          "ms": 600,
+          "vibrate": 7
+        },
+        {
+          "ms": 1300,
+          "vibrate": 11
         },
         {
           "ms": 600,
           "vibrate": 2
         },
         {
-          "ms": 800,
-          "vibrate": 12
+          "ms": 900,
+          "vibrate": 8
         },
         {
-          "ms": 600,
-          "vibrate": 1
-        },
-        {
-          "ms": 800,
-          "vibrate": 15
+          "ms": 900,
+          "vibrate": 13
         },
         {
           "ms": 600,
           "vibrate": 0
         },
         {
+          "ms": 900,
+          "vibrate": 9
+        },
+        {
+          "ms": 1400,
+          "vibrate": 13
+        },
+        {
+          "ms": 900,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 10
+        },
+        {
+          "ms": 1100,
+          "vibrate": 13
+        },
+        {
+          "ms": 600,
+          "vibrate": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 10
+        },
+        {
           "ms": 1000,
-          "vibrate": 18,
-          "thrust": 10
+          "vibrate": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 1
+        },
+        {
+          "ms": 900,
+          "vibrate": 11
+        },
+        {
+          "ms": 1000,
+          "vibrate": 14
+        },
+        {
+          "ms": 600,
+          "vibrate": 2
+        },
+        {
+          "ms": 900,
+          "vibrate": 12
+        },
+        {
+          "ms": 1200,
+          "vibrate": 15
+        },
+        {
+          "ms": 900,
+          "vibrate": 2
+        },
+        {
+          "ms": 800,
+          "vibrate": 13
+        },
+        {
+          "ms": 1200,
+          "vibrate": 17,
+          "thrust": 20
+        },
+        {
+          "ms": 500,
+          "vibrate": 2
+        },
+        {
+          "ms": 600,
+          "vibrate": 14
+        },
+        {
+          "ms": 1700,
+          "vibrate": 17
+        },
+        {
+          "ms": 500,
+          "vibrate": 1
+        },
+        {
+          "ms": 700,
+          "vibrate": 14
+        },
+        {
+          "ms": 1600,
+          "vibrate": 19
         },
         {
           "ms": 600,
           "vibrate": 3
         },
         {
-          "ms": 1000,
-          "vibrate": 16
+          "ms": 700,
+          "vibrate": 15
         },
         {
-          "ms": 600,
-          "vibrate": 4
-        },
-        {
-          "ms": 1000,
+          "ms": 1700,
           "vibrate": 20,
+          "thrust": 19
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0,
           "pump": 3
         },
         {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 1600,
+          "vibrate": 20
+        },
+        {
           "ms": 600,
-          "vibrate": 8
+          "vibrate": 0
         }
       ]
     },
@@ -1517,8 +2919,8 @@
     {
       "id": "chaos.pulsing_madness",
       "name": "Pulsing Madness",
-      "description": "Pulses that vary wildly in timing and intensity.",
-      "energy": 2,
+      "description": "Pulses that vary wildly in timing and intensity, with long silences and sudden flurries.",
+      "energy": 1,
       "tags": [
         "pulse",
         "random",
@@ -1528,15 +2930,103 @@
       ],
       "steps": [
         {
-          "ms": 600,
-          "vibrate": 15
+          "ms": 300,
+          "vibrate": 18
         },
         {
-          "ms": 1000,
+          "ms": 1100,
           "vibrate": 0
         },
         {
+          "ms": 700,
+          "vibrate": 16
+        },
+        {
+          "ms": 1600,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 15
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 800,
+          "vibrate": 13
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 12
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 9
+        },
+        {
           "ms": 600,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 16
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 15
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 14
+        },
+        {
+          "ms": 1300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 10
+        },
+        {
+          "ms": 500,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 17
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 11
+        },
+        {
+          "ms": 400,
+          "vibrate": 0
+        },
+        {
+          "ms": 400,
           "vibrate": 18
         },
         {
@@ -1544,19 +3034,99 @@
           "vibrate": 0
         },
         {
-          "ms": 600,
-          "vibrate": 12
+          "ms": 300,
+          "vibrate": 16
         },
         {
-          "ms": 1000,
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 900,
+          "vibrate": 10
+        },
+        {
+          "ms": 700,
           "vibrate": 0
         },
         {
           "ms": 600,
-          "vibrate": 20
+          "vibrate": 13
+        },
+        {
+          "ms": 1300,
+          "vibrate": 3
+        },
+        {
+          "ms": 700,
+          "vibrate": 14
+        },
+        {
+          "ms": 1500,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 13
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 16
+        },
+        {
+          "ms": 1200,
+          "vibrate": 1
+        },
+        {
+          "ms": 300,
+          "vibrate": 17
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 17
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 700,
+          "vibrate": 17
+        },
+        {
+          "ms": 1400,
+          "vibrate": 0
         },
         {
           "ms": 800,
+          "vibrate": 16
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 15
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 11
+        },
+        {
+          "ms": 1100,
           "vibrate": 0
         },
         {
@@ -1564,20 +3134,32 @@
           "vibrate": 10
         },
         {
-          "vibrate": 0,
-          "ms": 1000
-        },
-        {
           "ms": 600,
-          "vibrate": 16
-        },
-        {
-          "ms": 1000,
           "vibrate": 0
         },
         {
-          "ms": 600,
-          "vibrate": 14
+          "ms": 300,
+          "vibrate": 13
+        },
+        {
+          "ms": 1200,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 19
+        },
+        {
+          "ms": 300,
+          "vibrate": 0
+        },
+        {
+          "ms": 300,
+          "vibrate": 19
+        },
+        {
+          "ms": 1100,
+          "vibrate": 0
         }
       ]
     },
