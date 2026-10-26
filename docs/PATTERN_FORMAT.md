@@ -114,6 +114,11 @@ tagged `long` (whole-session marathons) may run up to 30 minutes.
 - **Not everyone wants surprises.** Plenty of people find erratic patterns
   distracting and prefer a steady rhythm. Even in wild moods, include a couple
   of patterns that are predictable and easy to settle into.
+- **Answer both motors.** Dual-motor toys are often worn as a pair, and one
+  side left hanging is miserable. If a step drives one motor and not the
+  other, the other must get its turn within 5 seconds (the validator checks
+  this, including across the loop). Different levels are fine; one-sided
+  silence isn't.
 - **Air pump (`pump`) is slow.** It takes a second or two to inflate and
   deflate, so hold a pump level for at least ~1.5 s and don't flicker it.
 - **Thrust and stroke toys are mechanical.** Very fast thrust changes can

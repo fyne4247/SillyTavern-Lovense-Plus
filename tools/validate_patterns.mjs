@@ -15,6 +15,42 @@ const CHANNELS = {
 const TAGS = new Set(['slow', 'fast', 'light', 'heavy', 'build', 'drop', 'steady', 'random',
     'pulse', 'wave', 'burst', 'silence', 'long', 'short', 'motion', 'squeeze', 'dual']);
 
+// Dual-motor toys are often worn as a pair. Whatever one motor gets, the other
+// must get within this long, or the wearer is left lopsided.
+const MOTOR_ECHO_MS = 5000;
+
+/**
+ * Longest time a motor is left owed a touch. When one motor runs alone, the
+ * other is owed one, unless that solo run is itself answering an earlier one.
+ * Checked across two passes so a looping pattern's wraparound counts too.
+ */
+function longestUnansweredMotor(steps) {
+    const owedSince = { first: null, second: null };
+    let t = 0;
+    let worst = 0;
+    const pay = (side) => {
+        if (owedSince[side] !== null) worst = Math.max(worst, t - owedSince[side]);
+        owedSince[side] = null;
+    };
+    for (const s of [...steps, ...steps]) {
+        const first = s.vibrate > 0;
+        const second = (s.vibrate2 ?? s.vibrate) > 0;
+        if (first && second) {
+            pay('first');
+            pay('second');
+        } else if (first) {
+            if (owedSince.first !== null) pay('first');
+            else if (owedSince.second === null) owedSince.second = t;
+        } else if (second) {
+            if (owedSince.second !== null) pay('second');
+            else if (owedSince.first === null) owedSince.first = t;
+        }
+        t += s.ms;
+    }
+    for (const since of Object.values(owedSince)) if (since !== null) worst = Math.max(worst, t - since);
+    return worst;
+}
+
 const only = new Set(process.argv.slice(2));
 const errors = [];
 const warnings = [];
@@ -92,6 +128,11 @@ for (const file of files) {
         const avg = p.steps.reduce((a, s) => a + s.vibrate * s.ms, 0) / sum;
         const expected = Math.min(5, Math.max(1, Math.round(avg / 4) || 1));
         if (Math.abs(expected - p.energy) > 1) warn(`${at}: energy ${p.energy} but average vibrate ${avg.toFixed(1)} suggests ~${expected}`);
+
+        if (p.steps.some((st) => 'vibrate2' in st && st.vibrate2 !== st.vibrate)) {
+            const wait = longestUnansweredMotor(p.steps);
+            if (wait > MOTOR_ECHO_MS) err(`${at}: one motor is left waiting ${(wait / 1000).toFixed(1)}s for the other; answer it within ${MOTOR_ECHO_MS / 1000}s`);
+        }
 
         const sh = shape(p.steps);
         if (shapes.has(sh)) err(`${at}: same shape as ${shapes.get(sh)} (scaled copy?)`); else shapes.set(sh, p.id);

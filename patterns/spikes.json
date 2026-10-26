@@ -1019,7 +1019,7 @@
     {
       "id": "spikes.vibrate2_zap",
       "name": "Dual Motor Zap",
-      "description": "Second motor spikes while first stays silent.",
+      "description": "Spikes bounce between the two motors, each one answered by the other.",
       "energy": 2,
       "tags": [
         "dual",
@@ -1050,6 +1050,16 @@
         },
         {
           "ms": 600,
+          "vibrate": 20,
+          "vibrate2": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
           "vibrate": 0,
           "vibrate2": 18
         },
@@ -1060,8 +1070,28 @@
         },
         {
           "ms": 600,
+          "vibrate": 18,
+          "vibrate2": 0
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
           "vibrate": 0,
           "vibrate2": 15
+        },
+        {
+          "ms": 500,
+          "vibrate": 0,
+          "vibrate2": 0
+        },
+        {
+          "ms": 600,
+          "vibrate": 15,
+          "vibrate2": 0
         },
         {
           "ms": 500,

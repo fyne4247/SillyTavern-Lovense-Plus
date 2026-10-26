@@ -948,7 +948,7 @@
         {
           "ms": 3000,
           "vibrate": 2,
-          "vibrate2": 0
+          "vibrate2": 1
         },
         {
           "ms": 3000,
