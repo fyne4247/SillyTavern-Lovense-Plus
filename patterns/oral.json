@@ -1,7 +1,7 @@
 {
   "mood": "oral",
   "label": "Oral",
-  "description": "Mouth-like sensations: bobbing rhythms, suction, licks, and swirling tongue motions.",
+  "description": "Mouth-like sensations: bobbing rhythms, deep pulls, licks, and swirling motions.",
   "keywords": [
     "oral",
     "mouth",
@@ -213,7 +213,7 @@
     {
       "id": "oral.swirling_tongue",
       "name": "Swirling Tongue",
-      "description": "Circular tongue motion with steady suction.",
+      "description": "Circular swirling motion with a steady, gentle draw.",
       "energy": 2,
       "tags": [
         "motion",
@@ -225,37 +225,37 @@
           "ms": 2000,
           "vibrate": 5,
           "rotate": 8,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 4,
           "rotate": 6,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 5,
           "rotate": 8,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 3,
           "rotate": 4,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 5,
           "rotate": 8,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 4,
           "rotate": 6,
-          "suction": 5
+          "pump": 1
         }
       ]
     },
@@ -320,8 +320,8 @@
     },
     {
       "id": "oral.suction_pulse",
-      "name": "Tongue Suction Pulse",
-      "description": "Rhythmic suction pulses that deepen, hold one long draw, then quicken and ease off.",
+      "name": "Tongue Draw Pulse",
+      "description": "Rhythmic pulses that deepen, hold one long draw, then quicken and ease off.",
       "energy": 2,
       "tags": [
         "pulse",
@@ -332,162 +332,162 @@
         {
           "ms": 1000,
           "vibrate": 6,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 6,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 6,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 6,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 2,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 1000,
           "vibrate": 7,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 500,
           "vibrate": 4,
-          "suction": 5
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 7,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 500,
           "vibrate": 4,
-          "suction": 5
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "suction": 11
+          "pump": 2
         },
         {
           "ms": 500,
           "vibrate": 4,
-          "suction": 5
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "suction": 11
+          "pump": 2
         },
         {
           "ms": 500,
           "vibrate": 4,
-          "suction": 5
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 500,
           "vibrate": 5,
-          "suction": 6
+          "pump": 2
         },
         {
           "ms": 2200,
           "vibrate": 9,
-          "suction": 13
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 3,
-          "suction": 3
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 2,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 700,
           "vibrate": 6,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 400,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 700,
           "vibrate": 6,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 400,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 700,
           "vibrate": 7,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 400,
           "vibrate": 3,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 700,
           "vibrate": 7,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 400,
           "vibrate": 4,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 4,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 2,
-          "suction": 2
+          "pump": 0
         }
       ]
     },
@@ -679,7 +679,7 @@
     {
       "id": "oral.slurping_build",
       "name": "Slurping Build",
-      "description": "Gradual increase with wet, slurping suction.",
+      "description": "Gradual increase with wet, slurping pulls.",
       "energy": 3,
       "tags": [
         "build",
@@ -690,49 +690,49 @@
         {
           "ms": 1500,
           "vibrate": 3,
-          "suction": 3,
+          "pump": 0,
           "rotate": 4
         },
         {
           "ms": 1500,
           "vibrate": 5,
-          "suction": 5,
+          "pump": 1,
           "rotate": 6
         },
         {
           "ms": 1500,
           "vibrate": 7,
-          "suction": 7,
+          "pump": 1,
           "rotate": 8
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "suction": 10,
+          "pump": 2,
           "rotate": 10
         },
         {
           "ms": 2000,
           "vibrate": 12,
-          "suction": 12,
+          "pump": 2,
           "rotate": 8
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "suction": 10,
+          "pump": 2,
           "rotate": 6
         },
         {
           "ms": 1500,
           "vibrate": 7,
-          "suction": 7,
+          "pump": 1,
           "rotate": 4
         },
         {
           "ms": 1500,
           "vibrate": 5,
-          "suction": 5,
+          "pump": 1,
           "rotate": 2
         }
       ]
@@ -740,7 +740,7 @@
     {
       "id": "oral.throat_hug",
       "name": "Throat Hug",
-      "description": "Deep throat constriction with pumping rhythm.",
+      "description": "Deep, building squeeze that tightens, holds, then slowly releases.",
       "energy": 3,
       "tags": [
         "squeeze",
@@ -756,7 +756,7 @@
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 2000,
@@ -771,7 +771,7 @@
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 2
         },
         {
           "ms": 1500,
@@ -846,7 +846,7 @@
     {
       "id": "oral.wet_kiss",
       "name": "Wet Kiss",
-      "description": "Soft vibrations with light suction like wet kisses.",
+      "description": "Soft vibrations with a light pull, like wet kisses.",
       "energy": 2,
       "tags": [
         "slow",
@@ -857,47 +857,47 @@
         {
           "ms": 1500,
           "vibrate": 3,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 4,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 3,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 4,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 3,
-          "suction": 2
+          "pump": 1
         }
       ]
     },
@@ -917,229 +917,229 @@
           "ms": 800,
           "vibrate": 12,
           "thrust": 13,
-          "suction": 7
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 6,
           "thrust": 4,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 12,
           "thrust": 13,
-          "suction": 7
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 6,
           "thrust": 4,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 12,
           "thrust": 13,
-          "suction": 7
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 6,
           "thrust": 4,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 1800,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 1200,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 0
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 17,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 17,
           "thrust": 19,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 2800,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 10,
           "thrust": 11,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 5,
           "thrust": 3,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 10,
           "thrust": 11,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 5,
           "thrust": 3,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 10,
           "thrust": 11,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 5,
           "thrust": 3,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 4,
           "thrust": 2,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 800,
           "vibrate": 12,
           "thrust": 13,
-          "suction": 7
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 6,
           "thrust": 4,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 12,
           "thrust": 13,
-          "suction": 7
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 6,
           "thrust": 4,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 3
+          "pump": 0
         },
         {
           "ms": 2200,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 0
         }
       ]
     },
@@ -1377,7 +1377,7 @@
     {
       "id": "oral.slow_slurp",
       "name": "Slow Slurp",
-      "description": "Long, drawn-out slurping with deep suction.",
+      "description": "Long, drawn-out slurping with a deep pull.",
       "energy": 2,
       "tags": [
         "slow",
@@ -1388,37 +1388,37 @@
         {
           "ms": 3000,
           "vibrate": 4,
-          "suction": 8,
+          "pump": 1,
           "rotate": 3
         },
         {
           "ms": 2000,
           "vibrate": 2,
-          "suction": 5,
+          "pump": 1,
           "rotate": 2
         },
         {
           "ms": 3000,
           "vibrate": 4,
-          "suction": 8,
+          "pump": 1,
           "rotate": 3
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0,
+          "pump": 0,
           "rotate": 0
         },
         {
           "ms": 3000,
           "vibrate": 4,
-          "suction": 8,
+          "pump": 1,
           "rotate": 3
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "suction": 3,
+          "pump": 0,
           "rotate": 1
         }
       ]
@@ -1438,223 +1438,223 @@
           "ms": 800,
           "vibrate": 6,
           "thrust": 5,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 8,
           "thrust": 8,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 10,
           "thrust": 10,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 12,
           "thrust": 12,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 16,
           "thrust": 18,
-          "suction": 13
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 9,
           "thrust": 9,
-          "suction": 7
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 16,
           "thrust": 18,
-          "suction": 13
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 9,
           "thrust": 9,
-          "suction": 7
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 16,
           "thrust": 18,
-          "suction": 13
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 9,
           "thrust": 9,
-          "suction": 7
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 16,
           "thrust": 18,
-          "suction": 13
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 9,
           "thrust": 9,
-          "suction": 7
+          "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 6,
           "thrust": 4,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 700,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 10,
           "thrust": 10,
-          "suction": 8
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 10,
           "thrust": 10,
-          "suction": 8
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 10,
           "thrust": 10,
-          "suction": 8
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 700,
           "vibrate": 10,
           "thrust": 10,
-          "suction": 8
+          "pump": 2
         },
         {
           "ms": 1800,
           "vibrate": 5,
           "thrust": 3,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 11,
           "thrust": 11,
-          "suction": 9
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 11,
           "thrust": 11,
-          "suction": 9
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 11,
           "thrust": 11,
-          "suction": 9
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 11,
           "thrust": 11,
-          "suction": 9
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 18,
           "thrust": 20,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 11,
           "thrust": 11,
-          "suction": 9
+          "pump": 2
         },
         {
           "ms": 800,
           "vibrate": 20,
           "thrust": 20,
-          "suction": 16
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 8,
           "thrust": 5,
-          "suction": 4
+          "pump": 2
         },
         {
           "ms": 900,
           "vibrate": 12,
           "thrust": 10,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 900,
           "vibrate": 9,
           "thrust": 6,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 6,
           "thrust": 3,
-          "suction": 2
+          "pump": 1
         }
       ]
     },
@@ -1921,164 +1921,164 @@
           "ms": 1200,
           "vibrate": 12,
           "thrust": 15,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 3,
           "thrust": 2,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 1200,
           "vibrate": 10,
           "thrust": 12,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 2,
           "thrust": 1,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1200,
           "vibrate": 14,
           "thrust": 18,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 600,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 4,
           "thrust": 3,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 1000,
           "vibrate": 10,
           "thrust": 12,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 2,
           "thrust": 1,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 12,
           "thrust": 15,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 500,
           "vibrate": 2,
           "thrust": 1,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 14,
           "thrust": 18,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 2200,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 1200,
           "vibrate": 8,
           "thrust": 8,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 800,
           "vibrate": 3,
           "thrust": 2,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1200,
           "vibrate": 12,
           "thrust": 14,
-          "suction": 9
+          "pump": 1
         },
         {
           "ms": 600,
           "vibrate": 1,
           "thrust": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 800,
           "vibrate": 15,
           "thrust": 20,
-          "suction": 15
+          "pump": 0
         },
         {
           "ms": 700,
           "vibrate": 3,
           "thrust": 2,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 10,
           "thrust": 11,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 2500,
           "vibrate": 0,
           "thrust": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 1200,
           "vibrate": 6,
           "thrust": 5,
-          "suction": 3
+          "pump": 0
         },
         {
           "ms": 800,
           "vibrate": 3,
           "thrust": 2,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 1200,
           "vibrate": 8,
           "thrust": 8,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 2,
           "thrust": 1,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1200,
           "vibrate": 5,
           "thrust": 4,
-          "suction": 2
+          "pump": 0
         }
       ]
     },
     {
       "id": "oral.hollow_cheeks",
       "name": "Hollow Cheeks",
-      "description": "Strong, steady suction with vibration pulses.",
+      "description": "Strong, steady draw with vibration pulses.",
       "energy": 3,
       "tags": [
         "squeeze",
@@ -2089,38 +2089,32 @@
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 12,
           "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 12,
-          "suction": 15,
           "pump": 3
         },
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 12,
           "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 12,
-          "suction": 15,
           "pump": 3
         },
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 12,
           "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "suction": 10,
-          "pump": 1
+          "pump": 2
         }
       ]
     },
@@ -2300,7 +2294,7 @@
     {
       "id": "oral.throat_massage",
       "name": "Throat Massage",
-      "description": "Slow, deep throat constriction with subtle motion.",
+      "description": "Slow, deep squeeze with subtle motion.",
       "energy": 3,
       "tags": [
         "slow",
@@ -2508,7 +2502,7 @@
     {
       "id": "oral.swallow_motion",
       "name": "Swallow Motion",
-      "description": "Simulates swallowing with pulsing contraction.",
+      "description": "Slow swallowing squeezes that swell and release.",
       "energy": 3,
       "tags": [
         "motion",
@@ -2529,7 +2523,7 @@
         {
           "ms": 1500,
           "vibrate": 6,
-          "pump": 1
+          "pump": 2
         },
         {
           "ms": 1000,
@@ -2539,7 +2533,7 @@
         {
           "ms": 1500,
           "vibrate": 6,
-          "pump": 1
+          "pump": 2
         },
         {
           "ms": 1000,
@@ -2549,7 +2543,7 @@
         {
           "ms": 1500,
           "vibrate": 6,
-          "pump": 1
+          "pump": 3
         },
         {
           "ms": 1500,
@@ -2572,32 +2566,32 @@
         {
           "ms": 3000,
           "vibrate": 2,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 3,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 3000,
           "vibrate": 2,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 3000,
           "vibrate": 2,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 3,
-          "suction": 2
+          "pump": 0
         }
       ]
     },

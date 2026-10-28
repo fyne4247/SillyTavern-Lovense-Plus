@@ -12,7 +12,7 @@ import {
 } from '../../../extensions.js';
 import { LovenseRemoteTransport } from './src/transports/lovense_remote.js';
 import { IntifaceTransport } from './src/transports/intiface.js';
-import { PatternLibrary, pickFromMood, patternLength } from './src/patterns.js';
+import { PatternLibrary, pickFromMood, patternLength, patternFitsChannels, reconcileLengthSecs } from './src/patterns.js';
 import { Player } from './src/player.js';
 import { Scheduler } from './src/scheduler.js';
 import { pickPattern } from './src/picker/script.js';
@@ -38,7 +38,9 @@ const defaultSettings = {
     trigger_char: true,
     trigger_user: false,
     loop: true,
+    min_length_sec: 0,
     max_length_sec: 0,
+    filter_specialized: true,
     idle_enabled: false,
     idle_minutes: 5,
     idle_mood: 'ambient',
@@ -79,11 +81,16 @@ const legacy = new LegacyController({
     player,
     presetLookup: (mood) => {
         const file = library.moods.get(mood);
-        return file ? pickFromMood(file, 3) : null;
+        if (!file) return null;
+        const patterns = file.patterns.filter((pattern) => patternFitsChannels(pattern, featureChannels()));
+        return patterns.length ? pickFromMood({ patterns }, 3) : null;
     },
 });
 
 let connectionCheckInterval = null;
+// Last toy-feature set the pattern lists were drawn for, so a status poll
+// doesn't rebuild the dropdowns unless a toy gained or lost a feature.
+let listedChannelKey = '';
 let idleTimer = null;
 let chatLoadedAt = 0;
 let pickToken = 0;
@@ -102,9 +109,30 @@ function isLegacy() {
     return settings().mode === 'legacy';
 }
 
-/** Max Pattern Length in ms, or 0 for no limit. */
+/** A length dropdown in ms, or 0 when that side is open. */
+function lengthSecToMs(sec) {
+    return Math.max(0, Number(sec) || 0) * 1000;
+}
+
+function minLengthMs() {
+    return lengthSecToMs(settings().min_length_sec);
+}
+
 function maxLengthMs() {
-    return Math.max(0, Number(settings().max_length_sec) || 0) * 1000;
+    return lengthSecToMs(settings().max_length_sec);
+}
+
+/** Keep the minimum from sitting above a real maximum. */
+function reconcileLengthRange(changed) {
+    const next = reconcileLengthSecs(settings().min_length_sec, settings().max_length_sec, changed);
+    const minChanged = String(next.min) !== String(Number(settings().min_length_sec) || 0);
+    const maxChanged = String(next.max) !== String(Number(settings().max_length_sec) || 0);
+    if (!minChanged && !maxChanged) return;
+    settings().min_length_sec = String(next.min);
+    settings().max_length_sec = String(next.max);
+    $('#lovense_min_length').val(String(next.min));
+    $('#lovense_max_length').val(String(next.max));
+    saveSettingsDebounced();
 }
 
 /** Milliseconds as m:ss. */
@@ -113,9 +141,30 @@ function formatLength(ms) {
     return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
 }
 
-/** Enabled moods, trimmed to patterns that fit the length limit. */
+/**
+ * Features the connected toys actually have, or null when the filter is off
+ * or no toy has reported in yet. Null means "don't hide anything".
+ * @returns {Set<string>|null}
+ */
+function featureChannels() {
+    if (!settings().filter_specialized) return null;
+    const devices = transport().listDevices();
+    if (!devices.length) return null;
+    const channels = new Set();
+    for (const device of devices) {
+        for (const channel of device.channels || []) channels.add(channel);
+    }
+    return channels;
+}
+
+/** Enabled moods, trimmed by the length limit and by what the toys can do. */
 function pickableMoods() {
-    return library.enabledMoods(settings().moods, maxLengthMs());
+    return library.enabledMoods(settings().moods, maxLengthMs(), featureChannels(), minLengthMs());
+}
+
+/** Stable label for a feature set, so the UI can tell when it changed. */
+function channelKey(channels) {
+    return channels ? [...channels].sort().join(',') : '*';
 }
 
 /**
@@ -192,6 +241,8 @@ function updateConnectionStatus() {
         buttons.prop('disabled', true);
         $('#lovense_stop_all').prop('disabled', false);
     }
+    const key = channelKey(featureChannels());
+    if (library.size && key !== listedChannelKey) renderMoods();
 }
 
 function startConnectionChecking() {
@@ -296,7 +347,7 @@ function resetIdleTimer() {
     if (!settings().enabled || !settings().idle_enabled || isLegacy()) return;
     const minutes = Math.max(1, Number(settings().idle_minutes) || defaultSettings.idle_minutes);
     idleTimer = setTimeout(() => {
-        const mood = library.enabledMoods({}, maxLengthMs()).find((m) => m.mood === settings().idle_mood);
+        const mood = library.enabledMoods({}, maxLengthMs(), featureChannels(), minLengthMs()).find((m) => m.mood === settings().idle_mood);
         if (!mood || !transport().listDevices().length) return;
         lastPickReason = `idle: ${mood.mood}`;
         const pattern = pickFromMood(mood, 1, recent);
@@ -409,7 +460,9 @@ function loadSettings() {
     $('#lovense_trigger_char').prop('checked', s.trigger_char);
     $('#lovense_trigger_user').prop('checked', s.trigger_user);
     $('#lovense_loop').prop('checked', s.loop);
+    $('#lovense_min_length').val(String(s.min_length_sec ?? 0));
     $('#lovense_max_length').val(String(s.max_length_sec));
+    $('#lovense_filter_specialized').prop('checked', s.filter_specialized !== false);
     $('#lovense_idle_enabled').prop('checked', s.idle_enabled);
     $('#lovense_idle_minutes').val(s.idle_minutes);
     $('#lovense_api_max_tokens').val(s.api_max_tokens);
@@ -444,8 +497,10 @@ function renderModeFields() {
 
 function renderMoods() {
     const s = settings();
+    const channels = featureChannels();
+    listedChannelKey = channelKey(channels);
     const list = $('#lovense_mood_list').empty();
-    const fitting = new Map(library.enabledMoods({}, maxLengthMs()).map((m) => [m.mood, m.patterns.length]));
+    const fitting = new Map(library.enabledMoods({}, maxLengthMs(), channels, minLengthMs()).map((m) => [m.mood, m.patterns.length]));
     for (const mood of library.moods.values()) {
         const id = `lovense_mood_${mood.mood}`;
         const label = $('<label class="checkbox_label"></label>').attr('for', id).attr('title', mood.description);
@@ -460,7 +515,7 @@ function renderMoods() {
         list.append(label);
     }
     const fitTotal = [...fitting.values()].reduce((a, n) => a + n, 0);
-    $('#lovense_pattern_count').text(fitTotal === library.size ? `${library.size} patterns` : `${fitTotal} of ${library.size} patterns fit the length limit`);
+    $('#lovense_pattern_count').text(patternCountLabel(fitTotal, channels));
 
     $('.lovense_mood_select').each(function () {
         const select = $(this).empty();
@@ -474,10 +529,25 @@ function renderMoods() {
     renderTryPatterns();
 }
 
+/** "431 patterns", or how many survive the length limit and the toy filter. */
+function patternCountLabel(shown, channels) {
+    if (shown === library.size) return `${library.size} patterns`;
+    const reasons = [];
+    if (minLengthMs() || maxLengthMs()) reasons.push('the length range');
+    if (channels) reasons.push('your toys');
+    const why = reasons.length ? ` fit ${reasons.join(' and ')}` : '';
+    return `${shown} of ${library.size} patterns${why}`;
+}
+
 function renderTryPatterns() {
     const mood = library.moods.get($('#lovense_try_mood').val());
+    const channels = featureChannels();
     const select = $('#lovense_try_pattern').empty();
-    for (const p of mood?.patterns || []) {
+    const patterns = (mood?.patterns || []).filter((pattern) => patternFitsChannels(pattern, channels));
+    if (!patterns.length) {
+        select.append($('<option value=""></option>').text(channels ? 'None match your toys' : 'No patterns'));
+    }
+    for (const p of patterns) {
         select.append($('<option></option>').val(p.id).text(`${p.name} · ${formatLength(patternLength(p))} · energy ${p.energy}`));
     }
     renderTryDescription();
@@ -540,7 +610,15 @@ function setupUI() {
     bindSetting('#lovense_trigger_char', 'trigger_char', { type: 'checkbox' });
     bindSetting('#lovense_trigger_user', 'trigger_user', { type: 'checkbox' });
     bindSetting('#lovense_loop', 'loop', { type: 'checkbox', after: (loop) => player.setLoop(loop) });
-    bindSetting('#lovense_max_length', 'max_length_sec', { type: 'select', after: renderMoods });
+    bindSetting('#lovense_min_length', 'min_length_sec', {
+        type: 'select',
+        after: () => { reconcileLengthRange('min'); renderMoods(); },
+    });
+    bindSetting('#lovense_max_length', 'max_length_sec', {
+        type: 'select',
+        after: () => { reconcileLengthRange('max'); renderMoods(); },
+    });
+    bindSetting('#lovense_filter_specialized', 'filter_specialized', { type: 'checkbox', after: renderMoods });
     bindSetting('#lovense_idle_enabled', 'idle_enabled', {
         type: 'checkbox',
         after: (on) => {

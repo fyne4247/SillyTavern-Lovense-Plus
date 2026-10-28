@@ -1,6 +1,11 @@
 /**
  * Output channels a pattern step can drive, with their native ranges.
  * Pattern files and transports both use these names and scales.
+ *
+ * These are the outputs Intiface (Buttplug) actually exposes for Lovense toys.
+ * Lovense's own extra function names fold into them in the transports:
+ * Flexer fingering is `rotate`, Tenera suction is `pump`, and Osci
+ * oscillation is `thrust` (Intiface reports every Lovense thruster as Oscillate).
  */
 export const CHANNELS = {
     vibrate: 20,
@@ -8,9 +13,6 @@ export const CHANNELS = {
     rotate: 20,
     pump: 3,
     thrust: 20,
-    suction: 20,
-    fingering: 20,
-    oscillate: 20,
 };
 
 /**
@@ -22,6 +24,18 @@ export const CHANNELS = {
  * @param {Iterable<string>} deviceChannels Channel names the device supports
  * @returns {Record<string, number>} Channel values in each channel's native range
  */
+/**
+ * What a channel does when a step leaves it out: `vibrate2` copies `vibrate`,
+ * and every other channel follows it scaled into its own range.
+ */
+export function mirroredLevel(channel, vibrate) {
+    const vibe = clamp(vibrate ?? 0, 0, CHANNELS.vibrate);
+    if (channel === 'vibrate2') return vibe;
+    const max = CHANNELS[channel];
+    if (max === undefined) return vibe;
+    return Math.round((vibe / CHANNELS.vibrate) * max);
+}
+
 export function resolveStep(step, deviceChannels) {
     const out = {};
     const vibe = clamp(step.vibrate ?? 0, 0, CHANNELS.vibrate);
@@ -30,10 +44,8 @@ export function resolveStep(step, deviceChannels) {
         if (max === undefined) continue;
         if (typeof step[ch] === 'number') {
             out[ch] = clamp(Math.round(step[ch]), 0, max);
-        } else if (ch === 'vibrate2') {
-            out[ch] = vibe;
         } else {
-            out[ch] = Math.round((vibe / CHANNELS.vibrate) * max);
+            out[ch] = mirroredLevel(ch, vibe);
         }
     }
     return out;

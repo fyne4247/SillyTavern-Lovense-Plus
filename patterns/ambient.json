@@ -558,7 +558,7 @@
     {
       "id": "ambient.lull",
       "name": "Lull",
-      "description": "A slow rock: vibration and oscillation swell and ebb together.",
+      "description": "A slow rock: vibration and gentle motion swell and ebb together.",
       "energy": 1,
       "tags": [
         "slow",
@@ -570,32 +570,32 @@
         {
           "ms": 3000,
           "vibrate": 1,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 2000,
           "vibrate": 2,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 1000,
           "vibrate": 1,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 2000,
           "vibrate": 2,
-          "oscillate": 2
+          "thrust": 2
         }
       ]
     },
@@ -775,8 +775,8 @@
     },
     {
       "id": "ambient.soft_suction",
-      "name": "Soft Suction",
-      "description": "Gentle suction pulses that alternate with vibration.",
+      "name": "Gentle Draw",
+      "description": "Gentle squeezes that alternate with soft vibration.",
       "energy": 1,
       "tags": [
         "slow",
@@ -788,32 +788,32 @@
         {
           "ms": 2500,
           "vibrate": 2,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2500,
           "vibrate": 0,
-          "suction": 2
+          "pump": 1
         },
         {
           "ms": 2500,
           "vibrate": 2,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2500,
           "vibrate": 0,
-          "suction": 3
+          "pump": 1
         },
         {
           "ms": 2500,
           "vibrate": 2,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2500,
           "vibrate": 0,
-          "suction": 2
+          "pump": 1
         }
       ]
     },
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "ambient.faint_oscillation",
-      "name": "Faint Oscillation",
+      "name": "Faint Sway",
       "description": "A vibration that gently rocks side to side.",
       "energy": 1,
       "tags": [
@@ -1155,32 +1155,32 @@
         {
           "ms": 2500,
           "vibrate": 2,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 1500,
           "vibrate": 2,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 2500,
           "vibrate": 2,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 1500,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         }
       ]
     },
@@ -1230,8 +1230,8 @@
     },
     {
       "id": "ambient.soft_fingers",
-      "name": "Soft Fingers",
-      "description": "Delicate fingering motion that traces in a slow cycle.",
+      "name": "Soft Circles",
+      "description": "Delicate circling motion that traces a slow cycle.",
       "energy": 1,
       "tags": [
         "slow",
@@ -1243,32 +1243,32 @@
         {
           "ms": 3000,
           "vibrate": 1,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 2000,
           "vibrate": 2,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 2000,
           "vibrate": 2,
-          "fingering": 0
+          "rotate": 0
         }
       ]
     },

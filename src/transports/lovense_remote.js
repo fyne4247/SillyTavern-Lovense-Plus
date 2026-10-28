@@ -2,6 +2,7 @@
  * Lovense Remote / Lovense Connect transport (Game Mode LAN API), reached
  * through the SillyTavern server plugin in server/lovense.mjs.
  */
+import { CHANNELS } from '../channels.js';
 
 // Fallback channel map by toy type when the app doesn't report functions.
 const TOY_CHANNELS = {
@@ -14,11 +15,11 @@ const TOY_CHANNELS = {
     'edge 2': ['vibrate', 'vibrate2'],
     gemini: ['vibrate', 'vibrate2'],
     dolce: ['vibrate', 'vibrate2'],
-    gravity: ['vibrate', 'thrust'],
-    'sex machine': ['vibrate', 'thrust'],
-    'mini sex machine': ['vibrate', 'thrust'],
-    solace: ['vibrate', 'thrust'],
-    'solace pro': ['vibrate', 'thrust'],
+    gravity: ['vibrate', 'thrusting'],
+    'sex machine': ['vibrate', 'thrusting'],
+    'mini sex machine': ['vibrate', 'thrusting'],
+    solace: ['vibrate', 'thrusting'],
+    'solace pro': ['vibrate', 'thrusting'],
     flexer: ['vibrate', 'fingering'],
     tenera: ['vibrate', 'suction'],
     'tenera 2': ['vibrate', 'suction'],
@@ -27,28 +28,19 @@ const TOY_CHANNELS = {
     'osci 3': ['vibrate', 'oscillate'],
 };
 
-// Lovense function names reported by the app -> our channel names.
-const FUNCTION_CHANNELS = {
-    vibrate: 'vibrate',
-    vibrate1: 'vibrate',
-    vibrate2: 'vibrate2',
-    rotate: 'rotate',
-    pump: 'pump',
-    thrusting: 'thrust',
-    fingering: 'fingering',
-    suction: 'suction',
-    oscillate: 'oscillate',
-};
-
-// Our channel names -> Lovense Function action names.
-const ACTIONS = {
-    vibrate: 'Vibrate',
-    rotate: 'Rotate',
-    pump: 'Pump',
-    thrust: 'Thrusting',
-    fingering: 'Fingering',
-    suction: 'Suction',
-    oscillate: 'Oscillate',
+// Lovense Function actions (lowercase) -> the channel that drives them, the
+// action name to send, and its range. Lovense names a few more functions than
+// Intiface does; those fold into the nearest pattern channel.
+const FUNCTIONS = {
+    vibrate: { channel: 'vibrate', action: 'Vibrate', max: 20 },
+    vibrate1: { channel: 'vibrate', action: 'Vibrate', max: 20 },
+    vibrate2: { channel: 'vibrate2', action: 'Vibrate2', max: 20 },
+    rotate: { channel: 'rotate', action: 'Rotate', max: 20 },
+    fingering: { channel: 'rotate', action: 'Fingering', max: 20 },
+    pump: { channel: 'pump', action: 'Pump', max: 3 },
+    suction: { channel: 'pump', action: 'Suction', max: 20 },
+    thrusting: { channel: 'thrust', action: 'Thrusting', max: 20 },
+    oscillate: { channel: 'thrust', action: 'Oscillate', max: 20 },
 };
 
 // Each command keeps running this long unless replaced; the player refreshes sooner.
@@ -69,39 +61,52 @@ export function getLovenseProtocol(port) {
 }
 
 /**
- * Work out a toy's channels from a GetToys entry.
+ * A toy's Lovense functions (lowercase action names) from a GetToys entry:
+ * what the app reports, or the built-in table when it reports nothing.
  * @param {object} toy
  * @returns {string[]}
  */
-export function toyChannels(toy) {
+export function toyFunctions(toy) {
     const reported = Array.isArray(toy.fullFunctionNames) ? toy.fullFunctionNames : null;
     if (reported?.length) {
-        const channels = new Set();
+        const functions = new Set(['vibrate']);
         for (const fn of reported) {
-            const ch = FUNCTION_CHANNELS[String(fn).toLowerCase()];
-            if (ch) channels.add(ch);
+            const name = String(fn).toLowerCase();
+            if (FUNCTIONS[name]) functions.add(name === 'vibrate1' ? 'vibrate' : name);
         }
-        channels.add('vibrate');
-        return [...channels];
+        return [...functions];
     }
     const type = String(toy.name || toy.toyType || '').toLowerCase();
     return TOY_CHANNELS[type] || ['vibrate'];
 }
 
 /**
- * Build the Function action string for one set of channel values.
- * Dual-motor toys get Vibrate1/Vibrate2 so the motors can differ.
+ * Work out a toy's pattern channels from a GetToys entry.
+ * @param {object} toy
+ * @returns {string[]}
  */
-export function buildAction(values) {
+export function toyChannels(toy) {
+    return [...new Set(toyFunctions(toy).map((fn) => FUNCTIONS[fn].channel))];
+}
+
+/**
+ * Build the Function action string for one set of channel values.
+ * Dual-motor toys get Vibrate1/Vibrate2 so the motors can differ. Each channel
+ * is sent as the toy's own function, rescaled to that function's range.
+ * @param {Record<string, number>} values
+ * @param {string[]} [functions] The toy's functions; defaults to the standard set
+ */
+export function buildAction(values, functions = ['vibrate', 'vibrate2', 'rotate', 'pump', 'thrusting']) {
     const parts = [];
     if ('vibrate2' in values) {
         parts.push(`Vibrate1:${values.vibrate ?? 0}`, `Vibrate2:${values.vibrate2}`);
     } else if ('vibrate' in values) {
         parts.push(`Vibrate:${values.vibrate}`);
     }
-    for (const [ch, action] of Object.entries(ACTIONS)) {
-        if (ch === 'vibrate' || !(ch in values)) continue;
-        parts.push(`${action}:${values[ch]}`);
+    for (const fn of functions) {
+        const { channel, action, max } = FUNCTIONS[fn] || {};
+        if (!channel || channel === 'vibrate' || channel === 'vibrate2' || !(channel in values)) continue;
+        parts.push(`${action}:${Math.round((values[channel] / CHANNELS[channel]) * max)}`);
     }
     return parts.join(',');
 }
@@ -149,6 +154,7 @@ export class LovenseRemoteTransport {
                         id,
                         name: toy.nickName ? `${toy.name} (${toy.nickName})` : (toy.name || 'Unknown'),
                         channels: toyChannels(toy),
+                        functions: toyFunctions(toy),
                         battery: toy.battery ?? null,
                         raw: toy,
                     })));
@@ -188,7 +194,8 @@ export class LovenseRemoteTransport {
     }
 
     async send(deviceId, values) {
-        const action = buildAction(values);
+        const device = this.devices.find((d) => d.id === deviceId);
+        const action = buildAction(values, device?.functions);
         if (!action) return;
         return this.call({ command: 'Function', action, timeSec: COMMAND_SECONDS, toy: deviceId, apiVer: 1 });
     }

@@ -151,7 +151,7 @@
         {
           "ms": 1000,
           "vibrate": 16,
-          "pump": 1
+          "pump": 2
         },
         {
           "ms": 1000,
@@ -161,7 +161,7 @@
         {
           "ms": 1000,
           "vibrate": 10,
-          "pump": 0
+          "pump": 1
         },
         {
           "ms": 1000,
@@ -601,8 +601,8 @@
     },
     {
       "id": "climax.dual_oscillation",
-      "name": "Dual Oscillation",
-      "description": "Both motors oscillate in opposing rhythms for maximum effect.",
+      "name": "Dueling Motors",
+      "description": "Both motors trade off in opposing rhythms while thrusting climbs underneath.",
       "energy": 4,
       "tags": [
         "dual",
@@ -615,158 +615,158 @@
           "ms": 1000,
           "vibrate": 6,
           "vibrate2": 3,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 1000,
           "vibrate": 3,
           "vibrate2": 6,
-          "oscillate": 8
+          "thrust": 5
         },
         {
           "ms": 1200,
           "vibrate": 10,
           "vibrate2": 5,
-          "oscillate": 10
+          "thrust": 10
         },
         {
           "ms": 1200,
           "vibrate": 5,
           "vibrate2": 10,
-          "oscillate": 15
+          "thrust": 10
         },
         {
           "ms": 1200,
           "vibrate": 12,
           "vibrate2": 8,
-          "oscillate": 12
+          "thrust": 12
         },
         {
           "ms": 1200,
           "vibrate": 8,
           "vibrate2": 12,
-          "oscillate": 18
+          "thrust": 12
         },
         {
           "ms": 1200,
           "vibrate": 15,
           "vibrate2": 10,
-          "oscillate": 15
+          "thrust": 15
         },
         {
           "ms": 1200,
           "vibrate": 10,
           "vibrate2": 15,
-          "oscillate": 20
+          "thrust": 15
         },
         {
           "ms": 900,
           "vibrate": 14,
           "vibrate2": 8,
-          "oscillate": 16
+          "thrust": 16
         },
         {
           "ms": 900,
           "vibrate": 8,
           "vibrate2": 14,
-          "oscillate": 16
+          "thrust": 16
         },
         {
           "ms": 900,
           "vibrate": 16,
           "vibrate2": 10,
-          "oscillate": 18
+          "thrust": 18
         },
         {
           "ms": 900,
           "vibrate": 10,
           "vibrate2": 16,
-          "oscillate": 18
+          "thrust": 18
         },
         {
           "ms": 800,
           "vibrate": 18,
           "vibrate2": 12,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 12,
           "vibrate2": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1200,
           "vibrate": 20,
           "vibrate2": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1000,
           "vibrate": 20,
           "vibrate2": 17,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1000,
           "vibrate": 17,
           "vibrate2": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1200,
           "vibrate": 20,
           "vibrate2": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1000,
           "vibrate": 20,
           "vibrate2": 17,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1000,
           "vibrate": 17,
           "vibrate2": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1500,
           "vibrate": 20,
           "vibrate2": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1500,
           "vibrate": 15,
           "vibrate2": 15,
-          "oscillate": 18
+          "thrust": 20
         },
         {
           "ms": 1200,
           "vibrate": 10,
           "vibrate2": 10,
-          "oscillate": 12
+          "thrust": 12
         },
         {
           "ms": 1200,
           "vibrate": 6,
           "vibrate2": 6,
-          "oscillate": 6
+          "thrust": 12
         },
         {
           "ms": 1500,
           "vibrate": 4,
           "vibrate2": 4,
-          "oscillate": 3
+          "thrust": 3
         }
       ]
     },
     {
       "id": "climax.suction_climax",
-      "name": "Suction Climax",
-      "description": "Deep suction pulls synchronized with vibration pulses.",
+      "name": "Deep Draw Climax",
+      "description": "Deep slow squeezes swell under the vibration pulses, then ease away.",
       "energy": 4,
       "tags": [
         "squeeze",
@@ -778,47 +778,47 @@
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 15,
-          "suction": 20
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 10
+          "pump": 3
         },
         {
           "ms": 1000,
           "vibrate": 18,
-          "suction": 20
+          "pump": 3
         },
         {
           "ms": 1500,
           "vibrate": 12,
-          "suction": 15
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 20,
-          "suction": 20
+          "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 15,
-          "suction": 18
+          "pump": 3
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 1500,
           "vibrate": 5,
-          "suction": 5
+          "pump": 1
         }
       ]
     },
@@ -1527,52 +1527,52 @@
         {
           "ms": 2000,
           "vibrate": 5,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "oscillate": 10
+          "thrust": 10
         },
         {
           "ms": 2000,
           "vibrate": 8,
-          "oscillate": 8
+          "thrust": 8
         },
         {
           "ms": 1500,
           "vibrate": 15,
-          "oscillate": 15
+          "thrust": 15
         },
         {
           "ms": 2000,
           "vibrate": 12,
-          "oscillate": 12
+          "thrust": 12
         },
         {
           "ms": 1500,
           "vibrate": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 2000,
           "vibrate": 18,
-          "oscillate": 18
+          "thrust": 18
         },
         {
           "ms": 1500,
           "vibrate": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 2000,
           "vibrate": 15,
-          "oscillate": 15
+          "thrust": 15
         },
         {
           "ms": 2000,
           "vibrate": 10,
-          "oscillate": 10
+          "thrust": 10
         }
       ]
     },

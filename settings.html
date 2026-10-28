@@ -176,6 +176,18 @@
 
                 <div class="lovense_row">
                     <div class="lovense_field">
+                        <label for="lovense_min_length"><b>Min Pattern Length</b></label>
+                        <select id="lovense_min_length" class="text_pole">
+                            <option value="0">No minimum</option>
+                            <option value="15">15 sec</option>
+                            <option value="30">30 sec</option>
+                            <option value="60">60 sec</option>
+                            <option value="90">90 sec</option>
+                            <option value="120">120 sec</option>
+                            <option value="180">180 sec</option>
+                        </select>
+                    </div>
+                    <div class="lovense_field">
                         <label for="lovense_max_length"><b>Max Pattern Length</b></label>
                         <select id="lovense_max_length" class="text_pole">
                             <option value="15">15 sec</option>
@@ -184,11 +196,17 @@
                             <option value="90">90 sec</option>
                             <option value="120">120 sec</option>
                             <option value="180">180 sec</option>
-                            <option value="0">No Limit</option>
+                            <option value="0">No limit</option>
                         </select>
                     </div>
                 </div>
-                <small class="notes">Longer patterns are never picked automatically (one pass of the pattern; it still loops if looping is on). "Try a pattern" ignores this.</small>
+                <small class="notes">Automatic picks only use a pattern whose one pass is inside this range. It still loops if looping is on. If you set a minimum above the maximum, the other side moves to match. "Try a pattern" ignores this.</small>
+
+                <label class="checkbox_label" for="lovense_filter_specialized">
+                    <input type="checkbox" id="lovense_filter_specialized" />
+                    <span>Filter out specialized patterns</span>
+                </label>
+                <small class="notes">When a toy is connected, skip patterns that spend real time on a feature it doesn't have, like a second motor answering the first, or thrust and rotation doing their own thing. Patterns that only vibrate, or that copy the vibration onto other features, stay. Nothing is hidden until a toy is connected. "Try a pattern" follows this; turn it off to play those by hand.</small>
 
                 <label class="checkbox_label" for="lovense_idle_enabled">
                     <input type="checkbox" id="lovense_idle_enabled" />

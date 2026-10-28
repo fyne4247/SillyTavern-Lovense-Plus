@@ -19,7 +19,7 @@ This fork flips it around: **the roleplay model just roleplays.** Once a message
 
 - **Two ways to connect**: Lovense Remote (as before) or **Intiface Central**, which talks to toys over Bluetooth directly and supports most brands.
 - **Two pickers**: free, instant keyword matching, or a separate cheap model through a SillyTavern Connection Profile.
-- **Adapts to your toys automatically**: patterns use whatever each connected toy can do (vibrate, second motor, rotate, air pump, thrust, suction, fingering, oscillate).
+- **Adapts to your toys automatically**: patterns use whatever each connected toy can do (vibrate, second motor, rotate, air pump, thrust).
 - **Swipe-proof**: a configurable delay means only the message you keep sets the toys.
 - **19 moods you can switch on and off**, from tease and edging to aftercare and 30-minute marathons.
 - **Legacy Mode** keeps the original behaviour for anyone who prefers it.
@@ -105,7 +105,7 @@ Pick a mode under **How patterns are chosen**:
 - **Delay after a message**: how long to wait once a message settles before picking. Swiping, editing or regenerating restarts the countdown, so heavy swipers don't get whiplash.
 - **React to**: character messages, your own messages, or both.
 - **Loop**: keep repeating the pattern until the next pick, or play it once and stop.
-- **Max Pattern Length**: 15 seconds up to 3 minutes, or no limit. Patterns longer than this are never picked automatically, so you can keep the 30-minute marathons out of quick scenes.
+- **Min and Max Pattern Length**: 15 seconds up to 3 minutes, or no minimum / no limit. Automatic picks stay inside that range, so you can keep the 30-minute marathons out of quick scenes, or skip the short ones. "Try a pattern" ignores it.
 - **Idle mood**: optionally switch to a calm mood if the chat goes quiet for a while.
 
 ### Moods
@@ -118,7 +118,9 @@ Use **Try a pattern** to feel any pattern by hand (each one shows its length and
 
 ### Toys with more than one function
 
-Every pattern step sets a vibration level and can optionally set the other channels (second motor, rotation, air pump, thrust, suction, fingering, oscillation). Channels a step doesn't mention follow the vibration level, scaled to that channel's range, so every pattern works on every toy, and toys with extra functions get them used on purpose where the pattern calls for it. Toys that connect or drop out mid-pattern are picked up automatically.
+Every pattern step sets a vibration level and can optionally set the other channels (second motor, rotation, air pump, thrust). Channels a step doesn't mention follow the vibration level, scaled to that channel's range, so every pattern works on every toy, and toys with extra functions get them used on purpose where the pattern calls for it. Toys that connect or drop out mid-pattern are picked up automatically.
+
+**Filter out specialized patterns** (on by default) hides the ones that would feel wrong on the toys you have connected. A pattern is specialized when a feature does its own thing for a few seconds, or for about a fifth of the pattern: two motors answering each other, a thrust line that isn't just the vibration, rotation that holds its own rhythm. If every connected toy lacks that feature, the pattern is skipped. Patterns that only vibrate, or that copy the vibration onto other features, still play. With nothing connected, nothing is hidden.
 
 ## Legacy Mode
 
@@ -149,7 +151,7 @@ node tools/build_pattern_index.mjs      # needed when you add or remove a mood f
 
 ## 📱 Supported Devices
 
-- **Lovense Remote:** all Lovense devices the app supports. Toy functions come from the app when it reports them, with a built-in table otherwise (Nora/Ridge/Diamo rotate, Max pumps, Edge/Gemini/Dolce have two motors, Gravity/Solace thrust, Tenera sucks, Flexer fingers, Osci oscillates).
+- **Lovense Remote:** all Lovense devices the app supports. Toy functions come from the app when it reports them, with a built-in table otherwise (Nora/Ridge/Diamo rotate, Max pumps, Edge/Gemini/Dolce have two motors, Gravity/Solace thrust). The Flexer's fingering follows rotation, the Tenera's suction follows the air pump, and the Osci's oscillation follows thrust.
 - **Intiface:** anything Intiface supports (see [IOSTIndex](https://iostindex.com)), with functions read from the device itself.
 
 Tip for strong toys (Gush 2 and friends): the `classics` and `loops` moods include pulsed versions with long-on/short-off rhythms that are easier to take than a flat hum.

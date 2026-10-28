@@ -10,26 +10,38 @@ export const DEFAULT_GUIDELINES = `1. Match intensity to context: gentle (1-10),
 3. Multiple commands per response allowed
 4. Commands loop until your next response`;
 
-// Lovense action names -> our channel names, for running legacy commands on Intiface.
+// Lovense action names -> our channel names and the action's own range, for
+// running legacy commands on Intiface. Fingering, suction and oscillate fold
+// into the channels Intiface actually exposes.
 const ACTION_CHANNELS = {
-    vibrate: 'vibrate',
-    vibrate1: 'vibrate',
-    vibrate2: 'vibrate2',
-    rotate: 'rotate',
-    pump: 'pump',
-    thrusting: 'thrust',
-    fingering: 'fingering',
-    suction: 'suction',
-    oscillate: 'oscillate',
+    vibrate: ['vibrate', 20],
+    vibrate1: ['vibrate', 20],
+    vibrate2: ['vibrate2', 20],
+    rotate: ['rotate', 20],
+    fingering: ['rotate', 20],
+    pump: ['pump', 3],
+    suction: ['pump', 20],
+    thrusting: ['thrust', 20],
+    oscillate: ['thrust', 20],
 };
 
-// Our channel names -> the capability names the legacy prompt uses.
+// Our channel names -> the capability names the legacy prompt uses, for
+// transports that don't report Lovense functions themselves.
 const PROMPT_CAPABILITIES = {
     vibrate: 'vibrate',
     vibrate2: 'vibrate',
     rotate: 'rotate',
     pump: 'pump',
     thrust: 'thrusting',
+};
+
+// Lovense function names -> legacy prompt capability names.
+const FUNCTION_CAPABILITIES = {
+    vibrate: 'vibrate',
+    vibrate2: 'vibrate',
+    rotate: 'rotate',
+    pump: 'pump',
+    thrusting: 'thrusting',
     fingering: 'fingering',
     suction: 'suction',
     oscillate: 'oscillate',
@@ -323,7 +335,10 @@ export function buildLegacyPrompt(devices, guidelines) {
 
     const capabilities = new Set(['vibrate']);
     const toyDetails = devices.map((device) => {
-        const caps = [...new Set(device.channels.map((ch) => PROMPT_CAPABILITIES[ch]).filter(Boolean))];
+        // Lovense Remote runs the tags raw, so offer the toy's own functions.
+        const caps = device.functions
+            ? [...new Set(device.functions.map((fn) => FUNCTION_CAPABILITIES[fn]).filter(Boolean))]
+            : [...new Set(device.channels.map((ch) => PROMPT_CAPABILITIES[ch]).filter(Boolean))];
         caps.forEach((cap) => capabilities.add(cap));
         return { name: device.raw?.name || device.name, capabilities: caps };
     });
@@ -407,8 +422,10 @@ export function actionToValues(action) {
             for (const [ch, max] of Object.entries(CHANNELS)) values[ch] = Math.round((Math.min(20, level) / 20) * max);
             continue;
         }
-        const ch = ACTION_CHANNELS[key];
-        if (ch) values[ch] = Math.min(CHANNELS[ch], Math.max(0, Math.round(level)));
+        const [ch, max] = ACTION_CHANNELS[key] || [];
+        if (!ch) continue;
+        const scaled = Math.min(CHANNELS[ch], Math.max(0, Math.round((Math.min(max, level) / max) * CHANNELS[ch])));
+        values[ch] = Math.max(values[ch] ?? 0, scaled);
     }
     return values;
 }
@@ -439,7 +456,7 @@ export function commandsToPattern(commands, presetLookup = () => null) {
             if (!levels.length) continue;
             const fns = /F:([^;]*)/.exec(cmd.rule || '')?.[1]?.split(',') || ['v'];
             const interval = Math.max(300, Number(/S:(\d+)/.exec(cmd.rule || '')?.[1]) || 300);
-            const map = { v: 'vibrate', r: 'rotate', p: 'pump', t: 'thrust', f: 'fingering', s: 'suction', o: 'oscillate' };
+            const map = { v: 'vibrate', r: 'rotate', p: 'pump', t: 'thrust', f: 'rotate', s: 'pump', o: 'thrust' };
             const total = seconds(cmd.timeSec, 0) * 1000;
             const passes = total ? Math.max(1, Math.round(total / (interval * levels.length))) : 1;
             for (let i = 0; i < passes; i++) {

@@ -638,39 +638,39 @@
         {
           "ms": 2000,
           "vibrate": 4,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 3000,
           "vibrate": 6,
-          "oscillate": 6
+          "thrust": 6
         },
         {
           "ms": 2000,
           "vibrate": 4,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 3000,
           "vibrate": 2,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         }
       ]
     },
     {
       "id": "waves.undertow",
       "name": "Undertow",
-      "description": "Pulling waves with suction, drawing you under then releasing.",
+      "description": "Pulling waves with a deep draw, pulling you under then releasing.",
       "energy": 3,
       "tags": [
         "wave",
@@ -682,37 +682,37 @@
         {
           "ms": 2000,
           "vibrate": 6,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 9,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 12,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 10,
-          "suction": 14
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 6,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 3,
-          "suction": 0
+          "pump": 0
         }
       ]
     },
@@ -1668,7 +1668,7 @@
     {
       "id": "waves.wavelet",
       "name": "Wavelet",
-      "description": "Small fast wavelets, tiny oscillations that come in quick succession.",
+      "description": "Small fast wavelets that come in quick succession.",
       "energy": 2,
       "tags": [
         "fast",

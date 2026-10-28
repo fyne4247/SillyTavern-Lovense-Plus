@@ -10,7 +10,6 @@ const DIR = join(ROOT, 'patterns');
 
 const CHANNELS = {
     vibrate: 20, vibrate2: 20, rotate: 20, pump: 3, thrust: 20,
-    suction: 20, fingering: 20, oscillate: 20,
 };
 const TAGS = new Set(['slow', 'fast', 'light', 'heavy', 'build', 'drop', 'steady', 'random',
     'pulse', 'wave', 'burst', 'silence', 'long', 'short', 'motion', 'squeeze', 'dual']);
@@ -148,6 +147,30 @@ let total = 0;
 
 const isInt = (v) => Number.isInteger(v);
 
+// An air pump (Max, Max 2) takes a second or two to inflate or deflate.
+const PUMP_HOLD_MS = 1500;
+
+/**
+ * How often an explicitly set pump level changes before it was held for
+ * PUMP_HOLD_MS. Steps that leave pump out are skipped (they follow vibrate).
+ */
+function pumpFlickers(steps) {
+    let count = 0;
+    let level = null;
+    let held = 0;
+    for (const s of steps) {
+        if (typeof s.pump !== 'number') {
+            level = null;
+            continue;
+        }
+        if (level !== null && s.pump !== level && held < PUMP_HOLD_MS) count++;
+        if (s.pump !== level) held = 0;
+        level = s.pump;
+        held += s.ms;
+    }
+    return count;
+}
+
 // Shape fingerprint: normalized contour + rhythm, so scaled copies collide.
 function shape(steps) {
     const max = Math.max(1, ...steps.map((s) => s.vibrate));
@@ -212,6 +235,9 @@ for (const file of files) {
         }
         if (sum < 8000 || sum > maxTotal) err(`${at}: total length ${sum}ms, need 8000-${maxTotal}`);
         if (bad) continue;
+
+        const flicker = pumpFlickers(p.steps);
+        if (flicker) warn(`${at}: pump changes ${flicker} time(s) after under ${PUMP_HOLD_MS}ms; an air pump can't follow that`);
 
         const { avg, peak } = patternIntensity(p.steps);
         const expected = suggestEnergy(p.steps, byPeak);

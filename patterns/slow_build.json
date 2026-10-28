@@ -777,8 +777,8 @@
     },
     {
       "id": "slow_build.suction_creep",
-      "name": "Suction Creep",
-      "description": "Vibration rises as suction pulls harder and harder.",
+      "name": "Draw Creep",
+      "description": "Vibration rises as a deep draw pulls harder and harder.",
       "energy": 3,
       "tags": [
         "build",
@@ -790,54 +790,54 @@
         {
           "ms": 5000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 4000,
           "vibrate": 3,
-          "suction": 3
+          "pump": 0
         },
         {
           "ms": 4000,
           "vibrate": 5,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 3000,
           "vibrate": 7,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 3000,
           "vibrate": 9,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 3000,
           "vibrate": 11,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 3000,
           "vibrate": 13,
-          "suction": 15
+          "pump": 2
         },
         {
           "ms": 3000,
           "vibrate": 15,
-          "suction": 17
+          "pump": 3
         },
         {
           "ms": 3000,
           "vibrate": 18,
-          "suction": 20
+          "pump": 3
         }
       ]
     },
     {
       "id": "slow_build.fingering_ascent",
-      "name": "Fingering Ascent",
-      "description": "Fingering motion grows more insistent alongside vibration.",
+      "name": "Swirl Ascent",
+      "description": "A rotating swirl grows more insistent alongside vibration.",
       "energy": 3,
       "tags": [
         "build",
@@ -849,59 +849,59 @@
         {
           "ms": 5000,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 4000,
           "vibrate": 2,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 3000,
           "vibrate": 4,
-          "fingering": 4
+          "rotate": 4
         },
         {
           "ms": 3000,
           "vibrate": 6,
-          "fingering": 6
+          "rotate": 6
         },
         {
           "ms": 3000,
           "vibrate": 8,
-          "fingering": 8
+          "rotate": 8
         },
         {
           "ms": 2500,
           "vibrate": 10,
-          "fingering": 10
+          "rotate": 10
         },
         {
           "ms": 2500,
           "vibrate": 12,
-          "fingering": 12
+          "rotate": 12
         },
         {
           "ms": 2500,
           "vibrate": 14,
-          "fingering": 14
+          "rotate": 14
         },
         {
           "ms": 2500,
           "vibrate": 16,
-          "fingering": 16
+          "rotate": 16
         },
         {
           "ms": 2500,
           "vibrate": 18,
-          "fingering": 18
+          "rotate": 18
         }
       ]
     },
     {
       "id": "slow_build.oscillate_build",
-      "name": "Oscillate Build",
-      "description": "Oscillating motion widens and speeds up as vibration climbs.",
+      "name": "Stroke Build",
+      "description": "Thrusting widens and speeds up as vibration climbs.",
       "energy": 3,
       "tags": [
         "build",
@@ -913,52 +913,52 @@
         {
           "ms": 5000,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 4000,
           "vibrate": 3,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 3000,
           "vibrate": 5,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 3000,
           "vibrate": 7,
-          "oscillate": 6
+          "thrust": 6
         },
         {
           "ms": 2500,
           "vibrate": 9,
-          "oscillate": 8
+          "thrust": 8
         },
         {
           "ms": 2500,
           "vibrate": 11,
-          "oscillate": 10
+          "thrust": 10
         },
         {
           "ms": 2500,
           "vibrate": 13,
-          "oscillate": 12
+          "thrust": 12
         },
         {
           "ms": 2500,
           "vibrate": 15,
-          "oscillate": 14
+          "thrust": 14
         },
         {
           "ms": 2500,
           "vibrate": 18,
-          "oscillate": 16
+          "thrust": 16
         },
         {
           "ms": 2500,
           "vibrate": 20,
-          "oscillate": 18
+          "thrust": 18
         }
       ]
     },

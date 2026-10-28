@@ -7,11 +7,13 @@ import { CHANNELS } from '../channels.js';
 const CLIENT_NAME = 'SillyTavern Lovense';
 const REQUEST_TIMEOUT_MS = 5000;
 
-// Buttplug ScalarCmd actuator types -> our channel names.
+// Buttplug ScalarCmd actuator types -> our channel names. Intiface reports
+// Lovense thrusters (Gravity, Solace, Sex Machine, Spinel) as Oscillate, the
+// Max air pump as Constrict, and Flexer finger motion as Rotate.
 const SCALAR_CHANNELS = {
     Vibrate: 'vibrate',
     Rotate: 'rotate',
-    Oscillate: 'oscillate',
+    Oscillate: 'thrust',
     Constrict: 'pump',
     Inflate: 'pump',
 };
@@ -39,7 +41,9 @@ export function parseDevice(raw) {
     for (const [index, feature] of (messages.RotateCmd || []).entries()) {
         outputs.push({ kind: 'rotate', channel: 'rotate', index, steps: Number(feature.StepCount) || 20 });
     }
-    for (const [index] of (messages.LinearCmd || []).entries()) {
+    // A toy with a thrust speed (Solace Pro) is driven by that, not by strokes.
+    const hasScalarThrust = outputs.some((o) => o.channel === 'thrust');
+    for (const [index] of (hasScalarThrust ? [] : messages.LinearCmd || []).entries()) {
         outputs.push({ kind: 'linear', channel: 'thrust', index });
     }
 

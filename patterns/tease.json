@@ -438,8 +438,8 @@
     },
     {
       "id": "tease.dancing_fingers",
-      "name": "Dancing Fingers",
-      "description": "Light fingertips tracing unpredictable paths.",
+      "name": "Dancing Touch",
+      "description": "Light, fleeting touches tracing unpredictable paths.",
       "energy": 2,
       "tags": [
         "random",
@@ -450,57 +450,57 @@
         {
           "ms": 1000,
           "vibrate": 3,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 800,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1200,
           "vibrate": 4,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 800,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1000,
           "vibrate": 2,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 1200,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1000,
           "vibrate": 5,
-          "fingering": 4
+          "rotate": 4
         },
         {
           "ms": 800,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1000,
           "vibrate": 3,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 800,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 600,
           "vibrate": 3,
-          "fingering": 4
+          "rotate": 4
         },
         {
           "ms": 400,
@@ -509,7 +509,7 @@
         {
           "ms": 600,
           "vibrate": 4,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 400,
@@ -518,7 +518,7 @@
         {
           "ms": 600,
           "vibrate": 2,
-          "fingering": 5
+          "rotate": 5
         },
         {
           "ms": 400,
@@ -527,7 +527,7 @@
         {
           "ms": 700,
           "vibrate": 5,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 500,
@@ -536,7 +536,7 @@
         {
           "ms": 600,
           "vibrate": 3,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 400,
@@ -549,27 +549,27 @@
         {
           "ms": 1800,
           "vibrate": 2,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 1200,
           "vibrate": 3,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 1500,
           "vibrate": 4,
-          "fingering": 5
+          "rotate": 5
         },
         {
           "ms": 1200,
           "vibrate": 3,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 1500,
           "vibrate": 1,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 1500,
@@ -578,7 +578,7 @@
         {
           "ms": 800,
           "vibrate": 4,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 500,
@@ -587,7 +587,7 @@
         {
           "ms": 800,
           "vibrate": 3,
-          "fingering": 4
+          "rotate": 4
         },
         {
           "ms": 500,
@@ -596,7 +596,7 @@
         {
           "ms": 800,
           "vibrate": 5,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 500,
@@ -605,7 +605,7 @@
         {
           "ms": 1000,
           "vibrate": 2,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 800,
@@ -659,7 +659,7 @@
     },
     {
       "id": "tease.suction_hint",
-      "name": "Suction Hint",
+      "name": "Faint Pull",
       "description": "The lightest pull, like a kiss that barely lands.",
       "energy": 1,
       "tags": [
@@ -671,37 +671,37 @@
         {
           "ms": 2000,
           "vibrate": 2,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 1,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1800,
           "vibrate": 3,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2200,
           "vibrate": 1,
-          "suction": 1
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 1
         }
       ]
     },
@@ -993,7 +993,7 @@
     },
     {
       "id": "tease.oscillating_flirt",
-      "name": "Oscillating Flirt",
+      "name": "Swaying Flirt",
       "description": "Gentle back-and-forth motion, teasing with motion.",
       "energy": 2,
       "tags": [
@@ -1005,42 +1005,42 @@
         {
           "ms": 1500,
           "vibrate": 2,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 1200,
           "vibrate": 1,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 1500,
           "vibrate": 3,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 1200,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 1500,
           "vibrate": 2,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 1200,
           "vibrate": 1,
-          "oscillate": 1
+          "thrust": 1
         },
         {
           "ms": 1500,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 1200,
           "vibrate": 2,
-          "oscillate": 2
+          "thrust": 2
         }
       ]
     },
@@ -2360,32 +2360,32 @@
         {
           "ms": 1000,
           "vibrate": 2,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 600,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 1500,
           "vibrate": 1,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 1000,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1200,
           "vibrate": 4,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 800,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2000,
@@ -2399,7 +2399,7 @@
         {
           "ms": 1800,
           "vibrate": 3,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 1000,
@@ -2408,7 +2408,7 @@
         {
           "ms": 2200,
           "vibrate": 2,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 1200,
@@ -2430,7 +2430,7 @@
         {
           "ms": 800,
           "vibrate": 3,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 500,
@@ -2439,7 +2439,7 @@
         {
           "ms": 700,
           "vibrate": 5,
-          "fingering": 3
+          "rotate": 3
         },
         {
           "ms": 600,
@@ -2448,7 +2448,7 @@
         {
           "ms": 900,
           "vibrate": 2,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 500,
@@ -2466,12 +2466,12 @@
         {
           "ms": 1000,
           "vibrate": 2,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 1500,
           "vibrate": 1,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 1200,
@@ -2480,7 +2480,7 @@
         {
           "ms": 1500,
           "vibrate": 2,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 1000,

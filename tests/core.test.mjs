@@ -1,12 +1,13 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { resolveStep } from '../src/channels.js';
 import { Player } from '../src/player.js';
 import { Scheduler } from '../src/scheduler.js';
-import { PatternLibrary, pickFromMood, patternLength } from '../src/patterns.js';
+import { PatternLibrary, pickFromMood, patternLength, requiredChannels, patternFitsChannels, reconcileLengthSecs } from '../src/patterns.js';
 import { scoreMoods, estimateEnergy, pickPattern, cleanText } from '../src/picker/script.js';
 import { ApiPicker, parseMoodReply, parseJsonReply } from '../src/picker/api.js';
-import { buildAction, toyChannels, LovenseRemoteTransport } from '../src/transports/lovense_remote.js';
+import { buildAction, toyChannels, toyFunctions, LovenseRemoteTransport } from '../src/transports/lovense_remote.js';
 import { parseDevice, buildCommands, strokeDuration, IntifaceTransport } from '../src/transports/intiface.js';
 import { parseAICommands, commandsToPattern, actionToValues, buildLegacyPrompt } from '../src/legacy.js';
 
@@ -164,7 +165,92 @@ test('length limit trims patterns and drops moods with none left', async () => {
     assert.equal(patternLength(lib.get('intense.long')), 90000);
     assert.deepEqual(lib.enabledMoods({}, 0).map((m) => m.mood), ['tease', 'intense']);
     assert.deepEqual(lib.enabledMoods({}, 30000).map((m) => m.mood), ['tease']);
+    assert.deepEqual(lib.enabledMoods({}, 0, null, 50000).map((m) => m.mood), ['intense']);
+    assert.deepEqual(lib.enabledMoods({}, 30000, null, 2000), []);
     assert.equal(lib.moods.get('intense').patterns.length, 1, 'library itself is not modified');
+    assert.deepEqual(reconcileLengthSecs(60, 30, 'min'), { min: 60, max: 60 });
+    assert.deepEqual(reconcileLengthSecs(60, 30, 'max'), { min: 30, max: 30 });
+    assert.deepEqual(reconcileLengthSecs(60, 0, 'min'), { min: 60, max: 0 });
+});
+
+test('specialized patterns are the ones a feature carries on its own', () => {
+    const answer = {
+        steps: [
+            { ms: 600, vibrate: 0, vibrate2: 20 },
+            { ms: 600, vibrate: 20, vibrate2: 0 },
+            { ms: 600, vibrate: 0, vibrate2: 18 },
+            { ms: 600, vibrate: 18, vibrate2: 0 },
+            { ms: 600, vibrate: 0, vibrate2: 15 },
+            { ms: 600, vibrate: 15, vibrate2: 0 },
+            { ms: 8000, vibrate: 0, vibrate2: 0 },
+        ],
+    };
+    assert.deepEqual(requiredChannels(answer), ['vibrate2']);
+    assert.equal(patternFitsChannels(answer, ['vibrate']), false);
+    assert.equal(patternFitsChannels(answer, ['vibrate', 'vibrate2']), true);
+    assert.equal(patternFitsChannels(answer, null), true, 'no toy yet means do not hide anything');
+
+    const mirror = {
+        steps: [
+            { ms: 1500, vibrate: 5, thrust: 5 },
+            { ms: 1500, vibrate: 12, thrust: 12 },
+            { ms: 1500, vibrate: 18, thrust: 18 },
+            { ms: 1500, vibrate: 0, thrust: 0 },
+        ],
+    };
+    assert.deepEqual(requiredChannels(mirror), [], 'thrust that copies the vibration is not its own pattern');
+
+    const poke = { steps: [{ ms: 500, vibrate: 10, rotate: 16 }, { ms: 8000, vibrate: 6 }] };
+    assert.deepEqual(requiredChannels(poke), []);
+
+    const ownPump = { steps: [{ ms: 4000, vibrate: 4, pump: 3 }] };
+    assert.deepEqual(requiredChannels(ownPump), ['pump']);
+
+    const spikes = JSON.parse(readFileSync(new URL('../patterns/spikes.json', import.meta.url), 'utf8'));
+    const zap = spikes.patterns.find((p) => p.id === 'spikes.vibrate2_zap');
+    assert.deepEqual(requiredChannels(zap), ['vibrate2']);
+    const edging = JSON.parse(readFileSync(new URL('../patterns/edging.json', import.meta.url), 'utf8'));
+    assert.deepEqual(requiredChannels(edging.patterns.find((p) => p.id === 'edging.thrusting_edge')), []);
+    const combo = requiredChannels(edging.patterns.find((p) => p.id === 'edging.thrust_pump_combo'));
+    assert.ok(combo.includes('thrust') && combo.includes('pump'));
+});
+
+test('feature filter drops specialized patterns and does not edit the library', () => {
+    const lib = new PatternLibrary();
+    lib.add({
+        mood: 'spikes',
+        label: 'Spikes',
+        description: 'spikes for the test fixture here',
+        keywords: [],
+        patterns: [
+            { id: 'spikes.plain', energy: 3, steps: [{ ms: 8000, vibrate: 8 }] },
+            {
+                id: 'spikes.duo',
+                energy: 5,
+                steps: [
+                    { ms: 4000, vibrate: 0, vibrate2: 18 },
+                    { ms: 4000, vibrate: 18, vibrate2: 0 },
+                ],
+            },
+        ],
+    });
+    assert.deepEqual(lib.enabledMoods({}, 0, ['vibrate'])[0].patterns.map((p) => p.id), ['spikes.plain']);
+    assert.equal(lib.moods.get('spikes').patterns.length, 2);
+    assert.equal(lib.enabledMoods({}, 0, ['vibrate', 'vibrate2'])[0].patterns.length, 2);
+    assert.equal(lib.enabledMoods({}, 0, ['vibrate', 'vibrate2']).length, 1);
+    const onlyDuo = new PatternLibrary();
+    onlyDuo.add({
+        mood: 'dance',
+        label: 'Dance',
+        description: 'dance for the test fixture here',
+        keywords: [],
+        patterns: [{
+            id: 'dance.duo',
+            energy: 4,
+            steps: [{ ms: 4000, vibrate: 0, vibrate2: 16 }, { ms: 4000, vibrate: 16, vibrate2: 0 }],
+        }],
+    });
+    assert.deepEqual(onlyDuo.enabledMoods({}, 0, ['vibrate']), []);
 });
 
 test('pickFromMood prefers matching energy and avoids recent', () => {
@@ -234,6 +320,18 @@ test('Lovense Remote builds actions and detects channels', () => {
     assert.deepEqual(toyChannels({ name: 'lush' }), ['vibrate']);
 });
 
+test('Lovense Remote folds extra functions into the real channels', () => {
+    // Flexer fingering rides rotate, Tenera suction rides pump (rescaled 0-3 -> 0-20),
+    // Osci oscillation rides thrust.
+    assert.deepEqual(toyChannels({ name: 'flexer' }), ['vibrate', 'rotate']);
+    assert.deepEqual(toyChannels({ name: 'tenera' }), ['vibrate', 'pump']);
+    assert.deepEqual(toyChannels({ name: 'osci 2' }), ['vibrate', 'thrust']);
+    assert.equal(buildAction({ vibrate: 4, rotate: 9 }, toyFunctions({ name: 'flexer' })), 'Vibrate:4,Fingering:9');
+    assert.equal(buildAction({ vibrate: 4, pump: 3 }, toyFunctions({ name: 'tenera' })), 'Vibrate:4,Suction:20');
+    assert.equal(buildAction({ vibrate: 4, thrust: 6 }, toyFunctions({ name: 'osci' })), 'Vibrate:4,Oscillate:6');
+    assert.deepEqual(toyFunctions({ fullFunctionNames: ['Vibrate', 'Suction'] }), ['vibrate', 'suction']);
+});
+
 test('Lovense Remote connect parses GetToys and sends per-toy commands', async () => {
     const requests = [];
     const t = new LovenseRemoteTransport({
@@ -272,6 +370,18 @@ test('Intiface parses devices into channels and builds scalar commands', () => {
     const nora = parseDevice({ DeviceIndex: 2, DeviceName: 'Nora', DeviceMessages: { ScalarCmd: [{ StepCount: 20, ActuatorType: 'Vibrate' }], RotateCmd: [{ StepCount: 20 }] } });
     assert.deepEqual(buildCommands(nora, { vibrate: 0, rotate: 20 })[1], ['RotateCmd', { DeviceIndex: 2, Rotations: [{ Index: 0, Speed: 1, Clockwise: true }] }]);
     assert.ok(strokeDuration(1) > strokeDuration(20));
+});
+
+test('Intiface maps Lovense thrusters (Oscillate) to thrust, preferring speed over strokes', () => {
+    const gravity = parseDevice({ DeviceIndex: 4, DeviceName: 'Lovense Gravity', DeviceMessages: { ScalarCmd: [{ StepCount: 20, ActuatorType: 'Vibrate' }, { StepCount: 20, ActuatorType: 'Oscillate' }] } });
+    assert.deepEqual(gravity.channels, ['vibrate', 'thrust']);
+    assert.deepEqual(buildCommands(gravity, { vibrate: 0, thrust: 10 }), [
+        ['ScalarCmd', { DeviceIndex: 4, Scalars: [{ Index: 0, Scalar: 0, ActuatorType: 'Vibrate' }, { Index: 1, Scalar: 0.5, ActuatorType: 'Oscillate' }] }],
+    ]);
+    const solacePro = parseDevice({ DeviceIndex: 5, DeviceName: 'Lovense Solace Pro', DeviceMessages: { ScalarCmd: [{ StepCount: 20, ActuatorType: 'Oscillate' }], LinearCmd: [{ StepCount: 100 }] } });
+    assert.deepEqual(solacePro.outputs.map((o) => o.kind), ['scalar']);
+    const flexer = parseDevice({ DeviceIndex: 6, DeviceName: 'Lovense Flexer', DeviceMessages: { ScalarCmd: [{ StepCount: 20, ActuatorType: 'Vibrate' }, { StepCount: 20, ActuatorType: 'Vibrate' }, { StepCount: 20, ActuatorType: 'Rotate' }] } });
+    assert.deepEqual(flexer.channels, ['vibrate', 'vibrate2', 'rotate']);
 });
 
 class FakeSocket {
@@ -320,7 +430,9 @@ test('legacy parser still understands v1 tags', () => {
 });
 
 test('legacy commands translate into a pattern for non-Lovense transports', () => {
-    assert.deepEqual(actionToValues('All:20'), { vibrate: 20, vibrate2: 20, rotate: 20, pump: 3, thrust: 20, suction: 20, fingering: 20, oscillate: 20 });
+    assert.deepEqual(actionToValues('All:20'), { vibrate: 20, vibrate2: 20, rotate: 20, pump: 3, thrust: 20 });
+    // Lovense-only functions fold into the channels Intiface has.
+    assert.deepEqual(actionToValues('Suction:20,Fingering:7,Oscillate:5'), { pump: 3, rotate: 7, thrust: 5 });
     const cmds = parseAICommands('<lovense:vibrate="12" time="4"/><lovense:pattern strength="5;10" interval="100" time="0"/><lovense:preset name="wave" time="5"/>');
     const pattern = commandsToPattern(cmds, (mood) => (mood === 'waves' ? { steps: [{ ms: 1000, vibrate: 3 }] } : null));
     assert.deepEqual(pattern.steps, [

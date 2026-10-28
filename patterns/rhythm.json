@@ -1582,12 +1582,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1500,
@@ -1602,12 +1602,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1500,
@@ -1622,12 +1622,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1200,
@@ -1642,12 +1642,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 3
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1200,
@@ -1662,12 +1662,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 3
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1100,
@@ -1682,12 +1682,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 3
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1500,
@@ -1702,12 +1702,12 @@
         {
           "ms": 1100,
           "vibrate": 10,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         },
         {
           "ms": 1800,
@@ -1727,7 +1727,7 @@
         {
           "ms": 1000,
           "vibrate": 8,
-          "pump": 1
+          "pump": 0
         }
       ]
     },
@@ -2263,7 +2263,7 @@
     {
       "id": "rhythm.hypnotic_spiral",
       "name": "Hypnotic Spiral",
-      "description": "Gradually tightening spiral with oscillation.",
+      "description": "Gradually tightening spiral of vibration and motion.",
       "energy": 3,
       "tags": [
         "steady",
@@ -2275,47 +2275,47 @@
         {
           "ms": 1500,
           "vibrate": 8,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 1500,
           "vibrate": 9,
-          "oscillate": 6
+          "thrust": 6
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "oscillate": 7
+          "thrust": 7
         },
         {
           "ms": 1500,
           "vibrate": 11,
-          "oscillate": 8
+          "thrust": 8
         },
         {
           "ms": 1500,
           "vibrate": 10,
-          "oscillate": 7
+          "thrust": 7
         },
         {
           "ms": 1500,
           "vibrate": 9,
-          "oscillate": 6
+          "thrust": 6
         },
         {
           "ms": 1500,
           "vibrate": 8,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 1500,
           "vibrate": 7,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 1500,
           "vibrate": 8,
-          "oscillate": 5
+          "thrust": 5
         }
       ]
     },
@@ -2672,7 +2672,7 @@
     {
       "id": "rhythm.rain_drops",
       "name": "Rain Drops",
-      "description": "Random-feeling raindrops with suction pulses.",
+      "description": "Random-feeling raindrops with soft squeezing pulses.",
       "energy": 2,
       "tags": [
         "steady",
@@ -2684,52 +2684,52 @@
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 10,
-          "suction": 8
+          "pump": 1
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         },
         {
           "ms": 1000,
           "vibrate": 12,
-          "suction": 10
+          "pump": 2
         },
         {
           "ms": 3000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 8,
-          "suction": 6
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 14,
-          "suction": 12
+          "pump": 2
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "mood": "rough",
   "label": "Rough",
-  "description": "Hard rhythmic pounding and motion-heavy play. Thrusting, pumping, and oscillating with forceful intensity.",
+  "description": "Hard rhythmic pounding and motion-heavy play. Thrusting and pumping with forceful intensity.",
   "keywords": [
     "rough",
     "hard",
@@ -249,13 +249,13 @@
           "ms": 1000,
           "vibrate": 15,
           "thrust": 0,
-          "pump": 0
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 18,
           "thrust": 20,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 2000,
@@ -267,19 +267,19 @@
           "ms": 500,
           "vibrate": 18,
           "thrust": 5,
-          "pump": 1
+          "pump": 3
         },
         {
           "ms": 1000,
           "vibrate": 10,
           "thrust": 0,
-          "pump": 0
+          "pump": 1
         },
         {
           "ms": 500,
           "vibrate": 15,
           "thrust": 20,
-          "pump": 3
+          "pump": 1
         },
         {
           "ms": 2000,
@@ -291,7 +291,7 @@
           "ms": 500,
           "vibrate": 15,
           "thrust": 0,
-          "pump": 0
+          "pump": 3
         },
         {
           "ms": 1000,
@@ -391,7 +391,7 @@
     {
       "id": "rough.air_ram",
       "name": "Air Ram",
-      "description": "Pump inflation synced with deep thrusts for maximum impact.",
+      "description": "Air squeezes build in step with deep thrusts for maximum impact.",
       "energy": 5,
       "tags": [
         "heavy",
@@ -404,13 +404,13 @@
         {
           "ms": 1000,
           "vibrate": 15,
-          "pump": 0,
+          "pump": 2,
           "thrust": 0
         },
         {
           "ms": 1000,
           "vibrate": 18,
-          "pump": 3,
+          "pump": 2,
           "thrust": 15
         },
         {
@@ -434,7 +434,7 @@
         {
           "ms": 1000,
           "vibrate": 18,
-          "pump": 3,
+          "pump": 0,
           "thrust": 15
         },
         {
@@ -446,7 +446,7 @@
         {
           "ms": 1000,
           "vibrate": 15,
-          "pump": 0,
+          "pump": 3,
           "thrust": 0
         },
         {
@@ -458,15 +458,15 @@
         {
           "ms": 1000,
           "vibrate": 10,
-          "pump": 0,
+          "pump": 1,
           "thrust": 0
         }
       ]
     },
     {
       "id": "rough.oscillate_slam",
-      "name": "Oscillate Slam",
-      "description": "Oscillating head swivels while thrusting hard, snapping faster as it goes.",
+      "name": "Thrust Slam",
+      "description": "Hard thrusting with strong vibration, snapping faster as it goes.",
       "energy": 4,
       "tags": [
         "fast",
@@ -479,176 +479,147 @@
         {
           "ms": 800,
           "vibrate": 15,
-          "thrust": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 15,
-          "thrust": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 15,
-          "thrust": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 1600,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 15
+          "thrust": 20
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "thrust": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 600,
           "vibrate": 19,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "thrust": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 600,
           "vibrate": 19,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "thrust": 18,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 600,
           "vibrate": 19,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 10,
-          "thrust": 5,
-          "oscillate": 0
+          "thrust": 5
         },
         {
           "ms": 800,
           "vibrate": 12,
-          "thrust": 8,
-          "oscillate": 10
+          "thrust": 10
         },
         {
           "ms": 1200,
           "vibrate": 14,
-          "thrust": 12,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1200,
           "vibrate": 17,
-          "thrust": 16,
-          "oscillate": 8
+          "thrust": 16
         },
         {
           "ms": 1200,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 1600,
           "vibrate": 19,
-          "thrust": 18,
-          "oscillate": 14
+          "thrust": 18
         },
         {
           "ms": 800,
           "vibrate": 12,
-          "thrust": 6,
-          "oscillate": 0
+          "thrust": 6
         },
         {
           "ms": 1000,
           "vibrate": 15,
-          "thrust": 14,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "thrust": 20,
-          "oscillate": 0
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 14,
-          "thrust": 10,
-          "oscillate": 10
+          "thrust": 10
         }
       ]
     },
@@ -994,68 +965,68 @@
           "ms": 1000,
           "vibrate": 12,
           "thrust": 0,
-          "pump": 0
+          "pump": 1
         },
         {
           "ms": 1000,
           "vibrate": 16,
           "thrust": 15,
-          "pump": 2
+          "pump": 1
         },
         {
           "ms": 1500,
           "vibrate": 20,
           "thrust": 20,
-          "pump": 3
+          "pump": 2
         },
         {
           "ms": 1000,
           "vibrate": 16,
           "thrust": 10,
-          "pump": 2
+          "pump": 3
         },
         {
           "ms": 1000,
           "vibrate": 12,
           "thrust": 0,
-          "pump": 0
+          "pump": 3
         },
         {
           "ms": 1000,
           "vibrate": 18,
           "thrust": 18,
-          "pump": 3
+          "pump": 0
         },
         {
           "ms": 1500,
           "vibrate": 20,
           "thrust": 20,
-          "pump": 3
+          "pump": 0
         },
         {
           "ms": 1000,
           "vibrate": 10,
           "thrust": 0,
-          "pump": 0
+          "pump": 3
         },
         {
           "ms": 1000,
           "vibrate": 14,
           "thrust": 8,
-          "pump": 1
+          "pump": 3
         },
         {
           "ms": 1000,
           "vibrate": 8,
           "thrust": 0,
-          "pump": 0
+          "pump": 1
         }
       ]
     },
     {
       "id": "rough.fingering_frenzy",
-      "name": "Rough Fingering",
-      "description": "Fast fingering motion against strong vibration, quickening into a hard flurry.",
+      "name": "Rough Swirl",
+      "description": "Fast rotation against strong vibration, quickening into a hard flurry.",
       "energy": 4,
       "tags": [
         "fast",
@@ -1068,169 +1039,169 @@
         {
           "ms": 800,
           "vibrate": 15,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 800,
           "vibrate": 15,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 800,
           "vibrate": 15,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1600,
           "vibrate": 20,
-          "fingering": 15
+          "rotate": 15
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 600,
           "vibrate": 19,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 600,
           "vibrate": 19,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 600,
           "vibrate": 19,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 600,
           "vibrate": 16,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 1200,
           "vibrate": 10,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 800,
           "vibrate": 12,
-          "fingering": 10
+          "rotate": 10
         },
         {
           "ms": 1000,
           "vibrate": 17,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 1000,
           "vibrate": 19,
-          "fingering": 10
+          "rotate": 10
         },
         {
           "ms": 1000,
           "vibrate": 20,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 500,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 500,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 500,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 500,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1600,
           "vibrate": 19,
-          "fingering": 16
+          "rotate": 16
         },
         {
           "ms": 800,
           "vibrate": 11,
-          "fingering": 4
+          "rotate": 4
         },
         {
           "ms": 800,
           "vibrate": 15,
-          "fingering": 20
+          "rotate": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 1000,
           "vibrate": 14,
-          "fingering": 12
+          "rotate": 12
         }
       ]
     },
     {
       "id": "rough.motorboat",
       "name": "Motorboat",
-      "description": "An engine-like churn of oscillation and thrust that revs, surges and idles.",
+      "description": "An engine-like churn of thrust and vibration that revs, surges and idles.",
       "energy": 4,
       "tags": [
         "fast",
@@ -1243,182 +1214,152 @@
         {
           "ms": 800,
           "vibrate": 12,
-          "thrust": 12,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 18,
-          "thrust": 18,
-          "oscillate": 10
+          "thrust": 18
         },
         {
           "ms": 800,
           "vibrate": 15,
-          "thrust": 15,
-          "oscillate": 15
+          "thrust": 15
         },
         {
           "ms": 800,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 5
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 14,
-          "thrust": 14,
-          "oscillate": 18
+          "thrust": 18
         },
         {
           "ms": 800,
           "vibrate": 19,
-          "thrust": 19,
-          "oscillate": 8
+          "thrust": 19
         },
         {
           "ms": 1600,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 700,
           "vibrate": 13,
-          "thrust": 13,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 700,
           "vibrate": 17,
-          "thrust": 17,
-          "oscillate": 0
+          "thrust": 17
         },
         {
           "ms": 700,
           "vibrate": 13,
-          "thrust": 13,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 700,
           "vibrate": 17,
-          "thrust": 17,
-          "oscillate": 0
+          "thrust": 17
         },
         {
           "ms": 700,
           "vibrate": 13,
-          "thrust": 13,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 700,
           "vibrate": 17,
-          "thrust": 17,
-          "oscillate": 0
+          "thrust": 17
         },
         {
           "ms": 700,
           "vibrate": 13,
-          "thrust": 13,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 800,
           "vibrate": 10,
-          "thrust": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 800,
           "vibrate": 12,
-          "thrust": 5,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 1000,
           "vibrate": 15,
-          "thrust": 15,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1000,
           "vibrate": 18,
-          "thrust": 18,
-          "oscillate": 12
+          "thrust": 18
         },
         {
           "ms": 1000,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 1000,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 6
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 16,
-          "thrust": 10,
-          "oscillate": 0
+          "thrust": 10
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 16,
-          "thrust": 10,
-          "oscillate": 0
+          "thrust": 10
         },
         {
           "ms": 500,
           "vibrate": 20,
-          "thrust": 20,
-          "oscillate": 20
+          "thrust": 20
         },
         {
           "ms": 500,
           "vibrate": 16,
-          "thrust": 10,
-          "oscillate": 0
+          "thrust": 10
         },
         {
           "ms": 1600,
           "vibrate": 19,
-          "thrust": 19,
-          "oscillate": 16
+          "thrust": 19
         },
         {
           "ms": 800,
           "vibrate": 12,
-          "thrust": 4,
-          "oscillate": 0
+          "thrust": 4
         },
         {
           "ms": 800,
           "vibrate": 14,
-          "thrust": 14,
-          "oscillate": 18
+          "thrust": 18
         },
         {
           "ms": 800,
           "vibrate": 10,
-          "thrust": 0,
-          "oscillate": 0
+          "thrust": 0
         }
       ]
     },

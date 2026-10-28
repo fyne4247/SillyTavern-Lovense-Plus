@@ -60,12 +60,15 @@ Every step needs `ms` and `vibrate`. Everything else is optional.
 | `ms` | 300–60000 (integer) | How long this step lasts. |
 | `vibrate` | 0–20 | Main vibration. **Required on every step.** `0` is silence. |
 | `vibrate2` | 0–20 | Second motor on dual-motor toys (Edge, Gemini, Dolce…). If omitted it copies `vibrate`. |
-| `rotate` | 0–20 | Rotation (Nora, Ridge…). |
-| `pump` | 0–3 | Air pump / constriction (Max, Max 2). |
-| `thrust` | 0–20 | Thrusting / stroking speed (Gravity, Solace, sex machines). |
-| `suction` | 0–20 | Suction (Tenera). |
-| `fingering` | 0–20 | Fingering motion (Flexer). |
-| `oscillate` | 0–20 | Oscillation (Osci). |
+| `rotate` | 0–20 | Rotation (Nora, Ridge, Velvo) and the Flexer's finger motion. |
+| `pump` | 0–3 | Air pump / constriction (Max, Max 2); suction on the Tenera. |
+| `thrust` | 0–20 | Thrusting / stroking speed (Gravity, Solace, Spinel, sex machines); oscillation on the Osci. |
+
+These are the outputs Intiface Central (Buttplug) actually exposes for Lovense
+toys: Vibrate, Rotate, Constrict (pump) and Oscillate (every Lovense thruster),
+plus position strokes on strokers. Lovense Remote names a few more functions
+(Fingering, Suction, Oscillate); the transport sends those from the nearest
+channel above, so there is no separate field for them.
 
 **How toys adapt.** At play time each step is sent only on the channels the
 connected toys actually have. If a toy has a channel that a step leaves out,
@@ -76,6 +79,12 @@ it off. So:
 - Set it explicitly when you want it to move differently from the vibe
   (counter-rhythm, a squeeze on the peaks only, rotation that stays steady
   while the vibe pulses, and so on).
+
+The settings option **Filter out specialized patterns** hides a pattern when a
+connected toy can't play a feature the pattern actually relies on. Relying on
+a channel means the steps set it to something other than "copy the vibration"
+for at least 3 seconds, or for a fifth of the pattern. A single short poke,
+or a channel that just mirrors `vibrate`, still plays on a simpler toy.
 
 ### Total length
 

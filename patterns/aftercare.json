@@ -844,7 +844,7 @@
     },
     {
       "id": "aftercare.soft_oscillation",
-      "name": "Soft Oscillation",
+      "name": "Soft Sway",
       "description": "Gentle back-and-forth motion with light vibration.",
       "energy": 2,
       "tags": [
@@ -856,32 +856,32 @@
         {
           "ms": 4000,
           "vibrate": 2,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 3000,
           "vibrate": 3,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 2500,
           "vibrate": 2,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "oscillate": 2
+          "thrust": 2
         },
         {
           "ms": 2000,
           "vibrate": 2,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         }
       ]
     },
@@ -1137,8 +1137,8 @@
     },
     {
       "id": "aftercare.fading_suction",
-      "name": "Fading Suction",
-      "description": "Gentle suction that slowly releases.",
+      "name": "Fading Pull",
+      "description": "A gentle pull that slowly releases.",
       "energy": 2,
       "tags": [
         "squeeze",
@@ -1149,32 +1149,32 @@
         {
           "ms": 3000,
           "vibrate": 2,
-          "suction": 5
+          "pump": 1
         },
         {
           "ms": 3000,
           "vibrate": 2,
-          "suction": 4
+          "pump": 1
         },
         {
           "ms": 3000,
           "vibrate": 2,
-          "suction": 3
+          "pump": 0
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "suction": 2
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "suction": 1
+          "pump": 0
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "suction": 0
+          "pump": 0
         }
       ]
     },
@@ -1305,7 +1305,7 @@
     {
       "id": "aftercare.tender_rocking",
       "name": "Tender Rocking",
-      "description": "Soft oscillation like being rocked to sleep.",
+      "description": "Soft, slow thrusting like being rocked to sleep.",
       "energy": 2,
       "tags": [
         "motion",
@@ -1316,39 +1316,39 @@
         {
           "ms": 2500,
           "vibrate": 2,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "oscillate": 5
+          "thrust": 5
         },
         {
           "ms": 2500,
           "vibrate": 2,
-          "oscillate": 4
+          "thrust": 4
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "oscillate": 0
+          "thrust": 0
         },
         {
           "ms": 2500,
           "vibrate": 1,
-          "oscillate": 3
+          "thrust": 3
         },
         {
           "ms": 2000,
           "vibrate": 1,
-          "oscillate": 2
+          "thrust": 2
         }
       ]
     },
     {
       "id": "aftercare.soft_fingering",
-      "name": "Soft Fingering",
-      "description": "Delicate, barely-there fingering motion.",
+      "name": "Soft Swirl",
+      "description": "Delicate, barely-there circling motion.",
       "energy": 1,
       "tags": [
         "motion",
@@ -1359,32 +1359,32 @@
         {
           "ms": 3000,
           "vibrate": 1,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "fingering": 2
+          "rotate": 2
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         },
         {
           "ms": 3000,
           "vibrate": 1,
-          "fingering": 1
+          "rotate": 1
         },
         {
           "ms": 2000,
           "vibrate": 0,
-          "fingering": 0
+          "rotate": 0
         }
       ]
     },
