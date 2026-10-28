@@ -114,6 +114,21 @@ test('player picks up devices that connect mid-pattern', () => {
     assert.deepEqual(transport.sent.at(-1), { id: 'b', values: { vibrate: 6, pump: 1 } });
 });
 
+test('player slows the air pump down without slowing the vibration', () => {
+    const clock = fakeTimers();
+    const transport = fakeTransport([{ id: 'a', channels: ['vibrate', 'pump'] }]);
+    const player = new Player({ transport, getPumpSlowdown: () => 2, ...clock });
+    // Pump track: 3 then 0 (mirrored from vibrate 0). At 2x it takes two passes.
+    player.play({ id: 'p', steps: [{ ms: 1000, vibrate: 10, pump: 3 }, { ms: 1000, vibrate: 0 }] });
+    for (let i = 0; i < 3; i++) clock.advance(1000);
+    assert.deepEqual(transport.sent.map((s) => s.values), [
+        { vibrate: 10, pump: 3 },
+        { vibrate: 0, pump: 3 }, // vibration moved on, pump still on its first step
+        { vibrate: 10, pump: 0 },
+        { vibrate: 0, pump: 0 },
+    ]);
+});
+
 test('player bridges big jumps between patterns', () => {
     const clock = fakeTimers();
     const transport = fakeTransport([{ id: 'a', channels: ['vibrate'] }]);

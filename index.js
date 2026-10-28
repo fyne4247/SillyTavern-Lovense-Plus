@@ -41,6 +41,7 @@ const defaultSettings = {
     min_length_sec: 0,
     max_length_sec: 0,
     filter_specialized: true,
+    pump_slowdown: 4,
     idle_enabled: false,
     idle_minutes: 5,
     idle_mood: 'ambient',
@@ -70,6 +71,7 @@ const player = new Player({
         stopAll: () => transport().stopAll(),
     },
     onChange: renderNowPlaying,
+    getPumpSlowdown: () => Number(settings().pump_slowdown) || 1,
 });
 const scheduler = new Scheduler({
     getDelayMs: () => Math.max(0, Number(settings().delay_sec) || 0) * 1000,
@@ -463,6 +465,7 @@ function loadSettings() {
     $('#lovense_min_length').val(String(s.min_length_sec ?? 0));
     $('#lovense_max_length').val(String(s.max_length_sec));
     $('#lovense_filter_specialized').prop('checked', s.filter_specialized !== false);
+    $('#lovense_pump_slowdown').val(String(s.pump_slowdown ?? 4));
     $('#lovense_idle_enabled').prop('checked', s.idle_enabled);
     $('#lovense_idle_minutes').val(s.idle_minutes);
     $('#lovense_api_max_tokens').val(s.api_max_tokens);
@@ -619,6 +622,7 @@ function setupUI() {
         after: () => { reconcileLengthRange('max'); renderMoods(); },
     });
     bindSetting('#lovense_filter_specialized', 'filter_specialized', { type: 'checkbox', after: renderMoods });
+    bindSetting('#lovense_pump_slowdown', 'pump_slowdown', { type: 'select' });
     bindSetting('#lovense_idle_enabled', 'idle_enabled', {
         type: 'checkbox',
         after: (on) => {

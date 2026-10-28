@@ -208,6 +208,17 @@
                 </label>
                 <small class="notes">When a toy is connected, skip patterns that spend real time on a feature it doesn't have, like a second motor answering the first, or thrust and rotation doing their own thing. Patterns that only vibrate, or that copy the vibration onto other features, stay. Nothing is hidden until a toy is connected. "Try a pattern" follows this; turn it off to play those by hand.</small>
 
+                <div class="lovense_field">
+                    <label for="lovense_pump_slowdown"><b>Air Pump Speed</b></label>
+                    <select id="lovense_pump_slowdown" class="text_pole">
+                        <option value="1">Follow the pattern</option>
+                        <option value="2">2x slower</option>
+                        <option value="4">4x slower</option>
+                        <option value="8">8x slower</option>
+                    </select>
+                </div>
+                <small class="notes">For toys with an air pump (Max, Max 2). The pump plays the same shape as the pattern, just this many times slower, so it holds a squeeze instead of chasing every beat. The vibration keeps its normal speed.</small>
+
                 <label class="checkbox_label" for="lovense_idle_enabled">
                     <input type="checkbox" id="lovense_idle_enabled" />
                     <span>Switch to an idle mood when the chat goes quiet</span>
